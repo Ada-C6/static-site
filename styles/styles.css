@@ -1,0 +1,17 @@
+header {
+    padding-top: 12%;
+}
+
+header h1 {
+    font-family: fantasy;
+    color: #3C3C3C;
+    text-align: center;
+    width: 100%;
+    font-size: 4em;
+    margin: 10px;
+}
+
+h1.focus {
+    font-size: 6em;
+    height: 1em;
+}
