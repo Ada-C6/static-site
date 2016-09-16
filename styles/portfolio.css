@@ -16,7 +16,7 @@
 .last-project {
   border-bottom: none;
 }
-.project p {
+.project .project-text p {
   padding: 0px;
   margin-top: -5px;
   float: right;
