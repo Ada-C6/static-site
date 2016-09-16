@@ -1,11 +1,60 @@
 /****** GLOBAL ******/
+html {
+  font-family: helvetica, sans-serif;
+  background-color: #d8dada;
+}
 
+a {
+  text-decoration: none;
+  color: #287521;
+}
+
+a:hover {
+  color: #184914
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
 
 /**** HEADER ****/
 
+header {
+    /** size **/
+  width: 800px;
+    /** color **/
+  background-color: #8ce781;
+    /** margins&padding **/
+  padding: 2em 1em 2em 1em;
+    /** border **/
+  border-radius: 2%;
+}
+
+header section {
+  display: inline-block;
+}
+
+.picture-2 {
+  width: 200px;
+  position: absolute;
+}
+.header-picture-overlay .picture-1 {
+  height: 200px;
+  position: absolute;
+}
+
 
 /**** NAV BAR ****/
+nav * {
+  display: inline;
+}
 
+nav a h3.nav-button {
+  padding: .25em .5em .25em .5em;
+  border: #7a8b8f 1px solid;
+  border-radius: 5%;
+}
 
 /**** FOOTER ****/
 
