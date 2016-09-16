@@ -4,7 +4,7 @@ __Learning Goal:__ Practice creating semantic HTML and applying visual styles wi
 You will create a _static_ web site using HTML & CSS. This static site will serve as the foundation for later projects, and will contain information about your programming projects and efforts at Ada. 
 
 ## Project Requirements
-This is an individual project. It consists of a baseline and a single wave. You are only permitted to use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript of any time are not allowed. 
+This is an individual project. It consists of a baseline and a single wave. You are only permitted to use static HTML and CSS for this project. Preprocessors (haml, erb, sass, less, etc.) and Javascript are not allowed. 
 
 ### Baseline
 - Create an `index.html` that has the necessary meta information to link a stylesheet called `styles.css`.
@@ -21,15 +21,14 @@ This is an individual project. It consists of a baseline and a single wave. You 
 - The site should follow best practices including:
   - All markup should be semantic, with consideration of hierarchy and accessibility.
   - CSS should be concise and well formatted
-  - Images and stylesheets should be kept in their own folders, called `images` and `stylesheets`, respectively.
-  - Given that this is our first html/css project, full browser compatibility is not a requirement, but you should make a minimal effort for _acceptable visual consistence_ in two of the three primary browsers available on OS X (Safari, Chrome, and/or Firefox).
+  - Images and stylesheets should be kept in their own folders, called `images` and `styles`, respectively.
 
 ### Optional Enhancements
 - Create a `blog/` or `code-journal/` directory. Within this directory...
   - create single `html` file for each entry in your blog/journal
-  - update the nav on the rest of your site to reference each entry as a sublist/subnav.
-  - update any tags with path references (`img`, `link`, `a` tags) to accomodate for the entries being in a different directory.
-- Create any number of additional pages or directories.
+  - update the nav on the rest of your site to reference each entry as a sublist/subnav
+  - update any tags with path references (`img`, `link`, `a` tags) to accomodate for the entries being in a different directory
+- Create any number of additional pages or directories
 
 ### Hosting
 Websites will be hosted using Github Pages. Before creating the repository, read [ Github Pages documentation ](https://pages.github.com/). 
