@@ -1,0 +1,62 @@
+header, nav a {
+  background-color: teal;
+  /*border: 1px solid blue;*/
+  text-align: center;
+}
+
+header, nav a, section, footer {
+  border: 1px solid blue;
+  border-radius: 25px;
+}
+
+header h4 {
+  font-style: italic;
+}
+
+nav {
+  /*overflow: hidden;*/
+  /*margin-top: 20px;
+  margin-bottom: 15px;*/
+}
+
+nav a {
+  display:inline-block;
+  margin: 20px;
+  text-decoration: none;
+  color: purple;
+  padding: 5px;
+}
+
+section {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  /*border: 1px solid blue;*/
+  /*border-radius: 25px;*/
+  overflow: hidden;
+}
+
+section img {
+  width: 25%;
+  /*margin-top: 25px;*/
+  float:left;
+  margin-right: 10px;
+
+}
+
+section p {
+  /*padding: 15px;*/
+}
+
+footer {
+  clear:both;
+}
+
+footer h4, footer p{
+  display: inline;
+  padding: 15px;
+}
+
+footer p {
+  font-size: .5em;
+  vertical-align: middle;
+}
