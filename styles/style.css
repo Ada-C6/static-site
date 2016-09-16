@@ -1,0 +1,36 @@
+header {
+  margin-top: 50px;
+  background-color: purple;
+  border-top: grey 2px solid;
+  border-bottom: grey 2px solid;
+  padding: 20px;
+  display: block;
+  overflow: hidden;
+}
+
+header section.home-about {
+  float: left;
+  max-width: 60%;
+}
+
+header li {
+  display: inline-block;
+}
+
+header img {
+  float:right;
+}
+
+.home-description {
+  clear: both;
+}
+
+article.do-this li {
+  display: inline-block;
+}
+}
+
+
+footer {
+  clear: both;
+}
