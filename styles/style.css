@@ -3,9 +3,14 @@ header {
   background-color: purple;
   border-top: grey 2px solid;
   border-bottom: grey 2px solid;
-  padding: 20px;
+  padding: 20px 50px;
   display: block;
   overflow: hidden;
+}
+
+header h1 {
+  font-size: 50px;
+  margin: 0px;
 }
 
 header section.home-about {
@@ -15,22 +20,43 @@ header section.home-about {
 
 header li {
   display: inline-block;
+  padding: 20px
 }
 
 header img {
   float:right;
 }
 
-.home-description {
-  clear: both;
+article.do-this {
+  text-align: center;
+  border-top: grey 2px solid;
+  border-bottom: grey 2px solid;
+  margin: 50px 0;
 }
 
 article.do-this li {
   display: inline-block;
+  margin: 20px;
 }
-}
-
 
 footer {
   clear: both;
+  background-color: purple;
+  border-top: grey 2px solid;
+  padding: 10px 50px;
 }
+
+footer li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+/*Index page*/
+.home-description {
+  clear: both;
+  max-width: 60%;
+  margin:0  20%;
+  text-align: center;
+}
+
+/*About page*/
