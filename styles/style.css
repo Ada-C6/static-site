@@ -32,6 +32,7 @@ article.do-this {
   border-top: grey 2px solid;
   border-bottom: grey 2px solid;
   margin: 50px 0;
+  clear: both;
 }
 
 article.do-this li {
@@ -59,4 +60,29 @@ footer li {
   text-align: center;
 }
 
+/*Not index pages*/
+header.not-index {
+  margin-top: 50px;
+  padding: 10px 50px;
+}
+
+header.not-index li {
+  float: right;
+}
+
 /*About page*/
+article.about-me img {
+  max-width: 40%;
+  margin: 50px 20px;
+  float: left;
+  display: inline-block;
+}
+
+article.about-me p {
+  float: left;
+  max-width: 50%;
+}
+
+article.about-me p:nth-child(2) {
+  margin-top: 50px;
+}
