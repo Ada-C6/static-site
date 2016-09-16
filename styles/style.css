@@ -1,11 +1,16 @@
+html {
+  font: normal normal 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 header {
   margin-top: 50px;
-  background-color: purple;
+  background-color: #330066;
   border-top: grey 2px solid;
   border-bottom: grey 2px solid;
   padding: 20px 50px;
   display: block;
   overflow: hidden;
+  color: #70e000
 }
 
 header h1 {
@@ -40,11 +45,16 @@ article.do-this li {
   margin: 20px;
 }
 
+header a, footer a {
+  color: #70e000
+}
+
 footer {
   clear: both;
-  background-color: purple;
+  background-color: #330066;
   border-top: grey 2px solid;
   padding: 10px 50px;
+  color: #70e000
 }
 
 footer li {
@@ -93,7 +103,22 @@ article.about-me p:nth-child(2) {
 }
 
 section.projects section {
+  float: left;
   width: 25%;
+  border-top: grey 2px solid;
+  border-left: grey 2px solid;
+  border-bottom: grey 6px double;
+  border-right: grey 6px double;
+  margin: 10px;
+  padding: 10px;
+}
+
+/*Blog page*/
+.blog-intro {
+  margin-left: 30px;
+}
+
+section.blog-posts section {
   float: left;
   width: 25%;
   border-top: grey 2px solid;
