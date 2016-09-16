@@ -1,18 +1,26 @@
-header {
+nav.navigation-pane {
+  position: relative;
+  float: left;
+  width: 9em;
+}
+
+nav.navigation-element {
+  position: absolute;
   display: block;
+}
+
+header {
+  display: inline-block;
   background-color: black;
   color: white;
+  width: 89%;
+  position: absolute;
 }
 
 h1 {
   text-align: center;
 }
 
-nav.navigation-pane {
-  border: black 5px solid;
-  
-}
-
-nav.navigation-element {
-  display: block;
+main {
+  position:relative;
 }
