@@ -86,3 +86,20 @@ article.about-me p {
 article.about-me p:nth-child(2) {
   margin-top: 50px;
 }
+
+/*Portfolio page*/
+.portfolio-intro {
+  margin-left: 30px;
+}
+
+section.projects section {
+  width: 25%;
+  float: left;
+  width: 25%;
+  border-top: grey 2px solid;
+  border-left: grey 2px solid;
+  border-bottom: grey 6px double;
+  border-right: grey 6px double;
+  margin: 10px;
+  padding: 10px;
+}
