@@ -36,3 +36,12 @@ Websites will be hosted using Github Pages. Before creating the repository, read
 
 ### A Word of Caution
 Lots of developers find their initial foray into CSS frustrating. Every browser implements the CSS standard a little (or a lot) differently. Learning to manipulate elements and understand the _box model_ takes time. Floats can be especially challenging to developers new to CSS. For this project, focus on understanding the mechanics and semantics of HTML and CSS, and how the two work together.
+
+
+### Inspiration 👯
+- [http://lizabinante.com/](http://lizabinante.com/)
+- [http://www.elenichappen.com/](http://www.elenichappen.com/)
+- [http://danisaurus.github.io/](http://danisaurus.github.io/)
+- [http://stephaniemarx.com/](http://stephaniemarx.com/)
+- [http://www.jenniechamberlin.com/](http://www.jenniechamberlin.com/)
+- [http://car.oline.codes/](http://car.oline.codes/)
