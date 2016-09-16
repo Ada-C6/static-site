@@ -1,5 +1,13 @@
-* {
-  <script src="https://use.fontawesome.com/912899e6f1.js"></script>
+#top-left {
+  height: 20vmin;
+  width: 20vmin;
+  background-color: #FC440F;
+}
+
+
+
+/*OLD STYLE* {
+  font-family:sans-serif;
 }
 
 header, footer {
@@ -70,4 +78,4 @@ section.blog-spot a {
 
 footer {
   clear: both;
-}
+}*/
