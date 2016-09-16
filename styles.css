@@ -1,0 +1,12 @@
+header {
+  background-color: teal;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+}
