@@ -1,5 +1,64 @@
+/*reset css*/
+html, body, div, span, applet, object, iframe,
+/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*EN css*/
+
+html {
+	font: normal normal 24px/1 sans-serif;
+}
+
 header {
-  background-color: teal;
+  background-color: none;
+}
+
+header h1 {
+  text-align: center;
+}
+
+nav {
+
 }
 
 nav ul li {
@@ -7,6 +66,64 @@ nav ul li {
   list-style: none;
 }
 
-nav a {
+header a {
   text-decoration: none;
+  color: teal;
+}
+
+.links-to-pages {
+	display: block;
+	margin: 12.5vmin auto 0;
+	padding: 12.5vmin auto 0;
+	width: 90vw;
+}
+
+.links-to-pages div {
+	width: 25vw;
+	height: 25vw;
+	position: relative;
+	margin: 12.5vmin 2vmin 12.5vmin;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.about-box {
+	background-color: red;
+}
+
+.links-to-pages h2 {
+	position: absolute;
+	bottom: 0;
+	margin: 10vw auto;
+	font-size: 5vmin;
+	display: inline;
+	width: 25vw;
+	text-align: center;
+	color: white;
+}
+
+.portfolio-box {
+	background-color: green;
+}
+
+.journal-box {
+	background-color: blue;
+}
+
+footer {
+	/*display: inline-block;*/
+	height: 20vw;
+}
+
+footer h4 {
+	display: inline-block;
+	width: 20vw;
+	margin: 7vw auto;
+}
+
+footer p {
+	display: inline-block;
+	width: 50vw;
+	font-size: 2vw;
+	margin: 7vw auto;
 }
