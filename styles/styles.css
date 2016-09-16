@@ -1,0 +1,18 @@
+header {
+  display: block;
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+nav.navigation-pane {
+  border: black 5px solid;
+  
+}
+
+nav.navigation-element {
+  display: block;
+}
