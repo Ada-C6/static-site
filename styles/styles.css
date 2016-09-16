@@ -13,12 +13,6 @@ header h4 {
   font-style: italic;
 }
 
-nav {
-  /*overflow: hidden;*/
-  /*margin-top: 20px;
-  margin-bottom: 15px;*/
-}
-
 nav a {
   display:inline-block;
   margin: 20px;
@@ -35,16 +29,27 @@ section {
   overflow: hidden;
 }
 
-section img {
+#portrait {
   width: 25%;
   /*margin-top: 25px;*/
   float:left;
   margin-right: 10px;
-
 }
 
-section p {
-  /*padding: 15px;*/
+
+.author-info {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#articles {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+section h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 footer {

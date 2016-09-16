@@ -1,0 +1,24 @@
+/*section {
+
+}*/
+
+section img {
+  width: 15%;
+  float:left;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+li {
+  clear:both;
+  padding-bottom: 15px;
+}
+
+li p {
+  margin-top: 2px;
+}
