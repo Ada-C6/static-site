@@ -1,0 +1,38 @@
+html {
+  font-family: "Brush Script MT";
+}
+
+header {
+  float: left;
+  background-color: #666666;
+  color: #ffffcc;
+  height: 75vmax;
+
+}
+
+header h1 {
+  padding-top: 180px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  font-size: 4em;
+}
+
+header h2 {
+  padding-right: 15px;
+  font-size: 3em;
+  padding-left: 55px;
+}
+
+nav {
+  border: blue 5px solid;
+  height: 70vmax;
+}
+
+section.menu {
+  font-size: 
+}
+
+footer {
+  border: black 5px solid;
+
+}
