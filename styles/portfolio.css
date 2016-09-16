@@ -1,0 +1,29 @@
+img {
+  width: 25%;
+  margin: 4em 2em 0em;
+}
+
+section.hanging-title {
+  background-color: #89feb3;
+  border: black 1px solid;
+  border-radius: 5px;
+  width: 40%;
+  margin: 0px auto 50px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+article.project-info {
+  background-color: lightblue;
+}
+
+.main-content .project-details {
+  background-color: lavender;
+  width: 60%;
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+.main-content {
+  margin: 2em 4em;
+}

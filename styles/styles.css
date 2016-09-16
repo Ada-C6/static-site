@@ -1,0 +1,45 @@
+header.header {
+  background-color: #fea38e;
+  border: black 1px solid;
+  border-radius: 5px;
+  margin-top: 100px;
+  padding-top: 100px;
+}
+
+header h1 {
+  text-align: center;
+}
+
+.main-navigation {
+  background-color: #89feb3;
+  border: black 1px solid;
+  border-radius: 5px;
+  width: 40%;
+  margin: auto;
+  margin-bottom: 250px;
+}
+
+nav.main-navigation a {
+  display: block;
+  border-bottom: black 1px solid;
+  padding: 30px 5px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+footer {
+  background-color: #ba214e;
+  border: black 1px solid;
+  display: inline-block;
+}
+
+footer h4, footer p {
+  float: left;
+  padding: 15px;
+}
+
+footer .thumbnail {
+  float: right;
+  padding: 2em 1em;
+  width: 5%;
+}
