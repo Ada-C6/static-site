@@ -1,4 +1,8 @@
-header {
+* {
+  <script src="https://use.fontawesome.com/912899e6f1.js"></script>
+}
+
+header, footer {
   background-color: #FCFC62;
   padding: 10px;
   margin: 7px;
@@ -19,10 +23,17 @@ li a {
 
 header li {
   display: inline-block;
+  padding-left: 4vw;
+}
+
+main {
+  padding: 8px;
 }
 
 main-pictures {
-  position: fixed
+  display: inline-block;
+
+
 }
   /*max-width: 100%
   display: block;*/
@@ -30,5 +41,33 @@ main-pictures {
 /*}*/
 
 img {
-  	width: 24vw;
+  	width: 23vw;
+}
+
+section.intro {
+  float: left;
+  max-width: 60%;
+  display: inline-block;
+}
+
+section.intro h1 {
+  font-size: 7vw;
+  padding-left: 3vw;
+}
+
+section.blog-spot {
+  float: right;
+  max-width: 35%;
+  background-color: #C9C9C9;
+  border-radius: 25px;
+  padding: 10px;
+  display: inline-block;
+}
+
+section.blog-spot a {
+  margin: auto;
+}
+
+footer {
+  clear: both;
 }
