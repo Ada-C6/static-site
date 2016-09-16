@@ -1,0 +1,29 @@
+header {
+  display: inline-block;
+  width: 100%;
+  background-color: teal;
+  border-bottom: black medium solid;
+}
+
+nav h1 {
+  padding: 20px 20px; 
+}
+
+nav ul {
+  float: right;
+  border: white thin solid;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
