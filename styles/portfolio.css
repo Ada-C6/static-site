@@ -1,0 +1,26 @@
+.project img {
+  width: 30%;
+  float: left;
+
+}
+
+.project {
+  padding-bottom: 20px;
+  border-bottom: black thin solid;
+  margin: 30px auto;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.last-project {
+  border-bottom: none;
+}
+.project p {
+  padding: 0px;
+  margin-top: -5px;
+  float: right;
+  width: 65%;
+  /*border: black thin solid;*/
+  line-height: 1.5
+}
