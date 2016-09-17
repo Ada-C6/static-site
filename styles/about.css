@@ -1,0 +1,29 @@
+p {
+  color: #506C64;
+}
+
+article {
+  border: 1px dotted #75B8C8;
+  margin: 3%;
+  border-radius: 3%;
+  display: inline-block;
+  padding: 5%;
+}
+
+article img {
+  margin: 3%;
+  width: 70vmin;
+}
+
+article p {
+  margin: 3%;
+}
+
+article:nth-of-type(2) {
+  float: right;
+}
+
+footer {
+  position: relative;
+  clear: both;
+}

@@ -1,0 +1,29 @@
+p {
+  color: #506C64;
+}
+
+article {
+  display: inline-block;
+  border: 1px dotted #75B8C8;
+  margin-bottom: 5%;
+  border-radius: 3%;
+}
+
+article img {
+  margin: 3%;
+  width: 30%;
+  float: left;
+}
+
+article:nth-of-type(even) img {
+  float: right;
+}
+
+article p {
+  margin: 3%;
+}
+
+footer {
+  position: relative;
+  clear: both;
+}
