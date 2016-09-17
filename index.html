@@ -23,16 +23,21 @@
       <section class="block">
         <nav>
           <div id=top>
-            <a href="about.html"><div class="top-left"></div></a>
-            <h4>About Me</h4>
-            <a href="portfolio.html"><div class="top-right"></div></a>
-            <h4>Projects</h4>
+            <div class="tl">
+              <!-- NOTE - both the div and words are connected to the other pages so no matter where the user clicks, it works.  -->
+              <a href="about.html"><div class="top-left"></div></a>
+              <a href="about.html"><h4 class="top-left">About Me</h4></a>
+            </div>
+            <div class="tr">
+              <a href="portfolio.html"><div class="top-right"></div></a>
+              <a href="portfolio.html"><h4 class="top-right">Projects</h4></a>
+            </div>
           </div>
           <div id=bottom>
-            <a href="contact.html"><div id="bottom-left"></div></a>
-            <h4>Blog</h4>
-            <a href="blog.html"><div id="bottom-right"></div></a>
-            <h4>Contact Me</h4>
+            <a href="blog.html"><div class="bottom-right"></div></a>
+            <a href="blog.html"><h4 class="bottom-right">Contact Me</h4></a>
+            <a href="contact.html"><div class="bottom-left"></div></a>
+            <a href="contact.html"><h4 class="bottom-left">Blog</h4></a>
           </div>
         </nav>
       </section>
@@ -40,7 +45,7 @@
     </main>
 
     <footer>
-        <h4> &copy; 2016 </h4>
+        <h3> &copy; 2016 </h4>
 
     </footer>
 
