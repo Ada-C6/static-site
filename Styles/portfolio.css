@@ -1,0 +1,29 @@
+main {
+  height: 50vmax;
+}
+
+
+section.featured {
+  float:left;
+  position: relative;
+}
+
+section.current {
+  clear: left;
+  float: left;
+}
+
+section.previous {
+  clear: right;
+  float: right;
+  width: 25%;
+  position: absolute;
+}
+
+nav.bubble {
+  background-color: yellow;
+  clear: right;
+  float: right;
+}
+
+/*START HERE: What if I put the nav and the previous into the same box? */

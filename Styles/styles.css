@@ -1,0 +1,67 @@
+header {
+  /*padding-top: 1em;*/
+  padding-left: 2em;
+  background-color: grey;
+  border-top: 12px solid black;
+  border-bottom: 1px solid black;
+}
+
+main {
+  padding: 20px;
+  position: relative;
+  font-family: 'Acme', sans-serif;
+  /*height: 28vmax;*/
+}
+
+.bubble {
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: auto;
+  padding: 4%;
+  height: 2em;
+  width: 2em;
+  background-color: orange;
+
+  /*position: absolute;*/
+}
+
+.bubble a {
+  margin: -1em;
+  text-decoration: none;
+}
+
+.bubble:hover {
+  background-color: purple;
+}
+
+a:active {
+  color: black;
+}
+
+footer {
+  clear: both;
+  position: absolute;
+  width: 99%;
+  margin: 3em 1em auto auto;
+  border-top: 1px solid black;
+  border-bottom: 4px solid black;
+  background-color: grey;
+}
+
+section {
+  display: inline;
+  border: 2px solid black;
+  margin: 0 1em 1em 1em;
+  width: 65%;
+}
+
+section h2 {
+  margin: 0 0 0 0;
+  width: 100%;
+  background-color: grey;
+}
+
+section h3, p {
+  padding: 0 1em 0 1em;
+}

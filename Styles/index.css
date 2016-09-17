@@ -1,0 +1,52 @@
+header nav h1, h2 {
+  color: orange;
+  text-align: left;
+}
+
+/**/
+/**/
+
+#A, #M {
+  display: inline;
+
+  font-size: 4em;
+  font-family: 'Courgette', cursive;
+
+}
+
+div.monogram {
+  border: 5px solid black;
+  border-radius: 50%;
+  margin: auto;
+  width: 100px;
+  padding: 4%;
+  height: 7em;
+  width: 7em;
+
+  /*position: relative;*/
+  left: 40%;
+  top: 25%;
+
+  background-color: teal;
+}
+
+/*It is now blue*/
+/*main section:nth-of-type(1) {*/
+  /*background-color: blue;*/
+  /*position: absolute;*/
+  /*left: -10em;*/
+  /*left: 140%;*/
+  /*top: 25%;*/
+/*}*/
+
+li.bubble:nth-of-type(1) {
+  background-color: yellow;
+}
+
+li.bubble:nth-of-type(2) {
+  background-color: red;
+}
+
+li.bubble:nth-of-type(3) {
+  background-color: green;
+}
