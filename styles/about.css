@@ -1,0 +1,54 @@
+section.aboutme-heading {
+  clear: both;
+  /*margin-top: 1cm;*/
+  padding: 0px 20px 20px 10px
+}
+
+.flower {
+  clear: both;
+  width: 100%;
+  /*margin: auto;*/
+  display: block;
+  border-radius: 15px;
+}
+
+section.aboutme-heading p {
+  border: black 1px solid;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+section.aboutme {
+  /*border: black 1px solid;
+  border-radius: 15px;*/
+  padding: 0px 20px 20px 20px;
+  margin: auto;
+}
+
+#a-little-aboutme {
+  border: none
+}
+
+section.aboutme article {
+    border: black 1px solid;
+    border-radius: 15px;
+    padding: 2mm 4mm;
+    display: inline-block;
+    margin-bottom: 6mm;
+    margin-right: 4mm;
+    /*width: 46%;*/
+}
+
+section.aboutme h4 {
+  margin-top: 0px;
+}
+
+section.aboutme article img {
+  width: 20%;
+  float: left;
+  padding: 0mm 6mm 3mm 6mm;
+  border-radius: 25px;
+  margin: 0px;
+}
