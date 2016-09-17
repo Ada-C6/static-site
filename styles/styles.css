@@ -1,9 +1,72 @@
-#top-left {
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+body {
+  padding-left: 29vmin;
+  padding-right: 29vmin;
+}
+
+#top {
+  position: absolute;
+  /*background-color: grey;*/
+  height: 20vmin;
+  width: 40vmin;
+  display: inline-block;
+}
+
+div.top-left {
   height: 20vmin;
   width: 20vmin;
   background-color: #FC440F;
+  position: absolute;
+  margin: 2px;
+  display: inline-block;
 }
 
+
+div.top-right {
+  height: 20vmin;
+  width: 20vmin;
+  background-color: #1EFFBC;
+  position: absolute;
+  left: 21vmin;
+  top: 0vmin;
+  margin: 2px;
+  display: inline-block;
+
+}
+
+#bottom {
+  position: absolute;
+  top: 30vmin;
+  height: 20vmin;
+  width: 40vmin;
+  display: inline-block;
+}
+
+#bottom-left {
+  height: 20vmin;
+  width: 20vmin;
+  background-color: #1F01B9;
+  position: absolute;
+  margin: 2px;
+}
+
+#bottom-right {
+  height: 20vmin;
+  width: 20vmin;
+  background-color: #B4E22D;
+  position: absolute;
+  left: 21vmin;
+  top: 0vmin;
+  margin: 2px;
+}
+
+footer {
+  clear:both;
+}
 
 
 /*OLD STYLE* {
@@ -48,7 +111,7 @@ main-pictures {
   /*height: 250px;*/
 /*}*/
 
-img {
+/*img {
   	width: 23vw;
 }
 
@@ -75,7 +138,3 @@ section.blog-spot {
 section.blog-spot a {
   margin: auto;
 }
-
-footer {
-  clear: both;
-}*/
