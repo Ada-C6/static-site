@@ -1,11 +1,12 @@
 body {
-  background: #AAA8A7;
+  background: #648880;
+  background: linear-gradient(to right, #BCB8C1, #496054 88%, #324433);
 }
 
 nav.navigation-pane {
   position: relative;
   float: left;
-  width: 5em;
+  width: 10px;
 }
 
 nav.navigation-element {
@@ -14,26 +15,26 @@ nav.navigation-element {
 }
 
 nav a:link {
-background:    #496054;
-border-radius: 5px;
 color:         #324433;
 display:       inline-block;
 padding:       8px 5px;
-font:          normal 200 24px/1 "Pacifico", cursive;
+font:          normal 200 24px/1 sans-serif;
 text-align:    center;
 text-shadow:   0px 0px 0 #000;
-margin: 4vmin 20px 0 0px;
+margin: 15vmin 20px 0 0px;
 text-decoration: none;
 }
 
 nav a:hover {
-  color:
+  color: white;
+}
+
+nav a:visited {
+  color: #324433;
 }
 
 header {
   display: inline-block;
-  background-color: #496054;
-  color: #BCB8C1;
   width: 88%;
   position: absolute;
   border-radius: 10px;
@@ -43,7 +44,12 @@ header {
 
 h1 {
   text-align: center;
-  font-family: sans-serif;
+  font-family: "Pacifico", sans-serif;
+  color: #324433;
+  margin: 10px 15vmin 0 15vmin;
+  font-size: 2.75em;
+  /*word-spacing: 5px; <-----use for code journal css*/
+  letter-spacing: 2px;
 }
 
 main {
