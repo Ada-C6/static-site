@@ -1,7 +1,11 @@
+body {
+  background: #AAA8A7;
+}
+
 nav.navigation-pane {
   position: relative;
   float: left;
-  width: 9em;
+  width: 5em;
 }
 
 nav.navigation-element {
@@ -9,16 +13,37 @@ nav.navigation-element {
   display: block;
 }
 
+nav a:link {
+background:    #496054;
+border-radius: 5px;
+color:         #324433;
+display:       inline-block;
+padding:       8px 5px;
+font:          normal 200 24px/1 "Pacifico", cursive;
+text-align:    center;
+text-shadow:   0px 0px 0 #000;
+margin: 4vmin 20px 0 0px;
+text-decoration: none;
+}
+
+nav a:hover {
+  color:
+}
+
 header {
   display: inline-block;
-  background-color: black;
-  color: white;
-  width: 89%;
+  background-color: #496054;
+  color: #BCB8C1;
+  width: 88%;
   position: absolute;
+  border-radius: 10px;
+  padding-left: 1%;
+  margin-right: 1%;
 }
 
 h1 {
   text-align: center;
+  font-family: sans-serif;
 }
 
 main {
