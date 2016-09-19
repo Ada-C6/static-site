@@ -1,43 +1,47 @@
 #A, #M {
   display: inline;
 
-  font-size: 6em;
+  font-size: 5em;
   font-family: 'Courgette', cursive;
 
 }
 
 div.monogram {
-  border: 5px solid black;
+  border: 4px solid black;
   border-radius: 50%;
-  margin: 4vmin auto auto auto;
-  width: 100px;
-  padding: 4%;
-  height: 12em;
-  width: 12em;
+  margin: 5% auto auto auto;
+  /*width: 100px;*/
+  padding: 5%;
+  height: 8em;
+  width: 8em;
 
   /*position: relative;*/
   /*left: 40%;*/
   /*top: 25%;*/
 
-  /*not teal, light blue*/
-  background-color: #6EC5B8;
+  /*not teal, blue*/
+  background-color: #4A95BD;
 }
 
-/*ul#floater {
-  position: absolute;
-  top: 83vmin;
-  float: left;
-  width: 100%;
-}*/
-
 li.bubble:nth-of-type(1) {
-  background-color: yellow;
+  background-color: transparent;
+  border: none;
+  padding: 0em 1em 0em 0em;
+  /*color: grey;*/
+
+  position: absolute;
+  /*left: 0em;*/
+  top: 21vmin;
 }
 
 li.bubble:nth-of-type(2) {
-  background-color: red;
+  background-color: yellow;
 }
 
 li.bubble:nth-of-type(3) {
+  background-color: red;
+}
+
+li.bubble:nth-of-type(4) {
   background-color: green;
 }

@@ -1,7 +1,3 @@
-/*header nav h2 {
-
-}*/
-
 section.featured {
   float:left;
   position: relative;
@@ -21,20 +17,9 @@ section.previous {
 
 li.bubble {
   background-color: yellow;
-  /*float: right;*/
+  float: right;
 
   position: absolute;
-  top: 0vmin;
-  right: 3vmax;
-}
-
-ul#floater {
-  /*float: right;*/
-  width: 95%;
-
-  /*position: absolute;*/
-  /*width: 100%;*/
-  /*top: 0vmin;*/
-  /*right: 3vmax;*/
-  /*right: 100vmax;*/
+  top: -10vmin;
+  right: 2em;
 }

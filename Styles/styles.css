@@ -1,25 +1,27 @@
-/*Colors*/
+/*Colors #E44424 #BD4A5B #DFDCE3  #4ABDAC #F7B733 #FC4A1A -- #67BCDB*/
 
 header {
   /*padding-top: 1em;*/
   padding-left: 2em;
   /*light blue*/
   background-color: #67BCDB;
-  border-top: 12px solid black;
+  border-top: 1px solid black;
   border-bottom: 1px solid black;
+  /*border-right: 1em solid #32897C;*/
+  /*border-right: 1em solid #9C9A9E;*/
 }
 
 header nav h1, h2 {
-  /*deep red color*/
-  color: #E44424;
+  /*light grey*/
+  /*color: #DFDCE3;*/
   text-align: left;
 }
 
 main {
-  padding: 20px;
+  padding: 10px;
   position: relative;
   font-family: 'Acme', sans-serif;
-  height: 55vmin;
+  height: 40vmin;
 }
 
 .bubble {
@@ -30,21 +32,29 @@ main {
   padding: 4%;
   height: 2.1em;
   width: 2.1em;
-  background-color: #FFAC00;
+  background-color: #F7B733;
 
   /*position: absolute;*/
   /*top: 75%;*/
   /*right: 75vmax;*/
 }
 
+.bubble:hover {
+  background-color: #FC4A1A;
+}
+
+.bubble a:visited {
+  color: #DFDCE3;
+}
+
+
 .bubble a {
   margin: -1em;
   text-decoration: none;
 }
 
-.bubble:hover {
-  /*deep orange*/
-  background-color: #DC5C05;
+.bubble:hover ul li.bubble:hover {
+  background-color: #FC4A1A;
 }
 
 a:active {
@@ -55,15 +65,26 @@ footer {
   position: relative;
 }
 
-footer h4 {
-  clear: both;
+footer nav ul {
+  padding-left: 0;
+  margin: 5.5em auto auto auto;
+  border-bottom: 4px solid black;
+  list-style-type: none;
+
+}
+
+/*li h4 {*/
+  /*width: 3%;*/
+  /*display: inline;*/
+/*}*/
+
+footer ul li h4 {
+  /*clear: both;*/
   position: absolute;
   top: 7.4vmin;
   width: 99%;
-  margin: 6em 1em auto auto;
-  border-top: 1px solid black;
-  border-bottom: 4px solid black;
-  background-color: #67BCDB;
+  /*border-top: 1px solid black;*/
+  /*background-color: #67BCDB;*/
 }
 
 section {
@@ -77,9 +98,21 @@ section h2 {
   margin: 0 0 0 0;
   width: 100%;
   /*light blue*/
-  background-color: #67BCDB;
+  /*background-color: #67BCDB;*/
 }
 
 section h3, p {
   padding: 0 1em 0 1em;
+}
+
+ul.line-of-photos {
+  clear: both;
+  margin-left: 1em;
+  list-style-type: none;
+}
+
+.line-of-photos li img {
+  float: left;
+  width: 12vmax;
+  /*height: (12*0.56)vmax;*/
 }
