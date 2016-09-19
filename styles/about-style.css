@@ -1,0 +1,72 @@
+h1 {
+  float: left;
+  clear: left;
+  margin-left: 5vw;
+  margin-top: 8vh;
+  font-size:4vmin;
+  border-bottom: 7vh;
+  font-family: Oldtown, fantasy;
+
+}
+#last-vert{
+  float: left;
+}
+
+div img {
+  height: 30vh;
+  width: 30vw;
+  display: block;
+  margin-left: 47vmin;
+  margin-right: auto;
+
+  padding-top: 15vh;
+  margin-bottom: 5vh;
+}
+main {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: center;
+
+}
+
+.about-shari {
+  margin-right: 17vmin;
+  margin-left: 24vmin;
+  font-size: 2vmin;
+}
+nav {
+float: right;
+clear: both;
+margin-left: 5vw;
+margin-right: 12vw;
+
+
+}
+
+div.out-nav{
+  clear: right;
+}
+ul li{
+  list-style: none;
+  display: inline;
+  padding-left: 8vw;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vmin;
+}
+#last-list{
+  padding-left: .5vw;
+}
+footer {
+  padding-top: 3vh;
+  clear: both;
+  margin-left: 5vw;
+  border-top: black dashed;
+  margin-right: 5vw;
+  font-size: 2vmin;
+}
