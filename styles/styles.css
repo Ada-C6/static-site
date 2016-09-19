@@ -1,57 +1,71 @@
+/*Background gradient does not stay consistent when resizing. See http://stackoverflow.com/questions/14915653/refresh-page-on-resize-with-javascript-or-jquery for JS way of refreshing it for the future.*/
 body {
-  background: #648880;
-  background: linear-gradient(to right, #BCB8C1, #496054 88%, #324433);
+  background: #324433;
+  background: linear-gradient(to right, #58605C, #496054, #324433);
 }
 
 nav.navigation-pane {
   position: relative;
-  float: left;
-  width: 10px;
+  width: 70%;
+  margin-left: 18%;
 }
 
 nav.navigation-element {
-  position: absolute;
-  display: block;
+  display: inline;
 }
 
 nav a:link {
-color:         #324433;
-display:       inline-block;
-padding:       8px 5px;
-font:          normal 200 24px/1 sans-serif;
-text-align:    center;
-text-shadow:   0px 0px 0 #000;
-margin: 15vmin 20px 0 0px;
+color: #C1C1C1;
+font: 2.7em/1 sans-serif;
+margin: 0 3% 0 0;
 text-decoration: none;
 }
 
 nav a:hover {
-  color: white;
+  color: black;
 }
 
 nav a:visited {
-  color: #324433;
+  color: #C1C1C1;
 }
 
 header {
   display: inline-block;
+  position: relative;
   width: 88%;
-  position: absolute;
-  border-radius: 10px;
-  padding-left: 1%;
-  margin-right: 1%;
+  margin-right: 3%;
 }
 
 h1 {
-  text-align: center;
-  font-family: "Pacifico", sans-serif;
-  color: #324433;
-  margin: 10px 15vmin 0 15vmin;
-  font-size: 2.75em;
-  /*word-spacing: 5px; <-----use for code journal css*/
-  letter-spacing: 2px;
+  text-align: right;
+  font-family: 'Calligraffitti', cursive;
+  font-size: 4em;
+  font-weight: lighter;
+  color: #BCB8C1;
+  padding-right: 5%;
+
+
+  /*word-spacing: 5px; <-----use for code journal css?*/
+  letter-spacing: 3px;
+}
+
+.transparency {
+background-color: rgb(193, 193, 193);
+background-color: rgba(193, 193, 193, 0.3);
 }
 
 main {
-  position:relative;
+  margin: auto 3% auto 18%;
+  width: 66%;
+}
+
+img {
+  margin: 0 auto auto auto;
+  height: 10%;
+  width: 15%;
+  border-radius: 10px 0 0px 0px;
+}
+
+footer {
+  clear: both;
 }
