@@ -1,4 +1,154 @@
-/*initial header styling for testing stylesheet links to pages*/
+html {
+  background-color: hsl(219, 30%, 26%);
+  position: absolute;
+  font-family: 'Nunito', sans-serif;
+}
+
 header {
-  background-color: gray;
+  background-color: hsl(231, 3%, 50%);
+  position: relative;
+  display: inline-block;
+  height: 35vh;
+  width: 40vw;
+  border-radius: 15px;
+  margin: 20vh 30vw auto 30vw;
+  border: hsl(219, 30%, 26%) 3px solid;
+  color: hsl(219, 30%, 26%);
+  /*border: #FFFFFF 3px solid;*/
+  /*color: #FFFFFF;*/
+}
+
+#name-block-text * {
+  margin: .7em auto auto auto;
+  display: block;
+  position: static;
+  text-align: center;
+  overflow: hidden;
+  /*display: inline;*/
+  /*padding: auto auto auto auto;*/
+  /*position: relative;*/
+  /*clear: both;*/
+}
+
+#name-block-text h1 {
+  font-size: 4em;
+  font-weight: 300;
+}
+
+#name-block-text h2 {
+  font-size: 2em;
+  font-weight: 300;
+}
+
+#nav-button-box {
+  /*background-color: white;*/ /* @todo/remove - for position testing*/
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  /*align-items: center;*/
+  /*margin: auto;*/
+}
+
+.nav-button {
+  width: 14vw;
+  height: 12vh;
+  border-radius: 15px;
+  background-color: hsl(231, 3%, 50%);
+  text-align: center;
+  overflow: hidden;
+
+  margin: 10vh 2vw auto 2vw;
+}
+
+.nav-button > a {
+  /*margin: 5em auto auto auto;*/
+  padding-top: 1em;
+  padding-right: auto;
+  padding-left: auto;
+  padding-bottom: auto;
+  display: inline-block;
+  font-size: 1.6em;
+  text-decoration: none;
+  color: hsl(219, 30%, 26%);
+  /*overflow: hidden;*/
+}
+
+.nav-button:hover {
+  background-color: #CACAD1;
+}
+
+/*main {
+  position: relative;
+}*/
+#social-links {
+  /*background-color: white;*/ /* @todo - remove; for testing position*/
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 88vh;
+  box-sizing: border-box;
+  width: 40vw;
+  margin: auto 30vw auto 30vw;
+  /*padding: 2vw;*/
+  /*position: relative;*/
+  /*bottom: 10vh;*/
+  /*left: auto;
+  right: auto;*/
+  /*margin-left: 30vw;
+  margin-right: 30vw;*/
+  /*margin-bottom: 10vh;*/
+  /*min-width: 40vw;*/
+  /*height: 10vh;*/
+  /*margin: auto;*/
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  list-style-position: outside;
+  /*margin: auto none auto none;*/
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0;
+  -moz-padding-start: 0;
+  /*align-items: center;*/
+}
+/* ul.social-links has no meaning!*/
+
+li {
+  display: inline-block;
+  /*margin: none;*/
+}
+
+i.fa {
+    color: hsl(231, 3%, 50%);
+    /*padding: none;*/
+    margin: 0.5vw;
+    /*margin: 2vmin;*/
+    text-align: center;
+}
+
+i.fa:hover {
+  color: #CACAD1;
+}
+/*i.fa::before {
+  margin: auto;
+}*/
+
+#footer {
+  /*background-color: red; /* @todo - for testing position*/
+  clear: both;
+  display: inline-block;
+  width: 40vw;
+  /*margin-left: auto;*/
+  margin: auto 30vw auto 30vw;
+  position: absolute;
+  text-align: center;
+  top: 97vh;
+}
+
+footer h4 {
+  color: hsl(231, 3%, 50%);
+  font-size: .8em;
+  font-weight: 300;
+  margin: auto;
 }
