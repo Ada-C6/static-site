@@ -1,6 +1,5 @@
 header, nav a {
   background-color: teal;
-  /*border: 1px solid blue;*/
   text-align: center;
 }
 
@@ -24,14 +23,11 @@ nav a {
 section {
   margin-top: 25px;
   margin-bottom: 25px;
-  /*border: 1px solid blue;*/
-  /*border-radius: 25px;*/
   overflow: hidden;
 }
 
 #portrait {
   width: 25%;
-  /*margin-top: 25px;*/
   float:left;
   margin-right: 10px;
 }

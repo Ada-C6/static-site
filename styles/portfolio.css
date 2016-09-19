@@ -1,6 +1,7 @@
 section img {
   width: 15%;
   float:left;
+  margin-top: 16px;
   margin-right: 10px;
 }
 
@@ -10,8 +11,12 @@ ul {
 }
 
 li a{
-  /*font-size: 1em;*/
   font-weight:bold;
   color: teal;
   display:block;
+  clear:both;
+}
+
+li {
+  padding: 10px;
 }
