@@ -2,11 +2,10 @@ h1 {
   float: left;
   clear: left;
   margin-left: 5vw;
-  margin-top: 12vh;
-  width: auto;
-  height: auto;
-  font-size:3vw;
-  border-bottom: 8vh;
+  margin-top: 10vh;
+  font-size:4vmin;
+  border-bottom: 7vh;
+  font-family: Oldtown, fantasy;
 
 }
 #first-vert {
@@ -33,35 +32,52 @@ nav {
 
 }
 nav:first-child{
-  left: 16vw;
+  left: 17vw;
   margin-top: 48vh;
   top: 5vh;
-  background-color: pink;
-
+  background-color: #e6ccff;
+  border-top: 2px dashed #ffffcc;
+  border-left: 2px dashed #ffffcc;
 
 }
 nav:nth-child(2){
-  left: 40vw;
-  margin-top: 25vh;
+  left: 41vw;
+  margin-top: 24vh;
   top: 5vh;
-  background-color: yellow;
-
+  background-color: #ccc;
+  border-top: 2px dashed #ffffcc;
+  border-left: 2px dashed #ffffcc;
 
 }
 nav:nth-child(3){
    right: 12vw;
-  margin-top: 2vh;
+  margin-top: 1vh;
   top: 4vh;
-  background-color: teal;
+  background-color:  #99e6e6;
+  border-top: 2px dashed #ffffcc;
+  border-left: 2px dashed #ffffcc;
+}
+a:link,  a:visited {
+  color: white;
+text-shadow: 1px 1px black;
+  text-decoration: none;
+  font-size: 7vmin;
+  padding-top: 6vh;
+
+  display: block;
 
 }
-a:link, a:hover, a:visited {
-  color: white;
-
-  text-decoration: none;
-  font-size: 8vmin;
-  padding-top: 4vh;
-  font-style: Oldtown, fantasy;
+nav:first-child a:hover {
+  color: #ccc;
+  text-shadow: 1px 1px black;
+}
+nav:nth-child(2) a:hover {
+ color: #99e6e6 ;
+ text-shadow: 1px 1px black;
+}
+ nav:nth-child(3) a:hover {
+  color: #e6ccff;
+  text-shadow: 1px 1px black;
 }
 
 footer {
@@ -70,4 +86,5 @@ footer {
   margin-left: 5vw;
   border-top: black dashed;
   margin-right: 5vw;
+  font-size: 3vh;
 }
