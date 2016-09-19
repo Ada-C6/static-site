@@ -1,3 +1,200 @@
+body, div, h3, h1, ul, li, a, #home, header, nav {
+  margin: 0px;
+  padding: 0px;
+}
+/*#header-line{
+  margin= 0px;
+  position:
+}*/
+/*#header-line {
+  display: block;
+  border: solid;
+  color: transparent;
+  clear: both;
+}*/
+header {
+  margin = 0px;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  /*color: black;*/
+  /*margin: 0, auto;*/
+  /*background-color: #ffffff;*/
+  /*background-color: rgba(119, 221, 163, 0.69);*/
+/*background-color: 	#917F56;*/
+  padding: 10px 30px;
+  margin: 0px;
+  /*display: block;;
+  block: clear;*/
+}
+
+#home-header{
+  /*background-color: #6F6649;*/
+  background-color: #E6E6E6;
+}
+/*
+.dropdown-menu hr{
+  border: 1px solid 1px solid #40e0d0;
+  margin: 15px 0px 15px 0px;
+}*/
+
+/*hr {
+  display: block;
+  margin: 100px o 100px 0;
+  border: 1px solid #ecc81f;
+  margin: 0.5em;
+
+}*/
+
+.background-img img{
+  /*background-size: cover;*/
+  /*position: relative;*/
+  /*background: transparent;*/
+  /*background-position: center center;*/
+/*top: 0px;*/
+  width: 100%;
+  height: 730px;
+  overflow: auto;
+  margin: 0px;
+  border: 0.1px solid none;
+  top: 69px;
+}
+ #home {
+  /*background-color: blue;*/
+  /*width: 1297px;*/
+  width: 100%
+  height: 50px;
+  margin: 0px auto;
+  /*border: 0.1px solid ;*/
+  padding: 10px 30px;
+}
 body {
-  background-color: gold;
+  /*background-color: yellow;*/
+  /*width: 800px;*/
+  /*height: 726px;*/
+}
+/*#line {
+  width: 700px;
+  height: 10px;
+  color: purple;
+}*/
+header h1 {
+  font-size: 2.5em;
+  float: left;
+  /*padding-left: 0;*/
+  text-shadow: 4px 4px 4px rgba(7, 6, 24, 0.14);
+
+}
+header ul {
+  list-style-type: none;
+  width:450px;
+  /*width: 70%;*/
+  /*background-color: purple;*/
+  height: 36px;
+  margin: 0px 0px 50px 50px;
+  margin-left: 780px;
+  /*float: right;
+    width: 35%;
+    margin: 0;
+    margin-top: 5px;
+    font-weight: normal;*/*/
+}
+
+
+
+
+header a {
+  color: #A3A3A3;
+  text-decoration: none;
+  text-shadow: gray;
+  /*font-size: 100%;*/
+}
+
+/*header nav h1 a{
+  color: white;
+}*/
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+    text-decoration: black;
+}
+
+nav li {
+  float: left;
+  padding-top: 10px;
+  padding-left: 18px;
+  /*width: 60%;*/
+  /*display: block;*/
+}
+
+li img{
+  height: 25px;
+  width: 25px;
+}
+li a {
+  /*display: block;*/
+}
+
+
+#body-title{
+  padding-top: 80px;
+  /*margin-top: :40px*/
+  /*width: 400px;*/
+  font-size: 5em;
+  text-align: center;
+  font-family: 'Molengo', serif;
+  font-weight: lighter;
+  /*text-shadow: 4px 4px 4px #aaa;*/
+  /*float: left;
+  padding-top: */
+
+}
+
+/*main*/
+
+.addional-webs-main {
+  background-color: #E6E6E6;
+}
+
+.addional-webs-main h1 {
+  color: #01CAA3;
+}
+main p {
+  /*background-color: #A3A3A3;*/
+  border-radius: 5%;
+  margin: 0px;
+  position: absolute;
+  bottom: 300px;
+  left: 25%;
+  text-align: center;
+  font-family: Roboto;
+padding-top: 30px;
+  padding-right: 30px;
+  color: gold;
+  text-shadow: 8px 8px 8px black;
+  font-size: 1.48em;
+  font-weight: lighter;
+  line-height: 35px;
+  /*background: gradient(linear, left, top, left bottom from(gray), to(black);*/
+}
+#home-main-link a{
+   color: yellow;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-bottom: 3px solid #397e3c;
+}
+#home-main-link a:hover {
+  color: green;
+}
+
+/*additionals for about.html*/
+#owner-pic img {
+  float: left;
+  border: 1px solid #000;
+  background-color: #333;
+  padding: 1.6px;
+  margin: 0.7em;
+  border-radius: 15px;
+
 }
