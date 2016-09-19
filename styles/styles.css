@@ -5,13 +5,13 @@ html {
 }
 
 #name-block-text {
-  background-color: hsl(231, 3%, 50%);
+  background-color: hsl(231, 3%, 60%);
   position: relative;
   display: inline-block;
-  height: 35vh;
-  width: 40vw;
+  height: 35vmin;
+  width: 40vmax;
   border-radius: 15px;
-  margin: 20vh 30vw auto 30vw;
+  margin: 20vmin 30vmax auto 30vmax;
   color: hsl(219, 30%, 26%);
 }
 
@@ -37,7 +37,6 @@ html {
 }
 
 #nav-button-box {
-  /*background-color: white;*/ /* @todo/remove - for position testing*/
   display: inline-block;
   width: 100%;
   text-align: center;
@@ -46,13 +45,13 @@ html {
 }
 
 .nav-button {
-  width: 14vw;
-  height: 12vh;
+  width: 14vmax;
+  height: 12vmin;
   border-radius: 15px;
-  background-color: hsl(231, 3%, 50%);
+  background-color: hsl(231, 3%, 60%);
   text-align: center;
   overflow: hidden;
-  margin: 10vh 2vw auto 2vw;
+  margin: 10vmin 2vmax auto 2vmax;
   display: inline-block;
   font-size: 1.6em;
   text-decoration: none;
@@ -74,24 +73,23 @@ html {
   position: relative;
 }*/
 #social-links {
-  /*background-color: white;*/ /* @todo - remove; for testing position*/
   display: inline-block;
   text-align: center;
   position: absolute;
-  top: 88vh;
+  top: 88vmin;
   box-sizing: border-box;
-  width: 40vw;
-  margin: auto 30vw auto 30vw;
-  /*padding: 2vw;*/
+  width: 40vmax;
+  margin: auto 30vmax auto 30vmax;
+  /*padding: 2vmax;*/
   /*position: relative;*/
-  /*bottom: 10vh;*/
+  /*bottom: 10vmin;*/
   /*left: auto;
   right: auto;*/
-  /*margin-left: 30vw;
-  margin-right: 30vw;*/
-  /*margin-bottom: 10vh;*/
-  /*min-width: 40vw;*/
-  /*height: 10vh;*/
+  /*margin-left: 30vmax;
+  margin-right: 30vmax;*/
+  /*margin-bottom: 10vmin;*/
+  /*min-width: 40vmax;*/
+  /*height: 10vmin;*/
   /*margin: auto;*/
 }
 
@@ -113,9 +111,9 @@ li {
 }
 
 i.fa {
-    color: hsl(231, 3%, 50%);
+    color: hsl(231, 3%, 60%);
     /*padding: none;*/
-    margin: 0.5vw;
+    margin: 0.5vmax;
     /*margin: 2vmin;*/
     text-align: center;
 }
@@ -128,19 +126,18 @@ i.fa:hover {
 }*/
 
 #copyright {
-  /*background-color: red; /* @todo - for testing position*/
   clear: both;
   display: inline-block;
-  width: 40vw;
+  width: 40vmax;
   /*margin-left: auto;*/
-  margin: auto 30vw auto 30vw;
+  margin: auto 30vmax auto 30vmax;
   position: absolute;
   text-align: center;
-  top: 97vh;
+  top: 97vmin;
 }
 
 #copyright h4 {
-  color: hsl(231, 3%, 50%);
+  color: hsl(231, 3%, 60%);
   font-size: .8em;
   font-weight: 300;
   margin: auto;
