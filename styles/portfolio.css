@@ -1,3 +1,7 @@
+section {
+  padding-bottom: 15px;
+}
+
 section img {
   width: 15%;
   float:left;
@@ -10,13 +14,13 @@ ul {
   padding-right: 15px;
 }
 
+li {
+  padding: 10px;
+}
+
 li a{
   font-weight:bold;
   color: teal;
   display:block;
   clear:both;
-}
-
-li {
-  padding: 10px;
 }

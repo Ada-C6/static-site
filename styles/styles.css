@@ -26,6 +26,11 @@ section {
   overflow: hidden;
 }
 
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 #portrait {
   width: 25%;
   float:left;
