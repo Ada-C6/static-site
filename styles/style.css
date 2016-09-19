@@ -70,6 +70,7 @@ text-shadow: 1px 1px black;
 nav:first-child a:hover {
   color: #ccc;
   text-shadow: 1px 1px black;
+  
 }
 nav:nth-child(2) a:hover {
  color: #99e6e6 ;
