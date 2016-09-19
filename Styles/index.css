@@ -1,15 +1,7 @@
-header nav h1, h2 {
-  color: orange;
-  text-align: left;
-}
-
-/**/
-/**/
-
 #A, #M {
   display: inline;
 
-  font-size: 4em;
+  font-size: 6em;
   font-family: 'Courgette', cursive;
 
 }
@@ -17,27 +9,26 @@ header nav h1, h2 {
 div.monogram {
   border: 5px solid black;
   border-radius: 50%;
-  margin: auto;
+  margin: 4vmin auto auto auto;
   width: 100px;
   padding: 4%;
-  height: 7em;
-  width: 7em;
+  height: 12em;
+  width: 12em;
 
   /*position: relative;*/
-  left: 40%;
-  top: 25%;
+  /*left: 40%;*/
+  /*top: 25%;*/
 
-  background-color: teal;
+  /*not teal, light blue*/
+  background-color: #6EC5B8;
 }
 
-/*It is now blue*/
-/*main section:nth-of-type(1) {*/
-  /*background-color: blue;*/
-  /*position: absolute;*/
-  /*left: -10em;*/
-  /*left: 140%;*/
-  /*top: 25%;*/
-/*}*/
+/*ul#floater {
+  position: absolute;
+  top: 83vmin;
+  float: left;
+  width: 100%;
+}*/
 
 li.bubble:nth-of-type(1) {
   background-color: yellow;

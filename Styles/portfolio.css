@@ -1,7 +1,6 @@
-main {
-  height: 50vmax;
-}
+/*header nav h2 {
 
+}*/
 
 section.featured {
   float:left;
@@ -20,10 +19,22 @@ section.previous {
   position: absolute;
 }
 
-nav.bubble {
+li.bubble {
   background-color: yellow;
-  clear: right;
-  float: right;
+  /*float: right;*/
+
+  position: absolute;
+  top: 0vmin;
+  right: 3vmax;
 }
 
-/*START HERE: What if I put the nav and the previous into the same box? */
+ul#floater {
+  /*float: right;*/
+  width: 95%;
+
+  /*position: absolute;*/
+  /*width: 100%;*/
+  /*top: 0vmin;*/
+  /*right: 3vmax;*/
+  /*right: 100vmax;*/
+}
