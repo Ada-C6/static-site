@@ -1,13 +1,12 @@
 body {
-  /*font-family: Helvetica, sans-serif;*/
   font-family: 'Scope One', serif;
 }
 
 header {
   display: inline-block;
   width: 100%;
-  background-color: teal;
-  border-bottom: black medium solid;
+  /*background-color: teal;*/
+  background: linear-gradient( 45deg, #33cccc, #ffb3ff);
 }
 
 nav h1 {
@@ -66,7 +65,7 @@ a:hover {
 }
 
 footer {
-  background-color: black;
+  background: linear-gradient( 45deg, #ffb3ff, #33cccc);
   display: inline-block;
   width: 100%;
 }
