@@ -1,5 +1,6 @@
 body {
   /*font-family: Helvetica, sans-serif;*/
+  font-family: 'Scope One', serif;
 }
 
 header {
@@ -12,7 +13,8 @@ header {
 nav h1 {
   padding: 40px 0px 0px 60px;
   font-size: 3em;
-  font-family: serif;
+  font-weight: lighter;
+  /*font-family: serif;*/
   color: white;
   margin-bottom: 20px;
 }
