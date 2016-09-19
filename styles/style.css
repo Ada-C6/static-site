@@ -88,13 +88,19 @@ article.about-me img {
   display: inline-block;
 }
 
-article.about-me p {
+article.about-me p, article.about-me h2 {
   float: left;
   max-width: 50%;
 }
 
-article.about-me p:nth-child(2) {
+article.about-me h2 {
   margin-top: 50px;
+  color: #330066;
+  margin-bottom: 5px;
+}
+
+article.about-me p {
+  margin-bottom: 1px;
 }
 
 /*Portfolio page*/
@@ -114,17 +120,110 @@ section.projects section {
 }
 
 /*Blog page*/
-.blog-intro {
-  margin-left: 30px;
+section.blog-intro {
+  padding-left: 30px;
+  margin-left: 20px;
+  overflow: hidden;
 }
 
-section.blog-posts section {
+.alpha {
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.left {
+  float: left;
+}
+
+.col3 {
+  width: 32%;
+  display: inline-block;
+  margin: 0.5% 0.5% 0.5% 0;
+}
+
+.blog-summary {
+  margin-bottom: 25px;
+  min-height: 250px;
+}
+
+.blog-headline {
+  margin-bottom: 20px;
+}
+
+.blog-headline a {
+  text-decoration: none;
+}
+
+.color-bar {
+  height: 20px;
+  background-color: #330066;
+}
+
+#all-blog-posts{
+  margin: 0 50px;
+}
+
+/*Individual blog posts*/
+.blog-entry {
+  margin: 0 30px;
+}
+
+.blog-title {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.blog-date {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.blog-line {
+  border: #330066 2px solid;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.blog-sidebar {
+  display: inline-block;
   float: left;
   width: 25%;
-  border-top: grey 2px solid;
-  border-left: grey 2px solid;
-  border-bottom: grey 6px double;
-  border-right: grey 6px double;
-  margin: 10px;
-  padding: 10px;
+  margin-left: 20px;
+  margin-top: 200px;
+  color: #330066;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.pulled-quote {
+  width: 85%;
+  line-height: 150%;
+}
+
+.author {
+  font-size: 12px;
+}
+
+.post-text{
+  width: 70%;
+  float: right;
+  margin-bottom: 80px;
+}
+
+.blog-title {
+  color: #330066;
+}
+
+.blog-image {
+  display: block;
+  margin: 0 auto 50px auto;
+}
+
+.first-letter {
+    color: #330066;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 0.5;
+    margin-left: -6px;
+    letter-spacing: 0px;
 }
