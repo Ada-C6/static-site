@@ -4,7 +4,7 @@ html {
   font-family: 'Nunito', sans-serif;
 }
 
-header {
+#name-block-text {
   background-color: hsl(231, 3%, 50%);
   position: relative;
   display: inline-block;
@@ -12,10 +12,7 @@ header {
   width: 40vw;
   border-radius: 15px;
   margin: 20vh 30vw auto 30vw;
-  border: hsl(219, 30%, 26%) 3px solid;
   color: hsl(219, 30%, 26%);
-  /*border: #FFFFFF 3px solid;*/
-  /*color: #FFFFFF;*/
 }
 
 #name-block-text * {
@@ -24,6 +21,7 @@ header {
   position: static;
   text-align: center;
   overflow: hidden;
+  font-weight: 300;
   /*display: inline;*/
   /*padding: auto auto auto auto;*/
   /*position: relative;*/
@@ -32,12 +30,10 @@ header {
 
 #name-block-text h1 {
   font-size: 4em;
-  font-weight: 300;
 }
 
 #name-block-text h2 {
   font-size: 2em;
-  font-weight: 300;
 }
 
 #nav-button-box {
@@ -56,21 +52,18 @@ header {
   background-color: hsl(231, 3%, 50%);
   text-align: center;
   overflow: hidden;
-
   margin: 10vh 2vw auto 2vw;
-}
-
-.nav-button > a {
-  /*margin: 5em auto auto auto;*/
-  padding-top: 1em;
-  padding-right: auto;
-  padding-left: auto;
-  padding-bottom: auto;
   display: inline-block;
   font-size: 1.6em;
   text-decoration: none;
   color: hsl(219, 30%, 26%);
-  /*overflow: hidden;*/
+  /*padding-right: auto;
+  padding-left: auto;
+  padding-bottom: auto;*/
+}
+
+.nav-button li {
+  margin: 1em auto auto auto;
 }
 
 .nav-button:hover {
@@ -134,7 +127,7 @@ i.fa:hover {
   margin: auto;
 }*/
 
-#footer {
+#copyright {
   /*background-color: red; /* @todo - for testing position*/
   clear: both;
   display: inline-block;
@@ -146,7 +139,7 @@ i.fa:hover {
   top: 97vh;
 }
 
-footer h4 {
+#copyright h4 {
   color: hsl(231, 3%, 50%);
   font-size: .8em;
   font-weight: 300;
