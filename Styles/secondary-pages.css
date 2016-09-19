@@ -1,0 +1,51 @@
+section.featured {
+  float:left;
+  position: relative;
+}
+
+section.current {
+  clear: left;
+  float: left;
+}
+
+section.previous {
+  clear: right;
+  float: right;
+  width: 25%;
+  position: absolute;
+}
+
+section.contact-me {
+  clear: right;
+  float: right;
+  width: 25%;
+  position: absolute;
+}
+
+section.contact-me ul {
+  list-style-type: none;
+}
+
+section.contact-me div img {
+  width: 100%;
+}
+
+li.bubble {
+  float: right;
+
+  position: absolute;
+  top: -10vmin;
+  right: 2em;
+}
+
+ul.portfolio li.bubble {
+  background-color: yellow;
+}
+
+ul.code-journal li.bubble {
+  background-color: red;
+}
+
+ul.about-me li.bubble {
+  background-color: green;
+}

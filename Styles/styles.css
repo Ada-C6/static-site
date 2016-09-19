@@ -1,19 +1,13 @@
 /*Colors #E44424 #BD4A5B #DFDCE3  #4ABDAC #F7B733 #FC4A1A -- #67BCDB*/
 
 header {
-  /*padding-top: 1em;*/
   padding-left: 2em;
-  /*light blue*/
   background-color: #67BCDB;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
-  /*border-right: 1em solid #32897C;*/
-  /*border-right: 1em solid #9C9A9E;*/
 }
 
 header nav h1, h2 {
-  /*light grey*/
-  /*color: #DFDCE3;*/
   text-align: left;
 }
 
@@ -22,6 +16,10 @@ main {
   position: relative;
   font-family: 'Acme', sans-serif;
   height: 40vmin;
+}
+
+main.portfolio {
+  height: 65vmin;
 }
 
 .bubble {
@@ -33,10 +31,6 @@ main {
   height: 2.1em;
   width: 2.1em;
   background-color: #F7B733;
-
-  /*position: absolute;*/
-  /*top: 75%;*/
-  /*right: 75vmax;*/
 }
 
 .bubble:hover {
@@ -73,18 +67,10 @@ footer nav ul {
 
 }
 
-/*li h4 {*/
-  /*width: 3%;*/
-  /*display: inline;*/
-/*}*/
-
 footer ul li h4 {
-  /*clear: both;*/
   position: absolute;
   top: 7.4vmin;
   width: 99%;
-  /*border-top: 1px solid black;*/
-  /*background-color: #67BCDB;*/
 }
 
 section {
@@ -97,8 +83,6 @@ section {
 section h2 {
   margin: 0 0 0 0;
   width: 100%;
-  /*light blue*/
-  /*background-color: #67BCDB;*/
 }
 
 section h3, p {
@@ -114,5 +98,10 @@ ul.line-of-photos {
 .line-of-photos li img {
   float: left;
   width: 12vmax;
-  /*height: (12*0.56)vmax;*/
+}
+
+.contact-me ul li a img {
+  width: 15%;
+  float: left;
+  padding-bottom: 1em;
 }
