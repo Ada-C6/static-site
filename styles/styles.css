@@ -23,7 +23,6 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 /**** HEADER ****/
-
 header {
     /** size **/
   width: 800px;
@@ -44,6 +43,11 @@ header section h1, h2 {
   color: #403B33;
 }
 
+.header-words p {
+  font-style: italic;
+  margin-left: 2em;
+  margin-top: -1em;
+}
 .header-picture-overlay {
   float: right;
 }
@@ -101,11 +105,19 @@ footer * {
   display: inline-block;
 }
 
+footer h4 {
+  padding-left: 1em;
+}
 footer p {
   float: right;
   font-size: .25em;
   font-style: italic;
   padding-top: 2em;
+}
+
+/****** PAGE INTRO BLURBS ******/
+*blurb {
+  margin-top: 3em;
 }
 /****** HOMEPAGE ******/
 
