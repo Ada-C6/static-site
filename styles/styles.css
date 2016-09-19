@@ -1,3 +1,8 @@
+html {
+  font: normal normal 18px/1 Georgia, serif;
+  box-sizing: border-box;
+}
+
 header {
   text-align: center;
   color: #ffffff;
@@ -10,32 +15,24 @@ header {
 
 h1 {
   font-variant: small-caps;
-  font-size: 3em;
-  margin: 0;
+  font-size: 2em;
 }
 
 h2 {
   font-weight: lighter;
   text-transform: lowercase;
-  font-size: 2.5em;
-}
-
-h3 {
-  font-size: 2em;
-}
-
-h4, h5, h6 {
-  font-size: 1.5em;
 }
 
 body {
-  margin-top: 180px;
+  margin-top: 200px;
+  background-color: #ffffff;
   width: 99%;
+  text-align: justify;
 }
 
 nav {
   background-color: darkgray;
-  padding: 25px;
+  padding: 15px;
   margin-left: 0;
   margin-right: 0;
 }
@@ -49,12 +46,19 @@ nav ul li {
   width: 19%;
 }
 
-nav.main-pg-nav {
-  /*background-color: transparent;*/
-  background-color: #ffffff;
-  margin-left: 40vw;
-  line-height: 2.25;
+footer {
   text-align: center;
+  border-top: 1px solid black;
+  clear: both;
+}
+
+nav.main-pg-nav {
+  background-color: transparent;
+  margin-left: 40vw;
+  margin-top: -95px;
+  line-height: 2.7;
+  text-align: center;
+  font-size: 1.3em;
 }
 
 nav.main-pg-nav ul {
@@ -63,9 +67,44 @@ nav.main-pg-nav ul {
 
 nav.main-pg-nav li {
   display: block;
-  font-size: 2em;
 }
 
-footer {
+.post {
+  margin: 80px;
+}
+
+.post-info {
   text-align: center;
+  display: inline-block;
+  line-height: 0.45;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  border-radius: 20px;
+}
+
+.post-info h3, .post-info h4 {
+  display: inline;
+  padding: 0 80px;
+  border-radius: 0 20px;
+}
+
+.post-info h3 {
+  background-color: lightgray;
+}
+
+.post-info h4 {
+  background-color: black;
+  color: white;
+  padding-top: 2px;
+}
+
+blockquote, pre {
+  border-left: 2px solid black;
+  padding-left: 20px;
+  margin-left: 30px;
+  margin-right: 100px;
+}
+
+pre {
+  font-family: monospace;
 }
