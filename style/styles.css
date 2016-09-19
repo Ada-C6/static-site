@@ -161,40 +161,80 @@ li a {
   color: #01CAA3;
 }
 main p {
-  /*background-color: #A3A3A3;*/
+  /*background-color: #E6E6E6;*/
+  padding: 0px;
+  /*margin: 0px;*/
+  margin-right: 50px;
+
+  whidth: 100%
   border-radius: 5%;
-  margin: 0px;
+
   position: absolute;
   bottom: 300px;
-  left: 25%;
+  left: 15%;
   text-align: center;
-  font-family: Roboto;
-padding-top: 30px;
-  padding-right: 30px;
-  color: gold;
-  text-shadow: 8px 8px 8px black;
-  font-size: 1.48em;
-  font-weight: lighter;
-  line-height: 35px;
+  font-family: 'Molengo', serif;
+/*padding-top: 30px;*/
+  margin-right: 90px;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 1px;
   /*background: gradient(linear, left, top, left bottom from(gray), to(black);*/
 }
 #home-main-link a{
-   color: yellow;
+  color: white;
+  font-size: 1.2em;
   text-decoration: none;
-  transition: all 0.3s ease;
-  border-bottom: 3px solid #397e3c;
+  border-bottom: 3px solid green;
 }
 #home-main-link a:hover {
-  color: green;
+  color: yellow;
 }
 
 /*additionals for about.html*/
 #owner-pic img {
+  width: 280px;
+  height: 300px;
   float: left;
+  list-style-type: none;
+  /*float: left;*/
+  margin: 55px;
+  /*margin-top: 55px;*/
   border: 1px solid #000;
   background-color: #333;
   padding: 1.6px;
-  margin: 0.7em;
-  border-radius: 15px;
+  border-radius: 50px;
+}
 
+ul li {
+  list-style-type: none;
+}
+
+.about-me {
+  font-family: Cormorant;
+  margin: 70px 60px 80px 170px;
+
+  padding: 30px;
+  font-size: 1.3em;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.about-me:first-letter{
+  font-size: 2em;
+}
+ #name {
+  font-weight: 800;
+}
+
+.about-links a {
+ color: black;
+ text-decoration: none;
+ border-bottom: 2px solid #01CAA3;
+}
+.about-links a:hover {
+  color: #01CAA3;
 }
