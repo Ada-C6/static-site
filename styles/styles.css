@@ -19,7 +19,6 @@ nav h1 {
 
 nav ul {
   float: right;
-  /*border: white thin solid;*/
   list-style: none;
   padding-right: 40px;
 }
@@ -35,7 +34,6 @@ nav ul li a {
 }
 
 .welcome {
-  /*position: relative;*/
   overflow: hidden;
 }
 
@@ -47,7 +45,6 @@ nav ul li a {
 }
 
 .welcome-text {
-  /*border: black thin solid;*/
   float: right;
   width: 65%;
   margin: 10px 80px 20px 0px;
@@ -67,8 +64,7 @@ a:hover {
 }
 
 footer {
-  background-color: pink;
-  border-top: red medium solid;
+  background-color: black;
   display: inline-block;
   width: 100%;
 }
@@ -83,7 +79,7 @@ footer ul li {
   padding: 20px;
 }
 
-footer a, h4 { 
+footer a, h4 {
   color: white;
 }
 
