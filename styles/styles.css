@@ -36,22 +36,6 @@ section {
   margin-right: 10px;
 }
 
-
-.author-info {
-  font-style: italic;
-  margin-top: 10px;
-}
-
-#articles {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-section h3 {
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
 footer {
   clear:both;
 }
