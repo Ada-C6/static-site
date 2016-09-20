@@ -7,23 +7,31 @@ section.hanging-title {
   background-color: #89feb3;
   border: black 1px solid;
   border-radius: 5px;
-  width: 40%;
-  margin: 0px auto 50px;
+  width: 35%;
+  margin: 0px auto 5em;
   text-align: center;
   font-size: 1.5em;
 }
 
 article.project-info {
+  border: black 1px solid;
   background-color: lightblue;
+  display: inline-block;
 }
 
 .main-content .project-details {
+  border: black 1px solid;
   background-color: lavender;
-  width: 60%;
+  width: 25%;
   display: inline-block;
-  margin-bottom: 50px;
+  margin: 1em;
 }
 
 .main-content {
+  border: black 1px solid;
   margin: 2em 4em;
+}
+
+.project-image {
+  width: 15%;
 }
