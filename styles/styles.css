@@ -110,7 +110,7 @@ li {
   /*margin: none;*/
 }
 
-i.fa {
+span.fa {
     color: hsl(231, 3%, 60%);
     /*padding: none;*/
     margin: 0.5vmax;
@@ -118,7 +118,7 @@ i.fa {
     text-align: center;
 }
 
-i.fa:hover {
+span.fa:hover {
   color: #CACAD1;
 }
 /*i.fa::before {
