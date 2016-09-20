@@ -2,12 +2,16 @@ html {
   font-family: "Brush Script MT";
 }
 
+body {
+  margin: 0px;
+}
+
 header {
   float: left;
   background-color: #666666;
   color: #ffffcc;
-  height: 75vmax;
-
+  height: 100vh;
+  width: 50vw;
 }
 
 header h1 {
@@ -20,19 +24,33 @@ header h1 {
 header h2 {
   padding-right: 15px;
   font-size: 3em;
-  padding-left: 55px;
+  padding-left: 53px;
 }
 
+article {
+  background-color: #ffffcc;
+  position: relative;
+  height: 100vh;
+  margin-left: 50vw;
+  /*border: orange 4px solid;*/
+}
 nav {
-  border: blue 5px solid;
-  height: 70vmax;
+  position: relative;
+  /*border: blue 5px solid;*/
+  padding-top: 15vh;
+  padding-bottom: 20vh;
 }
 
 section.menu {
-  font-size: 
+  font-size: 3em;
+  position: relative;
+  padding-left: 10vh;
+  padding-top: 9vh;
+  color: #666666;
 }
 
 footer {
   border: black 5px solid;
-
+  /*margin-bottom: 0px;
+  padding: 10px;*/
 }
