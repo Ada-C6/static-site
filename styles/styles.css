@@ -1,4 +1,5 @@
 /*Background gradient does not stay consistent when resizing. See http://stackoverflow.com/questions/14915653/refresh-page-on-resize-with-javascript-or-jquery for JS way of refreshing it for the future.*/
+
 body {
   background: #324433;
   background: linear-gradient(to right, #58605C, #496054, #324433);
@@ -10,6 +11,7 @@ a:link {
 }
 
 a:hover {
+  color: #107896;
   text-decoration: underline;
 }
 
@@ -19,15 +21,15 @@ a:visited {
 
 nav.navigation-pane {
   position: relative;
-  width: 70%;
   margin-left: 15%;
+  width: 70%;
 }
 
 nav a:link {
-color: #C1C1C1;
-font: 40px/1 sans-serif;
-margin: 0 4.5% 0 0;
-text-decoration: none;
+  margin-right: 4.5%;
+  color: #C1C1C1;
+  font: 40px/1 sans-serif;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -41,55 +43,65 @@ nav a:visited {
 header {
   display: inline-block;
   position: relative;
-  width: 88%;
   margin-right: 3%;
+  width: 88%;
 }
 
-h1 {
-  text-align: right;
+header h1 {
+  padding-right: 5%;
+  color: #BCB8C1;
   font-family: 'Calligraffitti', cursive;
   font-size: 60px;
   font-weight: lighter;
-  color: #BCB8C1;
-  padding-right: 5%;
-  /*word-spacing: 5px; <-----use for code journal css?*/
+  text-align: right;
   letter-spacing: 3px;
 }
 
 .box-accent {
-  background-color: rgb(193, 193, 193);
-  background-color: rgba(193, 193, 193, 0.3);
-  border-radius: 10px;
-  width: 200px;
-  height: 200px;
+  z-index: 1;
   position: absolute;
   margin-top: -80px;
   margin-left: 215px;
-  z-index: 1;
+  background-color: rgb(193, 193, 193);
+  background-color: rgba(193, 193, 193, 0.3);
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
 }
 
 main section {
+  z-index: 1000;
   position: relative;
+  margin: 40px 233px 0 295px;
+  background-color: #F9F7F8;
+  color: #2b2b2b;
   min-width: 53%;
-  margin: 40px 220px 0 295px;
   border-radius: 10px;
   font-family: sans-serif;
   font-size: 16px;
-  background-color: #F9F7F8;
-  color: #2b2b2b;
-  z-index: 1000;
 }
 
-main section p, h4 {
-  padding: 10px;
+main section h4, p {
+  padding: 10px 15px 5px 15px;
+}
+
+.break {
+  padding-left: 15px;
+  list-style: none;
 }
 
 img {
-  position: relative;
-  margin: 0;
   border-radius: 10px 0 10px 0;
 }
 
+#profile-pic {
+  float: left;
+  margin-right: 10px;
+}
+
+main section ul li {
+  padding-bottom: 10px;
+}
 
 footer {
   text-align: left;
@@ -103,7 +115,6 @@ footer a:link {
 }
 
 footer p {
-  display: inline-block;
   position: relative;
   float: left;
 }
@@ -114,12 +125,12 @@ footer section img {
 }
 
 #copyright {
+  margin-left: 20.5%;
   width: 20%;
-  margin-left: 21.5%;
 }
 
 #social-media {
   display: inline;
-  margin-left: 23.5%;
+  margin-left: 21%;
   width: 30%;
 }
