@@ -15,6 +15,10 @@ html {
   color: hsl(219, 30%, 26%);
 }
 
+#name-block-text:hover {
+  color: #CACAD1;
+}
+
 #name-block-text * {
   display: block;
   position: static;
@@ -124,9 +128,6 @@ span.fa {
 span.fa:hover {
   color: #CACAD1;
 }
-/*i.fa::before {
-  margin: auto;
-}*/
 
 #copyright {
   clear: both;
@@ -136,12 +137,12 @@ span.fa:hover {
   margin: auto 30vmax auto 30vmax;
   position: absolute;
   text-align: center;
-  top: 98vmin;
+  top: 97.5vmin;
 }
 
 #copyright h4 {
   color: hsl(231, 3%, 60%);
-  font-size: .8em;
+  font-size: 1.5vmin;
   font-weight: 300;
   margin: auto;
 }
