@@ -20,7 +20,7 @@ a:visited {
 nav.navigation-pane {
   position: relative;
   width: 70%;
-  margin-left: 18%;
+  margin-left: 15%;
 }
 
 nav a:link {
@@ -64,18 +64,14 @@ h1 {
   height: 200px;
   position: absolute;
   margin-top: -80px;
-  margin-left: 225px;
+  margin-left: 215px;
   z-index: 1;
-}
-
-main div {
-  position: relative;
 }
 
 main section {
   position: relative;
-  min-width: 48%;
-  margin: 30px 220px 0 315px;
+  min-width: 53%;
+  margin: 40px 220px 0 295px;
   border-radius: 10px;
   font-family: sans-serif;
   font-size: 16px;
@@ -89,21 +85,21 @@ main section p, h4 {
 }
 
 img {
+  position: relative;
   margin: 0;
-  height: 10%;
-  width: 15%;
   border-radius: 10px 0 10px 0;
 }
+
 
 footer {
   text-align: left;
   color: #C1C1C1;
-  font: 16px sans-serif;
+  font: 18px sans-serif;
   text-decoration: none;
 }
 
 footer a:link {
-  margin: 0 20px 0 0;
+  margin: 0 25px 0 0;
 }
 
 footer p {
@@ -119,6 +115,11 @@ footer section img {
 
 #copyright {
   width: 20%;
-  margin-left: 23%;
-  margin-right: 22%;
+  margin-left: 21.5%;
+}
+
+#social-media {
+  display: inline;
+  margin-left: 23.5%;
+  width: 30%;
 }
