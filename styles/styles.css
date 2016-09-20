@@ -16,7 +16,6 @@ html {
 }
 
 #name-block-text * {
-  margin: .7em auto auto auto;
   display: block;
   position: static;
   text-align: center;
@@ -29,11 +28,14 @@ html {
 }
 
 #name-block-text h1 {
-  font-size: 4em;
+  margin: 3vmax auto auto auto;
+  font-size: 10vmin;
+  /*font-size: 4em;*/
 }
 
 #name-block-text h2 {
-  font-size: 2em;
+  margin: .2em auto auto auto;
+  font-size: 5vmin;
 }
 
 #nav-button-box {
@@ -53,7 +55,8 @@ html {
   overflow: hidden;
   margin: 10vmin 2vmax auto 2vmax;
   display: inline-block;
-  font-size: 1.6em;
+  /*font-size: 1.6em;*/
+  font-size: 2vmax;
   text-decoration: none;
   color: hsl(219, 30%, 26%);
   /*padding-right: auto;
@@ -62,7 +65,7 @@ html {
 }
 
 .nav-button li {
-  margin: 1em auto auto auto;
+  margin: 3.5vmin auto auto auto;
 }
 
 .nav-button:hover {
@@ -133,7 +136,7 @@ span.fa:hover {
   margin: auto 30vmax auto 30vmax;
   position: absolute;
   text-align: center;
-  top: 97vmin;
+  top: 98vmin;
 }
 
 #copyright h4 {
