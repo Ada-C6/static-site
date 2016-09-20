@@ -4,6 +4,19 @@ body {
   background: linear-gradient(to right, #58605C, #496054, #324433);
 }
 
+a:link {
+  color: #107896;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #107896;
+}
+
 nav.navigation-pane {
   position: relative;
   width: 70%;
@@ -12,13 +25,13 @@ nav.navigation-pane {
 
 nav a:link {
 color: #C1C1C1;
-font: 2.7em/1 sans-serif;
-margin: 0 3% 0 0;
+font: 40px/1 sans-serif;
+margin: 0 4.5% 0 0;
 text-decoration: none;
 }
 
 nav a:hover {
-  color: black;
+  text-decoration: underline;
 }
 
 nav a:visited {
