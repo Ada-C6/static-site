@@ -49,31 +49,85 @@ html {
 	font: normal normal 24px/1 sans-serif;
 }
 
-header {
+header.home {
   background-color:  none;
 }
 
-header h1 {
+header.home h1 {
   text-align: center;
-	font-family: 'Crushed';
-	color: #00BACB;
-  letter-spacing: .05em;
+	margin-left: 0;
 }
 
-nav a {
-	
+header {
+	text-align: justify;
+	letter-spacing: 1px;
+	height: 10vh;
+	padding: 2vh 10vw;
 }
+
+header::after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+header h1 {
+	font-family: 'Crushed';
+	color: #00BACB;
+	letter-spacing: .05em;
+	/*text-align: left;
+	margin: 1vmin 5vw;*/
+	display: inline-block;
+	font-size: 8vmin;
+	height: 100%;
+	vertical-align: middle;
+	margin: 0;
+}
+
+header h1::before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+nav {
+	/*width: 50vmin;*/
+	/*height: 20vmin;*/
+	/*float: right;*/
+	/*align-content: center;*/
+	text-align: center;
+	display: inline-block;
+}
+
+/*nav ul {
+	vertical-align: middle;
+}*/
 
 nav ul li {
   display: inline-block;
   list-style: none;
+	border-radius: 50%;
+	font-size: 1.5vmin;
+	font-family: 'Montserrat';
+	width: 9vmin;
+	height: 9vmin;
+	vertical-align: middle;
+}
+
+nav a {
+	position: relative;
+	top: 4vmin;
+	width: 10vmin;
+	color: white;
+	vertical-align: middle;
 }
 
 header a {
   text-decoration: none;
 }
 
-header a:visited {
+header h1 a:visited {
 	color: #00BACB;
 }
 
@@ -126,6 +180,11 @@ header a:visited {
 	background-color: #00BACB;
 		margin: 1vmin;
 }
+
+section {
+	clear: both;
+}
+
 
 footer {
 	/*display: inline-block;*/
