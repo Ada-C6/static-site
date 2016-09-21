@@ -82,26 +82,47 @@ main section {
   font-size: 16px;
 }
 
+/*For index.html*/
+#homepage-section {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+main section h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+main section h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  text-align: center;
+}
+
 main section h4, p {
-  padding: 10px 15px 5px 15px;
+  padding: 10px 15px 10px 15px;
+}
+
+.homepage-icon-list img {
+  display: block;
+  margin: auto;
+}
+
+.text-accent {
+  display: inline;
+  font-family: 'Chewy';
+  padding-left: 7.5px;
+  padding-right: 7.5px;
 }
 
 /*removed the <br> from my html in about.me for accessibility purposes.
 Unsure if this used with <li> elements is actualy an accessibility improvement though*/
 .break {
   padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
   list-style: none;
-}
-
-/* will create a more broad img selector when there's images in more general sections*/
-#profile-pic {
-  border-radius: 10px 0 10px 0;
-  float: left;
-  margin-right: 10px;
-}
-
-main section ul li {
-  padding-bottom: 10px;
 }
 
 footer {
@@ -121,8 +142,7 @@ footer p {
 }
 
 footer section img {
-  width: 50px;
-  height: 50px;
+  padding-top: 10px;
 }
 
 #copyright {
@@ -134,4 +154,11 @@ footer section img {
   display: inline;
   margin-left: 21%;
   width: 30%;
+}
+
+/*For about.html: */
+#profile-pic {
+  border-radius: 10px 0 10px 0;
+  float: left;
+  margin-right: 10px;
 }
