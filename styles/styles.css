@@ -117,8 +117,8 @@ main li {
 .text-accent {
   display: inline;
   font-family: 'Chewy';
-  padding-left: 7.5px;
-  padding-right: 7.5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /*removed the <br> from my html in about.me for accessibility purposes.
