@@ -11,7 +11,6 @@ header {
   width: 99.99%;
   top: 0;
   left: 0;
-  font-weight: lighter;
 }
 
 h1 {
@@ -24,7 +23,7 @@ h2 {
 }
 
 body {
-  margin-top: 200px;
+  margin-top: 220px;
   background-color: #77625C;
   color: #E2B188;
   width: 99%;
@@ -138,31 +137,22 @@ article p:first-child::first-letter {
   float: left;
 }
 
-main.portfolio {
-  margin-bottom: 25px;
-}
-
 main.portfolio section {
   margin: 25px;
 }
 
-main.portfolio section:nth-of-type(odd) {
-  float: right;
-  clear: both;
+section.portfolio-item {
+  clear: left;
 }
 
-main.portfolio section:nth-of-type(odd) {
+.portfolio img {
   float: left;
-  clear: both;
-}
-
-.portfolio-item img {
   width: 30%;
   height: 20%;
   margin-right: 45px;
+  margin-bottom: 50px;
   border-radius: 20px;
   border: 1px solid #2B4141;
-  float: left;
   clear: both;
 }
 
