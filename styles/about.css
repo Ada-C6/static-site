@@ -1,0 +1,20 @@
+.main-about {
+  margin: 2em 4em;
+  border-top: black 1px solid;
+}
+
+.main-about .about-me {
+  display: inline-block;
+  width: 52%;
+  margin-bottom: 4em;
+  position: absolute;
+  margin-top: 1em;
+}
+
+.main-about img {
+  border: black 1px solid;
+  display: inline-block;
+  width: 30%;
+  margin: 2em;
+  position: relative;
+}

@@ -1,7 +1,6 @@
 /*font-family: 'Playfair Display', serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Shadows Into Light', cursive;
-font-family: 'Homemade Apple', cursive;
 font-family: 'Cabin Sketch', cursive;
 font-family: 'IM Fell English', serif;
 font-family: 'Life Savers', cursive;
@@ -11,74 +10,71 @@ font-family: 'Life Savers', cursive;
 }
 
 header.header {
-  background-color: #fea38e;
-  border: black 1px solid;
-  border-radius: 5px;
-  margin-top: 3em;
-  padding-top: 2em;
-  font-size: 2.5em;
+  width: 75%;
+  margin: auto;
+  border-bottom: black 1px solid;
+  margin-top: 1.5em;
+  padding-top: 1em;
+  font-size: 2em;
 }
-
 header h1 {
   text-align: center;
+  margin-bottom: 0em;
 }
 
 .main-navigation {
-  background-color: #89feb3;
-  border: black 1px solid;
   border-radius: 5px;
-  width: 35%;
+  width: 25%;
   margin: 0px auto 5em;
-  margin-bottom: 3em;;
-}
-
-/*.main-navigation-not-home {
   margin-bottom: 3em;
-}*/
+}
 
-nav.main-navigation a {
+nav.main-navigation a[href*="html"] {
   display: block;
   border-bottom: black 1px solid;
-  padding: 15px 5px;
+  padding: .2em;
   text-align: center;
   font-size: 1.2em;
   text-decoration: none;
+  color: black;
 }
 
-nav.main-navigation-not-home a {
-  display: block;
-  border-bottom: black 1px solid;
-  padding: 15px 5px;
-  text-align: center;
-  font-size: 1.2em;
-  text-decoration: none;
+nav.main-navigation a:hover {
+  color: #008080;
 }
 
-p.current-location {
-  font-weight: bold
+.main-navigation a.current-location {
+  background-color: lightgrey;
 }
 
 footer {
-  background-color: #ba214e;
-  border: black 1px solid;
+  border-top: black 1px solid;
   display: inline-block;
 }
 
 footer h4, footer p {
   float: left;
-  padding: 15px;
+  padding: 1.5em;
+}
+
+footer p {
+  padding-top: 1.8em;
+}
+
+footer.home-footer {
+  margin-top: 13em;
 }
 
 footer .thumbnail {
   float: right;
   padding: 2em 1em;
-  width: 5%;
+  width: 3%;
   margin: 0em;
 }
 
 footer .thumbnail-gmail {
   float: right;
   padding: 2.5em 1em;
-  width: 5%;
+  width: 3%;
   margin: 0em;
 }
