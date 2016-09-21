@@ -1,4 +1,4 @@
-body, div, h3, h1, ul, li, a, #home, header, nav {
+html, body, div, h3, h1, ul, li, a, #home, header, nav {
   margin: 0px;
   padding: 0px;
 }
@@ -10,12 +10,26 @@ header {
   height: 50px;
   padding: 10px 30px;
   margin: 0px;
-  background-color: #E6E6E6;
+  background-color: #dcdcdc;
+  z-index: 1;
 }
 
+
 #home-header {
-  background-color: #E6E6E6;
+  background-color: #dcdcdc;
 }
+
+/*#home-header img {
+  /*border-radius: 50%;*/
+/*}*/
+
+/*.additional-header img {
+  border-radius: 50%;
+}*/
+
+/*.header-articles img {
+  border-radius: 50%;
+/*}*/
 
 .background-img img {
   width: 100%;
@@ -25,10 +39,16 @@ header {
   border: 0.1px solid none;
   top: 69px;
 }
+
 #home-intro {
   width: 100%
   height: 50px;
   margin: 0px auto;
+  /*z-index: 10;*/
+}
+
+#home-intro ::selection {
+  background-color: #E6E6E6;
 }
 
 header h1 {
@@ -65,9 +85,12 @@ nav li {
 }
 
 li img {
-  height: 25px;
-  width: 25px;
+  height: 13px;
+  width: 13px;
 }
+/*li img:hover {
+  text-decoration: underline;
+}*/
 
 
 #body-title {
@@ -79,10 +102,18 @@ li img {
 
 }
 
+footer p {
+  text-align-last: center;
+  /*margin-bottom: 0;*/
+  margin-top: 20px;
+  /*background-color: green;*/
+}
+
+
 /*main*/
 
 .addional-webs-main {
-  background-color: #E6E6E6;
+  background-color: #dcdcdc;
   margin: 0px;
   padding: 0px;
 }
@@ -131,6 +162,9 @@ main p {
 ul li {
   list-style-type: none;
 }
+/*</main>*/
+
+/*<about>*/
 
 .about-me {
   font-family: Cormorant;
@@ -158,18 +192,75 @@ ul li {
   color: #01CAA3;
 }
 
+#about-footer p {
+  text-align-last: center;
+  /*margin-bottom: 0;*/
+  /*background-color: yellow;*/
+  margin-top: 200px;
+ }
+
+ /*</about>*/
+
+
+/*portfolio*/
+
+
+/*.code-bar {
+    height: 20px;
+    background-color: #40e0d0;
+  width: 250px;
+  margin-left: 100px;
+  margin-top: 80px;
+}*/
+.code-boarder {
+  width: 900px;
+  margin-left: 200px;
+  margin-top: 100px
+}
+
+.code-boarder a {
+  margin: 20px 10px 30px 80px;
+  height: 100px;
+  background-color: #cecece;
+  width: 300px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 2em;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  color: #A3A3A3;
+  text-decoration: none;
+  text-shadow: gray;
+}
+
+.code-boarder a:hover {
+  background-color: white;
+}
+
+#portfolio-footer p {
+  text-align-last: center;
+  /*margin-bottom: 0;*/
+  /*background-color: blue;*/
+  margin-top: 50px;
+}
+
+/*</portfolio>*/
+
 /*Code-Journal additional*/
+
 .journal-intro {
   text-align: center;
   margin-top: 50px;
   margin-bottom: 50px;
 }
 .code-Journal-articles nav a {
-  margin-left: 40%;
+  margin-left: 45%;
   margin-bottom: 0px;
   text-decoration: none;
   font-family: Roboto;
-  color: black;
+  color: grey;
+  text-shadow: gray;
   font-size: 2.5em;
   /*padding-top: 80%;*/
   /*text-decoration-color: transparent;*/
@@ -181,15 +272,26 @@ ul li {
 .code-Journal-articles p {
 margin-left: 40%;
 }
-/*articles*/
 
-.article-one {
-
+#journal-footer p {
+  text-align-last: center;
+  /*margin-bottom: 0;*/
+  /*background-color: teal;*/
+  margin-top: 370px;
 }
 
+/*</code-journal>*/
+
+/*<article>*/
+
 .header-articles {
-  margin: 0px;
+  /*border-color: black;
+  border: solid;
+  margin-top: 0px;
+  margin-bottom: 20p;
+  background-color: green;*/
   position: static;
+  /*widows: 800px;*/
 }
 
 .article-title p:first-child {
@@ -244,3 +346,7 @@ margin-left: 40%;
 .inner a:hover {
   color: #01CAA3;
 }
+
+
+
+/*</article>*/
