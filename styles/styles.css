@@ -48,9 +48,9 @@ nav ul li {
 }
 
 footer {
-  text-align: center;
   border-top: 1px solid #2B4141;
   clear: both;
+  display: inline-block;
 }
 
 .post {
@@ -164,4 +164,29 @@ main.portfolio section:nth-of-type(odd) {
   border: 1px solid #2B4141;
   float: left;
   clear: both;
+}
+
+footer {
+  width: 99%;
+}
+
+#copyright {
+  float: left;
+  width: 65%;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+footer nav {
+  padding: 0px;
+  margin-top: -35px;
+  margin-right: 45px;
+  float: right;
+  clear: both;
+  background-color: transparent;
+}
+
+footer img {
+  width: 50px;
+  height: 50px;
 }
