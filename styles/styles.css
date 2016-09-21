@@ -97,11 +97,16 @@ main section h2 {
   padding-top: 10px;
   padding-bottom: 10px;
   font-size: 25px;
+  font-weight: normal;
   text-align: center;
 }
 
 main section h4, p {
   padding: 10px 15px 10px 15px;
+}
+
+main li {
+  padding-bottom: 10px;
 }
 
 .homepage-icon-list img {
@@ -143,6 +148,7 @@ footer p {
 
 footer section img {
   padding-top: 10px;
+  width: 40px;
 }
 
 #copyright {
@@ -152,7 +158,7 @@ footer section img {
 
 #social-media {
   display: inline;
-  margin-left: 21%;
+  margin-left: 23%;
   width: 30%;
 }
 
