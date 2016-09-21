@@ -1,53 +1,65 @@
-/*.header-background{
-  position: absolute;
-  width: 100%;
-  height: 200px;
-  top: 5px;
-  z-index: -1;
-}*/
 
 html {
   font-family: Lucida Grande;
 }
 header, footer{
+  color: #F2F2F2;
   text-align: center;
-  /*font-family: Lucida Grande;*/
   border-bottom: 2px #FE654F solid;
-    /*background-color: #FED99B;*/
-  background-color: #FFD131;
+  background-color: #0B3954;
   border-radius: 5px;
 }
 
 header {
-  float: left;
-  width: 90%;
+  float: clear;
+  width: 100%;
 }
 
 nav {
+  display: inline-block;
   float: right;
-  border: 2px black solid;
-  margin: 2px;
-  /*padding: 5%;*/
+  width: 100%;
 }
 
 nav ul li{
   padding: 2px 5px 2px 0px;
-  margin-left: 2px;
   list-style: none;
-  display: block;
-  /*background-color: #E8C5CA;*/
-  /*background-color: #FED99B;*/
+  display: inline-block;
+}
+
+nav a.nav_link {
+  color: white;
 }
 
 a {
+  color: #FE654F;
   text-decoration:none;
-
 }
 
-main.introduction {
+nav a:hover {
+  background-color: rgb(156, 156, 156);
+}
+
+a:visited {
+  color: #FF6663;
+}
+
+h3 {
+  text-align: center;
+}
+
+main{
+  clear: both;
   display: inline-block;
   border-radius: 5px;
-  background-color: #FED99B;
+  background-color: #BFD7EA;
+  width: 100%;
+  margin-top: 15px;
+}
+
+
+main article {
+  padding: 5px 15px 15px 15px;
 }
 
 article img {
@@ -59,13 +71,13 @@ article img {
 
 article p {
   display: block;
-  /*padding-left: 30px;*/
+
 }
 
-main {
-  clear: both;
+#move_list_over {
+  display: inline-block;
+  padding-left: 15px;
 }
-
 footer {
   display: block;
   clear: both;

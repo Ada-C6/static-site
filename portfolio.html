@@ -6,42 +6,66 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a class="nav_link" href="index.html"> Home </a></li>
+        <li><a class="nav_link" href="portfolio.html"> Portfolio</a></li>
+        <li><a class="nav_link" href="hobby-blog.html"> Blog</a></li>
+        <li><a class="nav_link" href="about.html">About Dianne</a></li>
+      </ul>
+    </nav>
+
     <header>
       <h1> Portfolio </h1>
       <p> Here live cool projects, whether print or virtual. </p>
     </header>
 
-    <nav>
-      <ul>
-        <li><a href="index.html"> Home </a></li>
-        <li><a href="portfolio.html"> Portfolio</a></li>
-        <li><a href="hobby-blog.html"> Blog</a></li>
-        <li><a href="about.html">About Dianne</a></li>
-      </ul>
-    </nav>
+
 
     <main>
       <article class="github-projects">
         <h3>Ruby Projects</h3>
-        <p>The projects listed here are classwork and homework projects I've worked on during my time at Ada, unless otherwise specified. </p>
-        <h5><a href="https://github.com/dlaguerta/Scrabble"> Scrabble</a> </h5>
+        <p>The projects listed here are classwork and homework projects I've worked on during my time at<a href="https://github.com/Ada-Developers-Academy"> Ada Developers Academy</a>, unless otherwise specified. </p>
+        <h4><a href="https://github.com/dlaguerta/FarMar">Farmer's Market ("FarMar")</a> </h4>
+        <p> Farmer's Market was an independent project where I learned how to:
+          <ul>
+            <li>Build a relational database using CSV files</li>
+            <li>Practice writing TDD specs</li>
+            <li>Practice using Ruby Enumerables</li>
+          </ul>
+        </p>
+        <h4><a href="https://github.com/dlaguerta/Scrabble"> Scrabble</a> </h4>
         <p> Scrabble was a pair-programming project where I learned how to:
           <ul>
             <li>Write TDD specs</li>
             <li>Create Class and instance methods</li>
+            <li>Use constants</li>
+            <li>Work as both a driver and a navigator in a pair</li>
+            <li>Practice Git workflow with a partner</li>
+          </ul>
+        </p>
+        <h4><a href="https://github.com/dlaguerta/random_menu_generator">Random Menu Generator</a> </h4>
+        <p> One of our first projects using Ruby at Ada, my random menu generator creates fictional food menus inspired by music and Seattle. In this project, I learned about:
+          <ul>
+            <li>Using arrays and hashes</li>
+            <li>Using various loops</li>
+            <li>running code from the Terminal </li>
           </ul>
         </p>
       </article>
       <article class="non-code-projects">
         <h3>Non-Code Projects</h3>
         <p>I'm not just a programmer! I also made zines (handmade, small magazines), which have been shared and sold at local zine fests. Here's a sampling of zines I've made. </p>
-        <h5> "Buffy and Beer" </h5>
+        <h4> "Buffy and Beer" </h4>
+        <img src="images/buffy_beer.jpg">
         <p> Buffy and Beer is a zine about two of my favorite things: the TV show Buffy the Vampire Slayer and beer. It's a fun-content zine and should definitely not be taken seriously. It features:
-          <ul>
+
+          <ul id="move_list_over">
             <li>Buffy</li>
-            <li>Craft Beer</li>
-            <li>Feelings</li>
+            <li>Craft Beer reviews</li>
+            <li>lots of feelings</li>
           </ul>
+
         </p>
       </article>
     </main>
