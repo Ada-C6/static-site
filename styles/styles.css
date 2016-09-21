@@ -1,17 +1,18 @@
 /*Background gradient does not stay consistent when resizing. See http://stackoverflow.com/questions/14915653/refresh-page-on-resize-with-javascript-or-jquery for JS way of refreshing it for the future.*/
 
 body {
-  background: #324433;
+  background: #324433; /*included so that browsers not supporting gradients get an appropriate background color*/
   background: linear-gradient(to right, #58605C, #496054, #324433);
+  cursor: default; /*avoids change of cursor on blocks of text*/
 }
 
 a:link {
   color: #107896;
   text-decoration: none;
+  cursor: crosshair; /*included to give extra visual feedback for links*/
 }
 
 a:hover {
-  color: #107896;
   text-decoration: underline;
 }
 
@@ -85,16 +86,16 @@ main section h4, p {
   padding: 10px 15px 5px 15px;
 }
 
+/*removed the <br> from my html in about.me for accessibility purposes.
+Unsure if this used with <li> elements is actualy an accessibility improvement though*/
 .break {
   padding-left: 15px;
   list-style: none;
 }
 
-img {
-  border-radius: 10px 0 10px 0;
-}
-
+/* will create a more broad img selector when there's images in more general sections*/
 #profile-pic {
+  border-radius: 10px 0 10px 0;
   float: left;
   margin-right: 10px;
 }
