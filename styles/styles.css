@@ -96,20 +96,16 @@ pre {
 
 a {
   color: #98D2EB;
+  text-decoration: none;
 }
 
 a:hover {
   color: #CFD7C7;
+  text-decoration: underline;
 }
 
 nav a {
-  text-decoration: none;
   color: #40798C;
-}
-
-nav a:hover {
-  text-decoration: underline;
-  color: #CFD7C7;
 }
 
 article p:first-child::first-letter {
@@ -117,10 +113,11 @@ article p:first-child::first-letter {
 }
 
 #profile {
-  display: inline-block;
+  display: inline;
   float: right;
-  max-width: 50%;
-  margin-right: 55px;
+  max-width: 70vmax;
+  margin-left: 2vmax;
+  margin-right: 2vmax;
 }
 
 #profile ul {
@@ -128,13 +125,13 @@ article p:first-child::first-letter {
 }
 
 #profile-img {
-  display: inline-block;
+  display: inline;
   border: 1px solid #2B4141;
   border-radius: 5%;
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 2vmax;
   margin-bottom: 25px;
   float: left;
+  width: 20vmax;
 }
 
 main.portfolio section {
