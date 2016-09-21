@@ -129,21 +129,9 @@ span.fa:hover {
 }
 
 #landing-social-links {
-  display: inline-block;
-  text-align: center;
-  position: absolute;
   top: 88vmin;
-  box-sizing: border-box;
-  width: 40vmax;
-  margin: auto 30vmax auto 30vmax;
 }
 
 #landing-social-links span.fa {
-    color: hsl(231, 3%, 60%);
     margin: 0.5vmax;
-    text-align: center;
-}
-
-#landing-social-links span.fa:hover {
-  color: #CACAD1;
 }
