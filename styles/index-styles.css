@@ -4,53 +4,58 @@ html {
 
 body {
   margin: 0px;
+
 }
 
 header {
   float: left;
-  background-color: #666666;
-  color: #ffffcc;
   height: 100vh;
   width: 50vw;
+  background-color: #666666;
+  color: #ffffcc;
 }
 
 header h1 {
-  padding-top: 180px;
-  padding-bottom: 20px;
-  padding-left: 10px;
-  font-size: 4em;
+  font-size: 6em;
+  padding-left: 5vw;
 }
 
 header h2 {
-  padding-right: 15px;
   font-size: 3em;
-  padding-left: 53px;
+  padding-top: 10vh;
+  padding-left: 10vw;
 }
 
 article {
   background-color: #ffffcc;
-  position: relative;
   height: 100vh;
-  margin-left: 50vw;
-  /*border: orange 4px solid;*/
-}
-nav {
-  position: relative;
-  /*border: blue 5px solid;*/
-  padding-top: 15vh;
-  padding-bottom: 20vh;
 }
 
-section.menu {
-  font-size: 3em;
-  position: relative;
-  padding-left: 10vh;
-  padding-top: 9vh;
+.menu {
+
+  padding-top: 15vh;
+  padding-left: 65vw;
+}
+
+.menu img {
+  height: 12vh;
+  width: 8vw;
+  display: inline-block;
+}
+.menu a {
   color: #666666;
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+.menu a:hover {
+  color: #e63900;
 }
 
 footer {
-  border: black 5px solid;
-  /*margin-bottom: 0px;
-  padding: 10px;*/
+  position: relative;
+  float:right;
+  margin-top: 8vh;
 }

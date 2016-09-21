@@ -1,0 +1,70 @@
+html {
+  font-family: "Brush Script MT";
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  background-color: #666666;
+  height: 18vh;
+  width: 100vw;
+}
+.menu {
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+}
+.menu > a {
+  color: #ffffcc;
+  font-size: 4em;
+  padding-left: 15vw;
+  padding-right: 2vw;
+  text-decoration: none;
+}
+
+.menu > a:hover {
+  color: #e63900;
+}
+
+.projects {
+  background-color: #ffffcc;
+  padding-bottom: 1vh;
+}
+
+.first {
+  display: block;
+  height: 29vh;
+  padding-top: 10vh;
+}
+.project {
+  padding-left: 8vw;
+  display: inline;
+}
+.project > img {
+  height: 12vh;
+  width: 10vw;
+}
+
+.project > a {
+  font-size: 2em;
+  color: #666666;
+  padding-left: 2vw;
+  text-decoration: none;
+}
+
+.project > a:hover {
+  color: #e63900;
+}
+
+.second {
+  display: block;
+  height: 29vh;
+  padding-top: 10vh;
+}
+
+footer {
+  padding-left: 85vw;
+  background-color: #ffffcc;
+  width: 100vw;
+}
