@@ -1,0 +1,10 @@
+images!
+
+images in another file example:
+<img src="/images/html5.gif" alt="HTML5 Icon" style="width:128px;height:128px;">
+
+
+
+"/Users/natashaewing/Documents/Ada/HTML/static-site/images/colorspec.jpg"
+img <img src= "./images/colorspec.jpg" alt="colorspec">
+<img src="paris.jpg" alt="Paris">

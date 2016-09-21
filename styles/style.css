@@ -1,0 +1,133 @@
+@font-face {
+	font-family: Mathlete-Bulky;
+	src: url(mathlete/Mathlete-Bulky.otf);
+}
+@font-face {
+    font-family: Mathlete-BulkySlant;
+    src: url(mathlete/Mathlete-BulkySlant.otf);
+}
+@font-face {
+	font-family: Mathlete-Skinny;
+	src: url(mathlete/Mathlete-Skinny.otf);
+}
+@font-face {
+	font-family: Mathlete-SkinnySlant;
+	src: url(mathlete/Mathlete-SkinnySlant.otf);
+}
+
+
+.bg{
+  background-image:url('colorspec.jpg');
+  background-size: 100%;
+}
+
+
+.homepage{
+z-index: 5;
+margin-left: 3%;
+padding: 0% 5px 1px 15px;
+position: absolute;
+display: block;
+font-size: 14em;
+text-align: center;
+vertical-align: text-top;
+text-transform: capitalize;
+font-weight: 500;
+font-family: Mathlete-BulkySlant;
+}
+
+.name{
+  z-index: 0;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding: 5px 0% 5px 70%;
+  position:relative;
+  display: flex;
+  font-size: 4em;
+  text-align: right;
+  font-family:Mathlete-Skinny;
+  font-weight: lighter;
+}
+
+
+
+.description{
+  z-index: 0;
+  margin-left: 40%;
+  margin-right: 10%;
+  padding: 10% 10% 10% 10%;
+  position:relative;
+  display:block;
+  font-size: 2em;
+  text-align: center;
+  vertical-align: middle;
+  font-family: Mathlete-SkinnySlant;
+  color: grey;
+  align-content: center;
+  border-color: #84e1e8;
+  border-style: solid;
+  border-width: thick;
+
+}
+.verb{
+  width: 65%;
+  text-emphasis-color: white
+  max-height: 500px;
+  position: relative;
+  font-family: mathlete-bulky;
+  font-size: 3rem;
+
+  background-color: #DBF0FF;
+  color: grey;
+  text-align: center;
+  z-index: 20;
+  margin-left: 5px;
+  margin-right: 0;
+justify-content: center;
+-webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+/*background-color: azure;*/
+}
+
+.verbish{
+  width: 70%;
+  height: 250px;
+  position: relative;
+  font-size: 4rem;
+  display: flex;
+  vertical-align: middle;
+	justify-content: center;
+	align-items: center;
+  border-color: #84e1e8;
+  background-color: #1e90ff;
+  text-align: justify;
+  /*background-color: cyan;*/
+  border-bottom-style: solid;
+  border-bottom-color: #84e1e8
+  border-style: solid;
+  border-width: thick;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  z-index: 0;
+  font-family: Mathlete-BulkySlant;
+  padding: 5px 5px 15px 5px;
+  margin: 20px 10px 40px 50px;
+  }
+
+
+/* Center the demo */
+html, body { height: 100%; }
+
+
+.opening-ceremony{
+  z-index: 1;
+  padding: 60px 20px 80px 20px;
+  margin: 40px 40px 20px 40px;
+  position: relative;
+  font-size: 2.75rem;
+  text-align: justify;
+  border-color: #84e1e8;
+  border-style: solid;
+  border-width: thick;
+  font-family: Mathlete-BulkySlant;
+}
