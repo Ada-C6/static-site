@@ -1,9 +1,72 @@
+/* General */
 html {
   background-color: hsl(219, 30%, 26%);
   position: absolute;
   font-family: 'Nunito', sans-serif;
 }
 
+ul {
+  display: inline-block;
+  list-style: none;
+  list-style-position: outside;
+  -webkit-margin-before: 0;
+  -webkit-padding-start: 0;
+  -moz-padding-start: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+/* Social Links footer*/
+#social-links {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 88vmin;
+  box-sizing: border-box;
+  width: 40vmax;
+  margin: auto 30vmax auto 30vmax;
+}
+
+span.fa {
+    color: hsl(231, 3%, 60%);
+    margin: 0.5vmax;
+    text-align: center;
+}
+
+span.fa:hover {
+  color: #CACAD1;
+}
+
+#copyright {
+  clear: both;
+  display: inline-block;
+  width: 40vmax;
+  margin: auto 30vmax auto 30vmax;
+  position: absolute;
+  text-align: center;
+  top: 97.5vmin;
+}
+
+#copyright h4 {
+  color: hsl(231, 3%, 60%);
+  font-size: 1.5vmin;
+  font-weight: 300;
+  margin: auto;
+}
+
+/*Header Nav Bar*/
+
+
+
+
+
+
+
+
+
+/* Landing Page */
 #name-block-text {
   background-color: hsl(231, 3%, 60%);
   position: relative;
@@ -25,16 +88,11 @@ html {
   text-align: center;
   overflow: hidden;
   font-weight: 300;
-  /*display: inline;*/
-  /*padding: auto auto auto auto;*/
-  /*position: relative;*/
-  /*clear: both;*/
 }
 
 #name-block-text h1 {
   margin: 3vmax auto auto auto;
   font-size: 10vmin;
-  /*font-size: 4em;*/
 }
 
 #name-block-text h2 {
@@ -46,8 +104,6 @@ html {
   display: inline-block;
   width: 100%;
   text-align: center;
-  /*align-items: center;*/
-  /*margin: auto;*/
 }
 
 .nav-button {
@@ -59,13 +115,9 @@ html {
   overflow: hidden;
   margin: 10vmin 2vmax auto 2vmax;
   display: inline-block;
-  /*font-size: 1.6em;*/
   font-size: 2vmax;
   text-decoration: none;
   color: hsl(219, 30%, 26%);
-  /*padding-right: auto;
-  padding-left: auto;
-  padding-bottom: auto;*/
 }
 
 .nav-button li {
@@ -74,75 +126,4 @@ html {
 
 .nav-button:hover {
   background-color: #CACAD1;
-}
-
-/*main {
-  position: relative;
-}*/
-#social-links {
-  display: inline-block;
-  text-align: center;
-  position: absolute;
-  top: 88vmin;
-  box-sizing: border-box;
-  width: 40vmax;
-  margin: auto 30vmax auto 30vmax;
-  /*padding: 2vmax;*/
-  /*position: relative;*/
-  /*bottom: 10vmin;*/
-  /*left: auto;
-  right: auto;*/
-  /*margin-left: 30vmax;
-  margin-right: 30vmax;*/
-  /*margin-bottom: 10vmin;*/
-  /*min-width: 40vmax;*/
-  /*height: 10vmin;*/
-  /*margin: auto;*/
-}
-
-ul {
-  display: inline-block;
-  list-style: none;
-  list-style-position: outside;
-  /*margin: auto none auto none;*/
-  -webkit-margin-before: 0;
-  -webkit-padding-start: 0;
-  -moz-padding-start: 0;
-  /*align-items: center;*/
-}
-/* ul.social-links has no meaning!*/
-
-li {
-  display: inline-block;
-  /*margin: none;*/
-}
-
-span.fa {
-    color: hsl(231, 3%, 60%);
-    /*padding: none;*/
-    margin: 0.5vmax;
-    /*margin: 2vmin;*/
-    text-align: center;
-}
-
-span.fa:hover {
-  color: #CACAD1;
-}
-
-#copyright {
-  clear: both;
-  display: inline-block;
-  width: 40vmax;
-  /*margin-left: auto;*/
-  margin: auto 30vmax auto 30vmax;
-  position: absolute;
-  text-align: center;
-  top: 97.5vmin;
-}
-
-#copyright h4 {
-  color: hsl(231, 3%, 60%);
-  font-size: 1.5vmin;
-  font-weight: 300;
-  margin: auto;
 }
