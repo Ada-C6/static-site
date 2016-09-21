@@ -1,0 +1,91 @@
+html, body { height: 100%; }
+
+.prtbg{
+  background-image:url('../images/waves.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body{
+  font-weight: 200;
+  font-size: 2em;
+  color:gainsboro;
+  font-style: normal;
+  font-family: Mathlete-Skinny;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header{
+  position: absolute;
+  color: lightpink;
+  display: table-caption;
+  font-family: Mathlete-Skinny;
+  font-size: 2.5em;
+  font-weight: 300;
+  width: 200px;
+  margin: 10px 90px 10px 5px;
+  padding: 10px 90px 10px 10px;
+  border-color: #84e1e8;
+  border-style: solid;
+  border-width: thick;
+}
+
+a:-webkit-any-link {
+    color:mintcream;
+  }
+
+/*.img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+<div class="img" style="background-image:url('http://i.imgur.com/tI5jq2c.jpg');"></div>
+<div class="img" style="background-image:url('http://i.imgur.com/37w80TG.jpg');"></div>
+<div class="img" style="background-image:url('http://i.imgur.com/B1MCOtx.jpg');"></div>
+*/
+
+ul {
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    margin: 10px 800px 10px 10px;
+    padding: 10px 100px 10px 10px;
+}
+
+li a {
+    display: block;
+    list-style-type: none;
+    width: 60px;
+    text-decoration: none;
+    text-align:right;
+    border-bottom: 4px solid papayawhip;
+    font-family: Mathlete-SkinnySlant;
+    font-weight: bolder;
+    margin: 10px 300px 10px 10px;
+    padding: 10px 400px 10px 10px;
+}
+
+li:last-child{
+  border-bottom: none;
+}
+
+
+li a:hover {
+    background-color: transparent;
+    color: violet;
+    background-color: #84e1e8;
+}
+
+li a:active {
+    background-color: pink
+    color: violet;
+}
