@@ -138,18 +138,30 @@ html, body { height: 100%; }
   font-family: Mathlete-BulkySlant;
 }
 
-footer{
+/*footer{
   position: relative;
+  width: 100%;
+  height: 30px;
   display: block;
+  color: honeydew;
+  font-size: .75em;
   text-align: center;
+  font-weight: 200;
   background-color: #84e1e8;
-  color: lavenderblush;
-  background-position: center;
-  margin 2px 2px 2px 2px;
-  padding: 2px 2px 2px 5px;
   font: Mathlete-SkinnySlant;
-  font-size: 1em;
-  font-weight: lighter;
-  font-stretch: extra-expanded;
-  text-rendering: optimizeLegibility;
+}*/
+
+footer{
+background-color: rgb(132, 225, 232);
+color:rgb(240, 255, 240);
+display:block;
+font-family:Mathlete-SkinnySlant;
+font-size:24px;
+font-style:normal;
+font-weight:200;
+height:30px;
+list-style-type:none;
+position:relative;
+text-align: center;
+width:100%;
 }

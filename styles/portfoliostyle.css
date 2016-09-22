@@ -17,38 +17,23 @@ body{
   list-style-type: none;
 }
 
-header{
-  position: absolute;
+.portfolio{
+  width: 80%;
+  height: 100px;
   color: lightpink;
-  display: table-caption;
-  font-family: Mathlete-Skinny;
-  font-size: 2.5em;
+  display: inline;
+  vertical-align: middle;
   font-weight: 300;
-  width: 200px;
-  margin: 10px 90px 10px 5px;
-  padding: 10px 90px 10px 10px;
-  border-color: #84e1e8;
+  font-size: 2.5em;
   border-style: solid;
   border-width: thick;
+  border-color: #84e1e8;
+  font-family: Mathlete-Skinny;
 }
 
 a:-webkit-any-link {
     color:mintcream;
   }
-
-/*.img {
-    position: relative;
-    float: left;
-    width:  100px;
-    height: 100px;
-    background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
-}
-<div class="img" style="background-image:url('http://i.imgur.com/tI5jq2c.jpg');"></div>
-<div class="img" style="background-image:url('http://i.imgur.com/37w80TG.jpg');"></div>
-<div class="img" style="background-image:url('http://i.imgur.com/B1MCOtx.jpg');"></div>
-*/
 
 ul {
     position: relative;
@@ -57,8 +42,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    margin: 10px 800px 10px 10px;
-    padding: 10px 100px 10px 10px;
+
 }
 
 li a {
@@ -70,14 +54,9 @@ li a {
     border-bottom: 4px solid papayawhip;
     font-family: Mathlete-SkinnySlant;
     font-weight: bolder;
-    margin: 10px 300px 10px 10px;
-    padding: 10px 400px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 90px 10px 10px;;
 }
-
-li:last-child{
-  border-bottom: none;
-}
-
 
 li a:hover {
     background-color: transparent;
@@ -86,6 +65,6 @@ li a:hover {
 }
 
 li a:active {
-    background-color: pink
+    background-color: pink;
     color: violet;
 }
