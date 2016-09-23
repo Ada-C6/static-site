@@ -32,7 +32,7 @@ nav a.nav_link {
 }
 
 a {
-  color: #FE654F;
+  color: #240906;
   text-decoration:none;
 }
 
@@ -41,7 +41,8 @@ nav a:hover {
 }
 
 a:visited {
-  color: #FF6663;
+  /*color: #FF6663;*/
+  color: #d24946;
 }
 
 /*nav bar code with help from W3 schools, creates dropdown subnav for blog posts*/
@@ -75,7 +76,7 @@ li.subnav {
 .subnav-links {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #d24946;
     max-width: 15%;
     border-radius: 5%;
     /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
@@ -157,6 +158,7 @@ article p {
   display: inline-block;
   padding-left: 15px;
 }
+
 footer {
   display: block;
   clear: both;
