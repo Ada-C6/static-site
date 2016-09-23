@@ -9,7 +9,6 @@ header {
 }
 
 header h1 {
-    /*color: #3c3c3c;*/
     text-align: center;
     width: 100vw;
     font-size: 4em;
@@ -20,6 +19,34 @@ h1.focus {
     font-size: 6em;
     height: 1em;
 }
+
+header.subpage {
+    padding-top: 0%;
+}
+
+h1.subpage_focus {
+    font-size: 3em;
+    height: 1em;
+}
+
+header h1.subpage {
+    text-align: center;
+    width: 100vw;
+    font-size: 2em;
+    margin: 10px;
+}
+
+div h2 {
+    text-align: center;
+    width: 100vw;
+    font-size: 4em;
+    margin: 10px;
+    color: #626e60;
+}
+
+/*div p {
+
+}*/
 
 h3.circle {
     display: inline-block;
@@ -55,7 +82,3 @@ nav h3 a {
     color: #fcfbe3;
     text-decoration: none;
 }
-
-/*footer h6 {
-    color: #3c3c3c;
-}*/
