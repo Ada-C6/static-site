@@ -10,6 +10,7 @@ ul {
   list-style: none;
   list-style-position: outside;
   -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
   -webkit-padding-start: 0;
   -moz-padding-start: 0;
 }
@@ -18,20 +19,25 @@ li {
   display: inline-block;
 }
 
-/* Social Links footer*/
-.social-links {
-  display: inline-block;
-  text-align: center;
+a {
+  text-decoration: none;
+}
+
+/* Footer & social-links */
+footer {
+  background-color: #FFFFFF;
+  width: 100vw; /* remove? */
+  display: block;
   position: absolute;
-  top: 92vmin;
-  box-sizing: border-box;
-  width: 40vmax;
-  margin: auto 30vmax auto 30vmax;
+  left: 0;
+  top: 89vh;
+  text-align: center;
 }
 
 span.fa {
   color: hsl(231, 3%, 60%);
-  margin: 0.25vmax;
+  margin: 0.5vmax 0.25vmax 0 0.25vmax;
+  padding-bottom: 0;
   text-align: center;
 }
 
@@ -40,30 +46,43 @@ span.fa:hover {
 }
 
 #copyright {
-  clear: both;
   display: inline-block;
-  width: 40vmax;
-  margin: auto 30vmax auto 30vmax;
-  position: absolute;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding-top: 0;
+  position: static;
   text-align: center;
-  top: 97.5vmin;
-}
-
-#copyright h4 {
+  /*top: 97.5vh;*/
   color: hsl(231, 3%, 60%);
   font-size: 1.5vmin;
   font-weight: 300;
-  margin: auto;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
 }
 
 /*Header Nav Bar*/
+#nav-header-bar {
+  background-color: hsl(231, 3%, 60%);
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2vh 0.5vh 2vh 0;
+  text-align: right;
+}
 
+#nav-header-bar a {
+  color: hsl(219, 30%, 26%);
+  font-weight: 500;
+  font-size: 1.3em;
+  margin: 2vw;
+}
 
-
-
-
-
-
+#nav-header-bar a:hover {
+  color: #CACAD1;
+}
 
 
 /* Landing Page */
@@ -116,7 +135,6 @@ span.fa:hover {
   margin: 10vmin 2vmax auto 2vmax;
   display: inline-block;
   font-size: 2vmax;
-  text-decoration: none;
   color: hsl(219, 30%, 26%);
 }
 
@@ -129,9 +147,14 @@ span.fa:hover {
 }
 
 #landing-social-links {
-  top: 88vmin;
+  top: 86vmin;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+  text-align: center;
 }
 
 #landing-social-links span.fa {
-    margin: 0.5vmax;
+    padding-bottom: 0;
 }
