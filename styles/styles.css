@@ -44,9 +44,12 @@ div h2 {
     color: #626e60;
 }
 
-/*div p {
-
-}*/
+div h4 {
+    text-align: left;
+    font-size: 2em;
+    margin: 10px;
+    color: #af473c;
+}
 
 h3.circle {
     display: inline-block;
