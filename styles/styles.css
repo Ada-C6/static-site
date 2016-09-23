@@ -123,8 +123,7 @@ header.social-media {
   border-radius: 50%;
 }
 
-
-h3 {
+h3, h2 {
   text-align: center;
 }
 
@@ -139,7 +138,8 @@ main{
 
 
 main article {
-  padding: 5px 15px 15px 15px;
+  /*padding: 5px 15px 15px 15px;*/
+  padding: 0 5%;
 }
 
 article img {
