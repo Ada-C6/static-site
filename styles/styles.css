@@ -1,0 +1,66 @@
+html {
+  font: 12px/16px Arial, Serif;
+}
+
+header {
+  /*position: absolute;*/
+  /*border-style: solid;*/
+  /*display: inline-block;*/
+}
+header h1 a{
+  /*position: absolute;*/
+  display: inline-block;
+  margin: 50px 0px 10px 35px;
+  font-size: 35px;
+  letter-spacing: 3.5px;
+  text-decoration: none;
+  color: black;
+}
+
+main nav h4 {
+  display: inline-block;;
+  /*float: right;*/
+  margin: 10px 5px 5px 0;
+  font-size: 16px;
+}
+
+main nav h4 a {
+  text-decoration: none;
+  color: black;
+}
+
+main nav {
+  margin: 0px 0px 10px 35px;
+  /*display: inline-block;*/
+}
+
+main {
+  /*margin: 0 0 0 0;*/
+  /*border-style: solid;*/
+}
+
+main img {
+  width: 16%;
+  height: auto;
+  margin: 0px 0px 0px 35px;
+}
+
+article {
+  display: inline-block;
+  max-width: 50%;
+  float: right;
+  margin: 0 350px 0 0;
+  /*margin: 0 261px 0 301px;*/
+}
+
+/*#short-bio {
+  border-style: dashed;
+  max-width: 16%;
+  margin: 0;
+}*/
+
+.social-media-icons {
+  display: inline;
+  max-width: 2%;
+  max-height: auto;
+}
