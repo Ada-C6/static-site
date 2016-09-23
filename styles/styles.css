@@ -23,6 +23,29 @@ a {
   text-decoration: none;
 }
 
+.content-paragraph {
+  position: relative;
+  display: inline-block;
+  height: 35vmin;
+  width: 60vmax;
+  border-radius: 15px;
+  margin: 20vmin 20vmax auto 20vmax;
+}
+
+.content-paragraph p {
+  color: hsl(231, 3%, 60%);
+  font-weight: 300;
+  font-size: 3vh;
+}
+
+.content-paragraph a {
+  color: #FFFFFF;
+}
+
+.content-paragraph a:hover {
+  color: #CACAD1;
+}
+
 /* Footer & social-links */
 footer {
   background-color: #FFFFFF;
