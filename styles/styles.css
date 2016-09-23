@@ -46,14 +46,14 @@ a:visited {
 }
 
 /*nav bar code with help from W3 schools, creates dropdown subnav for blog posts*/
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
-li {
+nav li {
     float: left;
 }
 
