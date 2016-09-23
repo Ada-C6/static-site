@@ -1,12 +1,17 @@
+body {
+    background-color: #fcfbe3;
+    font-family: fantasy;
+    color: #3c3c3c;
+}
+
 header {
-    padding-top: 12%;
+    padding-top: 10%;
 }
 
 header h1 {
-    font-family: fantasy;
-    color: #3C3C3C;
+    /*color: #3c3c3c;*/
     text-align: center;
-    width: 100%;
+    width: 100vw;
     font-size: 4em;
     margin: 10px;
 }
@@ -15,3 +20,42 @@ h1.focus {
     font-size: 6em;
     height: 1em;
 }
+
+h3.circle {
+    display: inline-block;
+    height: 6.6em;
+    width: 6.6em;
+    background-color: #626e60;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0em .2em;
+    line-height: 6em;
+    font-size: 1.8em;
+}
+
+h3.circle:nth-child(2) {
+    background-color: #945d60;
+}
+
+h3.circle:nth-child(3) {
+    background-color: #3c3c3c;
+}
+
+h3.circle:nth-child(4) {
+    background-color: #af473c;
+}
+
+nav {
+    width: 100vw;
+    align-items: center;
+    padding: 0 12vw;
+}
+
+nav h3 a {
+    color: #fcfbe3;
+    text-decoration: none;
+}
+
+/*footer h6 {
+    color: #3c3c3c;
+}*/
