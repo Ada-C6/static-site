@@ -44,6 +44,86 @@ a:visited {
   color: #FF6663;
 }
 
+/*nav bar code with help from W3 schools, creates dropdown subnav for blog posts*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropdown {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 5%;
+    /*min-width: 100%;*/
+
+}
+
+
+li.subnav {
+    display: inline-block;
+}
+
+.subnav-links {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 15%;
+    border-radius: 5%;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+}
+
+.subnav-links a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.subnav-links a:hover {background-color: #f1f1f1}
+
+.subnav:hover .subnav-links {
+    display: block;
+}
+
+header.social-media {
+  display: block;
+  float: right;
+}
+
+.social-media img {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-social-media img{
+  background-color: white;
+  display:inline-block;
+  width: 30px;
+  height: 30px;
+}
+
+.social-media img.curve-image {
+  border-radius: 50%;
+}
+
+.footer-social-media img.curve-image {
+  border-radius: 50%;
+}
+
+
 h3 {
   text-align: center;
 }
