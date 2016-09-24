@@ -132,18 +132,40 @@ header h1 a:visited {
 	color: #00BACB;
 }
 
-.links-to-pages {
-	position: relative;
+section.links-to-pages, section.about {
+	/*position: relative;*/
 	margin: 5vmin auto 0;
-	/*width: 90vw;*/
 	height: 65vmin;
 	align-content: center;
 	text-align: center;
 	background-color: #E3F2FD;
-	/*padding: 10vmin*/
 }
 
-.links-to-pages div {
+section.about {
+	margin: 1vmin auto 0;
+}
+
+.about img {
+	width: 25vmin;
+	margin-top: -1vmin;
+}
+
+article.about-me {
+	text-align: center;
+	font-size: 5vmin;
+	color: #00BACB;
+	font-family: 'Montserrat';
+	padding: 5vmin;
+}
+
+article.about-me p {
+	font-family: 'Lato';
+	font-size: 3.5vmin;
+	line-height: 1.5em;
+	color: #686963;
+}
+
+.links-to-pages div, .about div {
 	width: 25vmin;
 	height: 25vmin;
 	position: relative;
@@ -151,8 +173,12 @@ header h1 a:visited {
 	display: inline-block;
 	border-radius: 50%;
 }
+/*
+.about div {
+	background-image: url('imgs/esther-photo.png');
+}*/
 
-.links-to-pages h2 {
+.links-to-pages h2, .about h2 {
 	position: absolute;
 	bottom: 0;
 	margin: 10vmin auto;
@@ -160,11 +186,18 @@ header h1 a:visited {
 	width: 25vmin;
 	color: white;
 	font-family: 'Montserrat';
+	text-align: center;
 }
 
-.links-to-pages a {
+.links-to-pages a, .about a {
 	text-decoration: none;
 	color: white;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.links-to-pages a:hover {
+	font-size: 5vmin;
 }
 
 .about-box {
@@ -174,27 +207,138 @@ header h1 a:visited {
 
 .portfolio-box {
 	background-color: #686963;
-		margin: 1vmin;
+	margin: 1vmin;
 }
 
 .blog-box {
 	background-color: #00BACB;
-		margin: 1vmin;
+	margin: 1vmin;
+}
+
+section.blog {
+	background-color: #00BACB;
+	margin-top: 1vmin;
+	padding: 6vh;
+	/*height: 20vh;*/
 }
 
 section.portfolio {
 	clear: both;
 	background-color: #C6C7C4;
 	padding-top: 28vh;
+	margin: 1vmin auto 0;
+	height: 40vh;
 }
 
-section.portfolio h2 {
+section.portfolio h2, .blog h2 {
 	font-family: 'Montserrat';
 	text-align: center;
 	margin: 0;
 	color: white;
 	font-size: 10vw;
-	height: 40vh;
+	/*height: 40vh;*/
+}
+
+section.about {
+	background-color: ivory;
+	/*padding-top: 8vh;*/
+	/*vertical-align: top;
+	text-align: justify;
+	height: 60vh;
+	position: relative;
+	clear: both;
+	width: 100%;
+	align-content: center;*/*/
+}
+
+/*.about h2 {
+	font-family: 'Montserrat';
+	text-align: left;
+	margin: 0 0 0 10vw;
+	color: #00BACB;
+	font-size: 4vw;
+	display: inline-block;
+	width: 35vw;
+}*/
+
+section img {
+	width: 70vw;
+	margin: 5vw auto;
+}
+
+section.responsive-website {
+	background-color: #BA274A;
+	font-family: 'Montserrat';
+	text-align: center;
+	margin: 0;
+	color: white;
+	font-size: 6vmin;
+	padding: 8vmin;
+}
+
+.responsive-website h2, .magic-8-ball h2 {
+	margin: 0;
+}
+
+section.magic-8-ball {
+	background-color: #686963;
+	font-family: 'Montserrat';
+	text-align: center;
+	margin: 0;
+	color: white;
+	font-size: 6vmin;
+	padding: 8vmin;
+}
+
+section.wordpress-site {
+	background-color: #00BACB;
+	font-family: 'Montserrat';
+	text-align: center;
+	margin: 0;
+	color: white;
+	font-size: 6vmin;
+	padding: 8vmin;
+}
+
+section.blogposts {
+	background-color: #C6C7C4;
+}
+.blogposts article:nth-child(even) {
+	background-color: white;
+}
+
+.blogposts article {
+	padding: 10vmin;
+	font-family: 'Lato';
+	margin: 0 auto;
+	width: 80vw;
+	max-width: 60vw;
+}
+
+.blogposts .title {
+	font-size: 8vmin;
+	margin: 3vmin 0;
+}
+
+.blogposts .date, .tags {
+	font-size: 5vmin;
+	margin: 2vmin 2vmin 2vmin 0;
+	display: inline-block;
+}
+
+.tags {
+	background-color: pink;
+	/*display: inline-block;*/
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.blogposts .content {
+	font-size: 4vmin;
+	line-height: 8vmin;
+	/*width: 80vw;*/
+	text-align: justify;
+	/*margin: 0 auto;*/
 }
 
 footer {
@@ -204,6 +348,7 @@ footer {
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
+	clear: both;
 }
 
 footer li {
