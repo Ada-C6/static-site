@@ -122,6 +122,14 @@ main section li {
   font-weight: bold;
 }
 
+.content-whitespace {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  padding: 10px 15px 10px 15px;
+  height: 1px;
+}
+
 .homepage-icon-list img {
   display: block;
   margin: auto;
