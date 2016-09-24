@@ -45,7 +45,7 @@ main div:first-child{
   top: 5vh;
   background-color: #e6ccff;
   border-top: 2px dashed #ffffcc;
-  border-left: 2px dashed #ffffcc;
+  border-right: 2px dashed #ffffcc;
 
 }
 main div:nth-child(2){
@@ -54,7 +54,7 @@ main div:nth-child(2){
   top: 5vh;
   background-color: #ccc;
   border-top: 2px dashed #ffffcc;
-  border-left: 2px dashed #ffffcc;
+  border-right: 2px dashed #ffffcc;
 
 }
 main div:nth-child(3){
@@ -63,18 +63,46 @@ main div:nth-child(3){
   top: 4vh;
   background-color:  #99e6e6;
   border-top: 2px dashed #ffffcc;
-  border-left: 2px dashed #ffffcc;
+  border-right: 2px dashed #ffffcc;
 }
-#git a:link{
+.fa-github{
   display: block;
   padding-top: 5vh;
+  color: #4d0099;
 
 }
-#git a:hover {
-color: #b366ff;
+.fa-github:hover {
+color: #ffffcc;
 
 }
+.fa-linkedin {
+  display: block;
+  padding-top: 5vh;
+  color: black;
 
+}
+.fa-linkedin:hover {
+color: #ffffcc;
+}
+.fa-pencil-square-o{
+  display: block;
+  padding-top: 6vh;
+color: #2eb8b8;
+padding-left: 2vw;
+}
+.fa-pencil-square-o:hover{
+  color: #ffffcc;
+}
+a:hover {
+  color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vmin;
+    position: relative;
+}
 footer {
   padding-top: 3vh;
   clear: both;
