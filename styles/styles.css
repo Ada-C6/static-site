@@ -143,7 +143,12 @@ main section li {
 }
 
 .italic-content {
+  display: inline;
   font-style: italic;
+}
+
+.padded-content {
+  padding-left: 15px;
 }
 
 .break {
@@ -181,12 +186,12 @@ footer section img {
 
 #copyright {
   margin-left: 20.5%;
-  width: 21%;
+  width: 30%;
 }
 
 #social-media {
   display: inline;
-  margin-left: 23%;
+  margin-left: 13.5%;
 }
 
 /*For about.html: */
