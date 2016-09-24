@@ -151,8 +151,14 @@ footer {
   text-decoration: none;
 }
 
+
 footer a:link {
+  color: #C1C1C1;
   margin: 0 25px 0 0;
+}
+
+footer a:visited {
+  color: #C1C1C1;
 }
 
 footer p {
@@ -167,7 +173,7 @@ footer section img {
 
 #copyright {
   margin-left: 20.5%;
-  width: 20%;
+  width: 21%;
 }
 
 #social-media {
