@@ -1,0 +1,17 @@
+main {
+  overflow: hidden;
+}
+
+.left-col img {
+  width: 200px;
+}
+
+.left-col {
+  float: left;
+  width: 20%;
+  margin-right: 150px;
+}
+
+.right-col {
+  float: left;
+}

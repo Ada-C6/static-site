@@ -1,0 +1,60 @@
+/*font-family: 'Lora', serif;
+font-family: 'David Libre', serif;
+font-family: 'Roboto', sans-serif;*/
+
+* {
+  font-family: 'David Libre', serif;
+}
+
+header {
+  background-color: #FFFF7D;
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+/*header h1 a[href="index.html"]{
+  float:left;
+}*/
+
+header h1 {
+  padding-left: 50px;
+}
+
+header nav ul li {
+  /*float: right;*/
+  list-style-type: none;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  /*border: solid white;*/
+}
+
+footer {
+  font-size: 10px;
+  color: gray;
+  font-weight: normal;
+  text-align: center;
+  clear: both;
+}
+
+main {
+  margin: auto;
+  border-style: solid;
+  border-width: thick;
+  border-color: #FFFF7D;
+  border-radius: 10px;
+  padding: 50px 50px 50px 50px;
+  text-align: justify;
+}
+
+main.intro-page img {
+    float: left;
+    width: 25%;
+}
+
+a:hover {
+  font-weight: bolder;
+  color: red;
+}

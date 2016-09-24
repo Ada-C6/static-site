@@ -1,0 +1,14 @@
+.col1of3, .col2of3, .col3of3 {
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+}
+
+main div a:link {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  overflow: hidden;
+}
