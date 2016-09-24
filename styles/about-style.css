@@ -10,37 +10,58 @@ h1 {
 }
 #last-vert{
   float: left;
+  position: relative;
 }
 
-div img {
+#prof-pic {
   height: 30vh;
   width: 30vw;
   display: block;
-  margin-left: 47vmin;
+  margin-left: auto;
   margin-right: auto;
-
-  padding-top: 15vh;
-  margin-bottom: 5vh;
+  padding-top: 2vh;
+  margin-bottom: 1vh;
 }
+
+
+ div.border {
+  margin-right: 17vmin;
+  margin-left: 24vmin;
+  border-right: 4px dashed #99e6e6;
+  border-left: 4px dashed #e6ccff;
+  border-top:  4px dashed #ffffe6;
+  background: linear-gradient(  #f2f2f2,#fff);
+}
+
 main {
   margin-right: auto;
   margin-left: auto;
   display: block;
   text-align: center;
+position: relative;
+padding-top: 15vh;
+/*text-align-last: center;*/
+}
 
+.about-shari:after{
+  display: block;
+  width: 100%;
 }
 
 .about-shari {
   margin-right: 17vmin;
   margin-left: 24vmin;
   font-size: 2vmin;
+
 }
+
 nav {
 float: right;
-clear: both;
+overflow: hidden;
 margin-left: 5vw;
 margin-right: 12vw;
-
+position: relative;
+padding-top: 8vh;
 
 }
 
@@ -53,11 +74,22 @@ ul li{
   padding-left: 8vw;
 
 }
+p{
+  padding-bottom: 2vh;
+  background: linear-gradient(  #fff, #f2f2f2);
+  border-right: 4px dashed #e6ccff;
+  border-left: 4px dashed #99e6e6;
+  border-bottom:  4px dashed #ffffe6;
+}
+a:hover {
+  color: gray;
+}
 
 a{
     text-decoration: none;
     color: black;
     font-size: 2vmin;
+    position: relative;
 }
 #last-list{
   padding-left: .5vw;
@@ -69,4 +101,5 @@ footer {
   border-top: black dashed;
   margin-right: 5vw;
   font-size: 2vmin;
+  position: relative;
 }
