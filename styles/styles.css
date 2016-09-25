@@ -160,6 +160,10 @@ main section li {
   padding-bottom: 5px;
 }
 
+.block {
+  display: block
+}
+
 footer {
   text-align: left;
   color: #C1C1C1;
