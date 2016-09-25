@@ -1,5 +1,7 @@
 /*Background gradient does not stay consistent when resizing. See http://stackoverflow.com/questions/14915653/refresh-page-on-resize-with-javascript-or-jquery for JS way of refreshing it for the future.*/
 
+/*NOTE: Unsure why there's a point where, if the section height is large enough, its text becomes scaled bigger at lower screen sizes. (Yet the text does not scale bigger if the section doesn't contain enough text.) */
+
 body {
   background: #324433; /*included so that browsers not supporting gradients get an appropriate background color*/
   background: linear-gradient(to right, #58605C, #496054, #324433);
@@ -133,7 +135,7 @@ main section li {
   margin-top: 15px;
   margin-bottom: 16px;
   padding: 10px 15px 10px 15px;
-  height: 1px;
+  height: 2.90%;
 }
 
 .homepage-icon-list img {
