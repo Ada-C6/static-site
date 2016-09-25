@@ -1,0 +1,73 @@
+h1 {
+  float: left;
+  clear: left;
+  margin-left: 2vw;
+  margin-top: 9vh;
+  font-size:7vmin;
+  border-bottom:7vh;
+  font-family: Oldtown, fantasy;
+}
+.first-letter {
+  margin-top: 0vh;
+}
+
+nav {
+float: right;
+overflow: hidden;
+margin-left: 5vw;
+margin-right: 12vw;
+position: fixed;
+padding-top: 2vh;
+
+}
+
+div.bottom-nav{
+  clear: right;
+}
+ul li{
+  list-style: none;
+  display: inline;
+  padding-left: 8vw;
+
+}
+#last-list{
+  float: left;
+  position: relative;
+}
+img{
+  height: 20vh;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 1vh;
+}
+
+.main-pic{
+  margin-top: 8vh;
+  height: 70vh;
+  width: 80vw;
+
+  display: block;
+}
+.container {
+
+  position: relative;
+}
+.title {
+  position: absolute;
+  bottom: 70vh;
+  right: 30vw;
+  text-align: center;
+}
+footer {
+  padding-top: 3vh;
+  clear: both;
+  margin-left: 5vw;
+  border-top: black dashed;
+  margin-right: 5vw;
+  font-size: 2vmin;
+  position: relative;
+
+}
