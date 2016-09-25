@@ -22,6 +22,11 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #403b33;
 }
 
+article {
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
 /**** HEADER ****/
 header {
     /** size **/
@@ -93,6 +98,13 @@ nav a h3.nav-button:hover {
   color: #D6E1C7;
 }
 
+nav a h3.current-page-button {
+  padding: .25em .5em .25em .5em;
+  /*border: #D3643B 1px solid;*/
+  border-radius: 5%;
+  color: #D6E1C7;
+}
+
 /**** FOOTER ****/
 footer {
   background-color: #94C7B6;
@@ -123,6 +135,21 @@ footer p {
 
 /****** PORTFOLIO ******/
 
-/****** HOBBY BLOG ******/
+/****** CODE JOURNAL ******/
+article section.code-journal-entry {
+  margin-left: 2em;
+  border: 1px solid #bac4ab;
+  border-radius: 2%;
+  margin-top: .25em;
+  padding: .25em;
+}
+
+article section h6 {
+  font-style: italic;
+}
+
+article section p {
+  margin-left: .5em;
+}
 
 /****** ABOUT ME ******/
