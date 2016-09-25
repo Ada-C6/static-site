@@ -16,12 +16,8 @@ This is an individual project. It consists of a baseline and a single wave. You 
 - Add pages to your static site. The requirement is a minimum of four pages. These pages should be:
     <!-- - `index.html` -->
     <!-- - `portfolio.html`: information about the projects you've completed at Ada (or elsewhere) with links (to github repo), descriptions, images, etc. -->
-    - `code-journal.html` or `hobby-blog.html`: article or blog style posts about either your journey/observations about programming or a hobby you enjoy.
+    <!-- - `code-journal.html` or `hobby-blog.html`: article or blog style posts about either your journey/observations about programming or a hobby you enjoy. -->
     - `about.html`: some information about you, your interests, background or similar. Whatever you're comfortable sharing.
-- The site should follow best practices including:
-  - All markup should be semantic, with consideration of hierarchy and accessibility.
-  - CSS should be concise and well formatted
-  - Images and stylesheets should be kept in their own folders, called `images` and `styles`, respectively.
 
 ### Optional Enhancements
 - Create a `blog/` or `code-journal/` directory. Within this directory...

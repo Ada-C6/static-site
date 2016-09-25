@@ -44,10 +44,10 @@ font-family: Mathlete-BulkySlant;
   padding: 5px 0 5px 70%;
   position:relative;
   display: flex;
-  font-size: 4em;
+  font-size: 3em;
   text-align: right;
   font-family:Mathlete-SkinnySlant;
-  font-weight:100;
+  font-weight:200;
 }
 
 
@@ -137,19 +137,6 @@ html, body { height: 100%; }
   border-width: thick;
   font-family: Mathlete-BulkySlant;
 }
-
-/*footer{
-  position: relative;
-  width: 100%;
-  height: 30px;
-  display: block;
-  color: honeydew;
-  font-size: .75em;
-  text-align: center;
-  font-weight: 200;
-  background-color: #84e1e8;
-  font: Mathlete-SkinnySlant;
-}*/
 
 footer{
 background-color: rgb(132, 225, 232);

@@ -1,12 +1,143 @@
+/*a:-webkit-any-link {color:mintcream;}*/
+
+html, body { height: 100%; }
+
+.journalbg {
+  background-image:url('../images/purpleplume.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
 .img {
-    position: relative;
+    position:relative;
+    display: inline;
+    margin-left: 40;
     float: left;
-    width:  100px;
-    height: 100px;
+    width:  102px;
+    height: 102px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
 }
-<div class="img" style="background-image:url('http://i.imgur.com/tI5jq2c.jpg');"></div>
-<div class="img" style="background-image:url('http://i.imgur.com/37w80TG.jpg');"></div>
-<div class="img" style="background-image:url('http://i.imgur.com/B1MCOtx.jpg');"></div>
+
+body {
+  font-weight: 200;
+  font-size: 2em;
+  color:gainsboro;
+  font-style: normal;
+  font-family: Mathlete-Skinny;
+  text-align: justify;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lavender;
+}
+
+.nav {
+    float: left;
+}
+
+.title {
+    display: block;
+    color: violet;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: Mathlete-Bulky;
+    font-style: italic;
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.nav {
+    display: block;
+    color: mediumorchid;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: mintcream;
+    background-color: cyan;
+}
+
+.nav:active {
+    background-color: pink;
+    color: grey;
+}
+
+.summary{
+
+  margin: 5px 20px 10px 400px;
+  float: right;
+  clear: left;
+
+}
+
+.linkp {
+  list-style-type: none;
+  margin: 20px;
+  font-size: .5em;
+  padding: 0;
+  width: 200px;
+  color: mediumorchid;
+  background-color: deepskyblue;
+}
+
+.firstlinkp{
+  font-size: 1em;
+  font-family: Mathlete-SkinnySlant;
+  font-stretch: expanded;
+  float: left; color: mintcream;
+  line-height: 30px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  padding-bottom: 20px;
+}
+
+.top-links {
+    float: left;
+    clear: right;
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    width: 200px;
+    color: mediumorchid;
+    background-color: deepskyblue;
+}
+
+.links {
+    display: block;
+    color: lime;
+    padding: 8px 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.link {
+    display: block;
+    color: violet;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: palegreen;
+    color: deepskyblue;
+}
+
+.link:active {
+    background-color: grey;
+    color: mediumorchid;
+}
+
+.pspec{
+  margin: 20px;
+}
