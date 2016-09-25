@@ -16,10 +16,18 @@
 .last-project {
   border-bottom: none;
 }
-.project .project-text p {
+
+.project .project-text {
   padding: 0px;
   margin-top: -5px;
   float: right;
   width: 65%;
+}
+
+.project .project-text h2 {
+  margin-top: 0px; 
+}
+
+.project .project-text p {
   line-height: 1.5
 }
