@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -75,8 +76,6 @@ header h1 {
 	font-family: 'Crushed';
 	color: #00BACB;
 	letter-spacing: .05em;
-	/*text-align: left;
-	margin: 1vmin 5vw;*/
 	display: inline-block;
 	font-size: 8vmin;
 	height: 100%;
@@ -93,17 +92,9 @@ header h1::before {
 }
 
 nav {
-	/*width: 50vmin;*/
-	/*height: 20vmin;*/
-	/*float: right;*/
-	/*align-content: center;*/
 	text-align: center;
 	display: inline-block;
 }
-
-/*nav ul {
-	vertical-align: middle;
-}*/
 
 nav ul li {
   display: inline-block;
@@ -132,8 +123,8 @@ header h1 a:visited {
 	color: #00BACB;
 }
 
+/*background bar on home and about*/
 section.links-to-pages, section.about {
-	/*position: relative;*/
 	margin: 5vmin auto 0;
 	height: 65vmin;
 	align-content: center;
@@ -141,30 +132,7 @@ section.links-to-pages, section.about {
 	background-color: #E3F2FD;
 }
 
-section.about {
-	margin: 1vmin auto 0;
-}
-
-.about img {
-	width: 25vmin;
-	margin-top: -1vmin;
-}
-
-article.about-me {
-	text-align: center;
-	font-size: 5vmin;
-	color: #00BACB;
-	font-family: 'Montserrat';
-	padding: 5vmin;
-}
-
-article.about-me p {
-	font-family: 'Lato';
-	font-size: 3.5vmin;
-	line-height: 1.5em;
-	color: #686963;
-}
-
+/*circles on home and about*/
 .links-to-pages div, .about div {
 	width: 25vmin;
 	height: 25vmin;
@@ -173,10 +141,6 @@ article.about-me p {
 	display: inline-block;
 	border-radius: 50%;
 }
-/*
-.about div {
-	background-image: url('imgs/esther-photo.png');
-}*/
 
 .links-to-pages h2, .about h2 {
 	position: absolute;
@@ -215,11 +179,34 @@ article.about-me p {
 	margin: 1vmin;
 }
 
-section.blog {
-	background-color: #00BACB;
-	margin-top: 1vmin;
-	padding: 6vh;
-	/*height: 20vh;*/
+section.about {
+	margin: 1vmin auto 0;
+	background-color: ivory;
+}
+
+.about img {
+	width: 25vmin;
+	margin-top: -1vmin;
+	border-radius: 50%;
+}
+
+.about h2 {
+	bottom: -4vmin;
+}
+
+article.about-me {
+	text-align: center;
+	font-size: 5vmin;
+	color: #00BACB;
+	font-family: 'Montserrat';
+	padding: 5vmin;
+}
+
+article.about-me p {
+	font-family: 'Lato';
+	font-size: 3.5vmin;
+	line-height: 1.5em;
+	color: #686963;
 }
 
 section.portfolio {
@@ -230,61 +217,32 @@ section.portfolio {
 	height: 40vh;
 }
 
+section img {
+	width: 70vw;
+	margin: 5vw auto;
+}
+
 section.portfolio h2, .blog h2 {
 	font-family: 'Montserrat';
 	text-align: center;
 	margin: 0;
 	color: white;
 	font-size: 10vw;
-	/*height: 40vh;*/
-}
-
-section.about {
-	background-color: ivory;
-	/*padding-top: 8vh;*/
-	/*vertical-align: top;
-	text-align: justify;
-	height: 60vh;
-	position: relative;
-	clear: both;
-	width: 100%;
-	align-content: center;*/*/
-}
-
-/*.about h2 {
-	font-family: 'Montserrat';
-	text-align: left;
-	margin: 0 0 0 10vw;
-	color: #00BACB;
-	font-size: 4vw;
-	display: inline-block;
-	width: 35vw;
-}*/
-
-section img {
-	width: 70vw;
-	margin: 5vw auto;
 }
 
 section.responsive-website {
 	background-color: #BA274A;
 	font-family: 'Montserrat';
 	text-align: center;
-	margin: 0;
 	color: white;
 	font-size: 6vmin;
 	padding: 8vmin;
-}
-
-.responsive-website h2, .magic-8-ball h2 {
-	margin: 0;
 }
 
 section.magic-8-ball {
 	background-color: #686963;
 	font-family: 'Montserrat';
 	text-align: center;
-	margin: 0;
 	color: white;
 	font-size: 6vmin;
 	padding: 8vmin;
@@ -300,49 +258,53 @@ section.wordpress-site {
 	padding: 8vmin;
 }
 
+section.blog {
+	background-color: #00BACB;
+	margin-top: 1vmin;
+	padding: 6vh;
+}
+
 section.blogposts {
 	background-color: #C6C7C4;
 }
+
 .blogposts article:nth-child(even) {
 	background-color: white;
 }
 
 .blogposts article {
-	padding: 10vmin;
+	padding: 10vmin 20vw;
 	font-family: 'Lato';
 	margin: 0 auto;
-	width: 80vw;
 	max-width: 60vw;
+	width: 80vw;
 }
 
 .blogposts .title {
-	font-size: 8vmin;
+	font-size: 6vmin;
 	margin: 3vmin 0;
 }
 
 .blogposts .date, .tags {
-	font-size: 5vmin;
-	margin: 2vmin 2vmin 2vmin 0;
+	font-size: 3vmin;
+	margin: 0 2vmin 2vmin 0;
 	display: inline-block;
 }
 
-.tags {
+.tags li {
+	display: inline-block;
 	background-color: pink;
-	/*display: inline-block;*/
 	padding: 3px;
 	border-radius: 3px;
 }
 
 .blogposts .content {
-	font-size: 4vmin;
-	line-height: 8vmin;
-	/*width: 80vw;*/
+	font-size: 3vmin;
+	line-height: 5vmin;
 	text-align: justify;
-	/*margin: 0 auto;*/
 }
 
 footer {
-	/*display: inline-block;*/
 	height: 18vmin;
 	background-color: #686963;
 	margin: 0 auto;
@@ -353,7 +315,6 @@ footer {
 
 footer li {
 	display: inline-block;
-	/*width: 20vmin;*/
 	margin: 5vmin 1vmin;
 }
 
