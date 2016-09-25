@@ -100,7 +100,6 @@
 
     nav a h3.current-page-button {
       padding: .25em .5em .25em .5em;
-      /*border: #D3643B 1px solid;*/
       border-radius: 5%;
       color: #D6E1C7;
     }
@@ -137,6 +136,10 @@
   /****** HOMEPAGE ******/
   body article.homepage-blurb {
     margin-bottom: 200px;
+  }
+
+  .homepage-blurb h4 a {
+    color: #D3643B;
   }
 
     /**** SOCIAL MEDIA SECTION ****/
@@ -181,3 +184,10 @@
   }
 
   /****** ABOUT ME ******/
+  .about-me-blurb h6 {
+    float: right;
+  }
+
+  .about-me-blurb a {
+    color: #D3643B;
+  }
