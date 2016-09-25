@@ -154,6 +154,23 @@ main section li {
   font-style: italic;
 }
 
+/*Adaption of css from prior website's styling; refactor later*/
+.bold-content {
+  font-weight: bold;
+}
+
+/*Adaption of css from prior website's styling; refactor later*/
+.centered-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
 .break {
   padding-left: 15px;
   padding-right: 15px;
@@ -161,7 +178,7 @@ main section li {
 }
 
 .block {
-  display: block
+  display: block;
 }
 
 footer {
