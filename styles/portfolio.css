@@ -25,7 +25,12 @@
 }
 
 .project .project-text h2 {
-  margin-top: 0px; 
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.project .project-text h3 {
+  margin: 0px;
 }
 
 .project .project-text p {
