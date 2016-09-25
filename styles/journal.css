@@ -10,3 +10,17 @@
 .post img {
   width: 100%;
 }
+
+.journal-header h2 {
+display: inline;
+float: left;
+}
+
+.journal-header h3 {
+  display: inline;
+  float: right;
+}
+
+.journal-post p {
+clear: both;
+}
