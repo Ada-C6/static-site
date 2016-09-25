@@ -20,6 +20,13 @@ a:visited {
   color: #107896;
 }
 
+/*Due to the way I implimented my nav bar for responsiveness, the nav bar shifts slighltly when going between scroll-bar and non-scroll bar pages. */
+/*I could have implimented the below code to solve it, but I suspect it would have negative accessability implications and chose not to.*/
+
+/*::-webkit-scrollbar {
+    display: none;
+}*/
+
 nav.navigation-pane {
   position: relative;
   margin-left: 15%;
@@ -142,7 +149,6 @@ main section li {
 }
 
 .italic-content {
-  display: inline;
   font-style: italic;
 }
 
