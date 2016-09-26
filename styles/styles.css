@@ -24,8 +24,8 @@ a {
   text-decoration: none;
 }
 
-main h1 {
-  text-align: center;
+main > h1 {
+  text-align: left;
   color: #FFFFFF;
   font-weight: 400;
 }
@@ -137,11 +137,13 @@ span.fa:hover {
   text-align: center;
   overflow: hidden;
   font-weight: 300;
+  /*color: hsl(219, 30%, 26%);*/
 }
 
 #name-block-text h1 {
   margin: 3vmax auto auto auto;
   font-size: 10vmin;
+  /*color: hsl(219, 30%, 26%);*/
 }
 
 #name-block-text h2 {
@@ -198,6 +200,10 @@ span.fa:hover {
   display: inline-block;
 }
 
+#coding-project-main h1 {
+  margin-left: 4vw;
+}
+
 article.coding-project {
   border: #CACAD1 3px solid;
   width: 40%;
@@ -236,15 +242,16 @@ article.coding-project h4, article.coding-project h5 {
 }
 
 /* Blog posts */
+#blog-main {
+  margin-top: 10vh;
+  margin-left: 20vw;
+}
+
 article.blog-post {
   border-top: #CACAD1 3px solid;
   border-bottom: #CACAD1 3px solid;
   border-radius: 15px;
-  margin: 0 20vw 8vh 20vw;
-}
-
-article.blog-post:first-of-type {
-  margin: 8vh 20vw 8vh 20vw;
+  margin: 0 20vw 8vh 0;
 }
 
 article.blog-post h2, article.blog-post h4, article.coding-project h2, article.coding-project h4 {
