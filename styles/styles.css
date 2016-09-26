@@ -41,7 +41,7 @@ nav {
 
 footer {
   background-color: #84DCC6;
-  clear: both;
+  /*clear: both;*/
   display: inline-block;
   padding: 2mm;
   border-radius: 15px;
@@ -50,19 +50,24 @@ footer {
 
 footer h4 {
   float: left;
-  width: 15%;
+  width: 30%;
   padding-left: 2mm;
 }
 
-footer p {
+/*footer p {
+  display: inline;
   width: 50%;
-}
+  padding-top: 2cm;
+  padding-left: 2cm;
+}*/
 
 footer section img.link-thumbnails {
   float: right;
+  padding-top: 3mm;
 }
 
 footer section {
   display: inline;
-  width: 30%;
+  width: 65%;
+  padding-right: 2mm;
 }

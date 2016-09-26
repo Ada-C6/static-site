@@ -31,6 +31,7 @@ section.journal article {
     border: black 1px solid;
     border-radius: 15px;
     padding: 2mm 4mm;
+    margin-top: 3mm;
 }
 
 section.journal h4 {

@@ -1,16 +1,28 @@
-/*main {
+section.intro-heading {
   clear: both;
-  margin: 4cm auto 2cm auto;
-  border: black 1px solid;
-  float: left;
-}*/
+  padding: 0px 10mm 8mm 2mm
+}
 
-/*main img.profile-pic {
+section.intro-heading p {
+  font-size: 100%;
+}
+
+main section img.pagelink-thumbnails {
+  width: 18%;
+  padding-bottom: 2mm;
+  margin: auto;
+  padding-left: 1mm;
+  padding-right: 1mm;
+}
+
+#profile{
   width: 30%;
-  border-radius: 25px;
-  float: right;
-  position: relative;
-  margin-bottom: 10%;
-  display: inline;*/
+  float: left;
+  padding-bottom: 2mm;
+  border-radius: 15px;
+  padding-right: 1cm;
+}
 
+#page-links p {
+  display: inline;
 }
