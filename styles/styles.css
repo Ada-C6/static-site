@@ -50,23 +50,24 @@ article {
   max-width: 50%;
   float: right;
   margin: 0 350px 0 0;
-  /*margin: 0 261px 0 301px;*/
+}
+
+article.blog-post {
+  display: inline-block;
+  max-width: 50%;
+  float: right;
+  margin: 0 350px 50px 0;
 }
 
 article.blog-post p {
   text-align: left;
 }
+
 article.blog-post img{
   width: 70%;
   height: auto;
   margin: 0 500px 0 0;
-  /*float: left;*/
 }
-/*#short-bio {
-  border-style: dashed;
-  max-width: 16%;
-  margin: 0;
-}*/
 
 footer p{
   font-size: 10px;
