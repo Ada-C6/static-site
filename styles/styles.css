@@ -8,8 +8,15 @@ header, nav a, section, footer {
   border-radius: 25px;
 }
 
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4em;
+  margin-bottom: 30px;
+}
 header h4 {
   font-style: italic;
+  font-size: 1.5em;
+  margin: 20px;
 }
 
 nav a {
@@ -18,6 +25,8 @@ nav a {
   text-decoration: none;
   color: purple;
   padding: 5px;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
 }
 
 section {
@@ -35,6 +44,23 @@ p {
   width: 25%;
   float:left;
   margin-right: 10px;
+}
+
+#talk-to-me {
+  text-align: center;
+  font-style: italic;
+}
+
+ul.contact-links {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul.contact-links li {
+  display: inline-block;
+  padding-left:30px;
+  padding-right: 30px;
+
 }
 
 footer {
