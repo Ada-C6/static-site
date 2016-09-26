@@ -1,0 +1,107 @@
+html, body { height: 100%; }
+
+.prtbg{
+  background-image:url('../images/waves.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+body{
+  font-weight: 200;
+  font-size: 2em;
+  color:gainsboro;
+  font-style: normal;
+  font-family: Mathlete-Skinny;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.comp {
+  display: block;
+  position: absolute;
+  font-weight: 200;
+  color: mintcream;
+  margin: 60px 25px 25px 230px;
+  font-family: Mathlete-Skinny;
+  text-align: justify;
+}
+
+.portfolio{
+  width: 80%;
+  height: 100px;
+  color: lightpink;
+  display: inline;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 2.5em;
+  border-style: ridge;
+  border-width: thick;
+  border-color: #84e1e8;
+  font-family: Mathlete-Skinny;
+}
+
+a:-webkit-any-link {
+    color:mintcream;
+  }
+
+ul {
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+
+}
+
+li a {
+    display: block;
+    list-style-type: none;
+    width: 60px;
+    text-decoration: none;
+    text-align:right;
+    border-bottom: 4px solid papayawhip;
+    font-family: Mathlete-SkinnySlant;
+    font-weight: bolder;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 90px 10px 10px;;
+}
+
+li a:hover {
+    background-color: transparent;
+    color: violet;
+    background-color: #84e1e8;
+}
+
+.firstcharacter {
+  float: left; color: mintcream;
+  font-size: 5em;
+  font-weight: 400;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  padding-bottom: 20px;
+  font-family: Mathlete-Bulky;
+}
+
+li a:active {
+    background-color: pink;
+    color: violet;
+}
+
+footer{
+background-color: rgb(132, 225, 232);
+color:rgb(240, 255, 240);
+display:block;
+font-family:Mathlete-SkinnySlant;
+font-size:24px;
+font-style:normal;
+font-weight:200;
+height:30px;
+list-style-type:none;
+position:relative;
+text-align: center;
+width:100%;
+}

@@ -1,0 +1,104 @@
+.bgbout{
+  background-image:url('../images/whitesmoke.jpg');
+  background-size: 50%;
+  repeat: none;
+}
+
+p{
+  text-align: left;
+  font-size: 2em;
+  color: aqua;
+  margin-bottom: 15px;
+  margin-left: 15px;
+
+}
+article{
+  border-top-style: solid;
+  border-top-color: turquoise;
+  border-top-width: thick;
+  border-bottom-style: solid;
+  border-bottom-color: turquoise;
+  border-bottom-width: thick;
+  display: block;
+  position: relative;
+  margin: 15px;
+  padding: 5px;
+  text-align: justify;
+  font-size: 1.2em;
+  color: orchid;
+
+}
+html, body { height: 100%; }
+
+.img {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+
+<div class="img" style="background-image:url('http://i.imgur.com/tI5jq2c.jpg');"></div>
+<div class="img" style="background-image:url('http://i.imgur.com/37w80TG.jpg');"></div>
+<div class="img" style="background-image:url('http://i.imgur.com/B1MCOtx.jpg');"></div>
+
+
+a, a:visited{
+	color: skyblue;
+	font-family: Mathlete-Skinny;
+	font-size: 2em;
+}
+body {
+  font-weight: 200;
+  font-size: 1.5em;
+  color:turquoise;
+  font-style: normal;
+  font-family: Mathlete-Skinny;
+  text-align: justify;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li a{
+list-style-type: none;
+text-decoration: none;
+}
+
+.navigation {
+		z-index: 30;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: papayawhip;
+}
+
+
+.title {
+    display: block;
+    color: turquoise;
+    text-align: right;
+    padding: 14px 16px;
+    font-family: Mathlete-SkinnySlant;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.nav {
+    float: left;
+    display: block;
+    color: turquoise;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav:hover {
+    background-color: honeydew;
+}
+
+.nav:active {
+    color: orchid;
+}
