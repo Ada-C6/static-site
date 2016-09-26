@@ -165,29 +165,122 @@
       }
 
   /****** PORTFOLIO ******/
+    .portfolio-blurb a {
+      color: #D3643B;
+    }
 
   /****** CODE JOURNAL ******/
-  article section.code-journal-entry {
-    margin-left: 2em;
-    border: 1px solid #bac4ab;
-    border-radius: 1%;
-    margin-top: .25em;
-    padding: .25em;
-  }
+    article section.code-journal-entry {
+      margin-left: 2em;
+      border: 1px solid #bac4ab;
+      border-radius: 1%;
+      margin-top: .25em;
+      padding: .25em;
+    }
 
-  article section h6 {
-    font-style: italic;
-  }
+    article section h6 {
+      font-style: italic;
+    }
 
-  article section p {
-    margin-left: .5em;
-  }
+    article section p {
+      margin-left: .5em;
+    }
 
   /****** ABOUT ME ******/
-  .about-me-blurb h6 {
-    float: right;
-  }
+    .about-me-blurb h6 {
+      float: right;
+    }
 
-  .about-me-blurb a {
-    color: #D3643B;
-  }
+    .about-me-blurb a {
+      color: #D3643B;
+    }
+
+  /****** PHOTOGRAPHY PAGES ******/
+    article table img {
+      padding: 1em;
+    }
+
+    body article.photography-article {
+      margin-top: 120px;
+      margin-bottom: 2em;
+      margin-left: 1.5em;
+    }
+
+    .photo-table {
+      margin: 0 auto;
+    }
+
+    table.photo-table tbody tr td {
+      text-align: center;
+    }
+    /**** PHOTO HEADER ****/
+      body header.photography-header {
+          /** size **/
+        width: 55em;
+        height: 117px;
+          /** color **/
+        background-color: #94C7B6;
+          /** margins&padding **/
+        padding: 0em 1em 0em 1em;
+          /** border **/
+        border-radius: 1%;
+        margin-top: -119px;
+        position: fixed;
+      }
+
+      header section.photo-header-words {
+        display: inline-block;
+      }
+
+      header section.photo-header-words h1, h2 {
+        color: #403B33;
+      }
+
+      .photo-header-words p {
+        font-style: italic;
+        margin-left: 2em;
+        margin-top: -1em;
+      }
+
+    /**** PHOTO NAV BAR ****/
+      .photography-header nav {
+        margin-top: 0px;
+      }
+
+      .photography-header nav * {
+        display: inline;
+        color: #D3643B;
+      }
+
+      .photography-header nav a h4.nav-button {
+        padding: .25em .5em .25em .5em;
+        }
+
+      nav a h4.nav-button:hover {
+        color: #D6E1C7;
+      }
+
+      nav a h4.current-page-button {
+        padding: .25em .5em .25em .5em;
+        border-radius: 5%;
+        color: #D6E1C7;
+      }
+
+  /****** CALLIGRAPHY ******/
+  table.calligraphy-table img {
+      height: 25.5em;
+      border-radius: 5%;
+    }
+
+    body article table.calligraphy-table {
+      text-align: center;
+      margin: 0 auto;
+    }
+
+    body article table.calligraphy-table td {
+      padding: 0em;
+    }
+
+    body article.calligraphy-article {
+      margin: 0 auto;
+    }
