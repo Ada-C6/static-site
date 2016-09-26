@@ -20,7 +20,6 @@ ul {
 
 li {
   padding: 10px;
-  /*margin-bottom: 15px;*/
 }
 
 li a{
@@ -28,9 +27,10 @@ li a{
   color: teal;
   display:block;
   clear:both;
-  /*margin-top: 20px;*/
+  margin-top: 20px;
+  text-align: center;
 }
 
 .image-containing {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
