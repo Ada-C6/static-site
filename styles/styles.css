@@ -137,13 +137,11 @@ span.fa:hover {
   text-align: center;
   overflow: hidden;
   font-weight: 300;
-  /*color: hsl(219, 30%, 26%);*/
 }
 
 #name-block-text h1 {
   margin: 3vmax auto auto auto;
   font-size: 10vmin;
-  /*color: hsl(219, 30%, 26%);*/
 }
 
 #name-block-text h2 {
