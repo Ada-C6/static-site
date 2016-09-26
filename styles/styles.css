@@ -60,6 +60,7 @@ nav ul li a {
 
 a {
   text-decoration: none;
+  color: #cc99ff; 
 }
 
 a:hover {
