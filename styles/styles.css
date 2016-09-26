@@ -115,6 +115,10 @@ nav a {
 	vertical-align: middle;
 }
 
+nav a:hover {
+	color: #C6C7C4;
+}
+
 header a {
   text-decoration: none;
 }
