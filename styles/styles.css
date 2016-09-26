@@ -3,6 +3,7 @@ html {
   background-color: hsl(219, 30%, 26%);
   position: absolute;
   font-family: 'Nunito', sans-serif;
+  color: hsl(231, 3%, 60%);
 }
 
 ul {
@@ -23,13 +24,13 @@ a {
   text-decoration: none;
 }
 
+/* Primary content paragraphs */
 .content-paragraph {
   position: relative;
   display: inline-block;
-  height: 35vmin;
   width: 60vmax;
   border-radius: 15px;
-  margin: 8vmin 20vmax auto 20vmax;
+  margin: 8vh 20vw 8vh 20vw;
 }
 
 .content-paragraph p {
@@ -51,9 +52,9 @@ footer {
   background-color: #FFFFFF;
   width: 100%;
   display: block;
-  position: absolute;
+  position: fixed;
   left: 0;
-  top: 94vh;
+  top: 92vh;
   text-align: center;
   box-sizing: border-box;
 }
@@ -89,6 +90,7 @@ span.fa:hover {
   background-color: hsl(231, 3%, 60%);
   display: block;
   position: fixed;
+  z-index: 1000;
   top: 0;
   left: 0;
   width: 100%;
@@ -107,7 +109,6 @@ span.fa:hover {
 #nav-header-bar a:hover {
   color: #CACAD1;
 }
-
 
 /* Landing Page */
 #name-block-text {
@@ -181,4 +182,24 @@ span.fa:hover {
 
 #landing-social-links span.fa {
     padding-bottom: 0;
+}
+
+/* Blog posts */
+article.blog-post {
+  border-top: #CACAD1 3px solid;
+  border-bottom: #CACAD1 3px solid;
+  border-radius: 15px;
+  margin: 0 20vw 8vh 20vw;
+}
+
+article.blog-post:first-of-type {
+  margin: 8vh 20vw 8vh 20vw;
+}
+
+article.blog-post h2 {
+  color: #FFFFFF;
+}
+
+article.blog-post h4, article.blog-post h5 {
+  color: #CACAD1;
 }
