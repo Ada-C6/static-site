@@ -1,0 +1,77 @@
+.name {
+  font-family: 'Cookie', serif;
+  text-align: center;
+  color: #ff9999;
+  background-color: #efefef;
+  font-size: 35pt;
+}
+
+/*main {
+  float: left;
+}*/
+
+p.about-me {
+  float: right;
+  max-width: 55%;
+  text-align: center;
+  font-family: 'Josefin Sans', serif;
+  color: #F5B19A;
+  margin: 0 5%;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
+
+.about-main {
+  padding-top: 10%;
+}
+
+a:hover {
+  color: #9ADEF5;
+}
+
+a {
+  color: #293D8C;
+}
+
+footer a {
+  color: #F5B19A;
+}
+
+
+.top-buttons li {
+  display: inline;
+  font-family: 'Josefin Sans', sans-serif;
+  border-right: 2pt solid #39324b;
+  color: #39324b;
+  margin-right: 8%;
+  margin-left: 8%;
+  padding: 0 25px;
+  font-size: 9pt;
+}
+
+footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.bottom-buttons li{
+  display: inline;
+  font-family: 'Josefin Sans', sans-serif;
+  border-right: 2pt solid #39324b;
+  color: #39324b;
+  margin-right: 8%;
+  margin-left: 8%;
+  padding: 0px 25px;
+  font-size: 9pt;
+}
+
+main img {
+  max-width: 20%;
+  max-height: 20%;
+  padding: 0 5%;
+  /*float: left;*/
+}

@@ -1,0 +1,23 @@
+main {
+  margin-top: 6%;
+}
+
+div {
+  display: inline;
+}
+
+img {
+  max-width: 800px;
+  max-height: 800px;
+  border-radius: 25px;
+}
+
+ul li{
+  display: inline;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #39324b;
+  margin-right: 11%;
+  margin-left: 9%;
+  padding: 0px 25px;
+  font-size: 12pt;
+}
