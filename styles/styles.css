@@ -196,10 +196,15 @@ article.blog-post:first-of-type {
   margin: 8vh 20vw 8vh 20vw;
 }
 
-article.blog-post h2 {
+article.blog-post h2, article.blog-post h4 {
   color: #FFFFFF;
+  font-weight: 300;
 }
 
-article.blog-post h4, article.blog-post h5 {
+article.blog-post h4 {
+  text-align: right;
+}
+
+article.blog-post h5 {
   color: #CACAD1;
 }
