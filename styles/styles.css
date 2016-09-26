@@ -29,7 +29,7 @@ a {
   height: 35vmin;
   width: 60vmax;
   border-radius: 15px;
-  margin: 20vmin 20vmax auto 20vmax;
+  margin: 8vmin 20vmax auto 20vmax;
 }
 
 .content-paragraph p {
@@ -49,12 +49,13 @@ a {
 /* Footer & social-links */
 footer {
   background-color: #FFFFFF;
-  width: 100vw; /* remove? */
+  width: 100%;
   display: block;
   position: absolute;
   left: 0;
-  top: 89vh;
+  top: 94vh;
   text-align: center;
+  box-sizing: border-box;
 }
 
 span.fa {
