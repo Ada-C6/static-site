@@ -1,4 +1,9 @@
 /*Colors #E44424 #BD4A5B #DFDCE3  #4ABDAC #F7B733 #FC4A1A -- #67BCDB*/
+body {
+    /*background-image: url("Assets/slottskogen.jpg");*/
+    background-color: #67BCDB;
+    /*background-attachment: fixed;*/
+}
 
 header {
   padding-left: 2em;
