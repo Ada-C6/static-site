@@ -5,6 +5,43 @@ html, body { height: 100%; }
   background-size: 100%;
   background-repeat: no-repeat;
 }
+.navigation {
+		z-index: 30;
+    font-size: 1.5em;
+    list-style-type: none;
+    float: left;
+    padding: 15;
+    overflow: hidden;
+    background-color: papayawhip;
+}
+
+.title {
+    display: block;
+    color: turquoise;
+    text-align: left;
+    padding: 14px;
+    font-family: Mathlete-SkinnySlant;
+    text-decoration: none;
+}
+
+.nav {
+    float: left;
+    margin-bottom: 15px;
+    display: block;
+    color: turquoise;
+    text-align: center;
+    padding-left: 65px;
+    padding-right: 65px;
+    text-decoration: none;
+}
+
+.nav:hover {
+    background-color: honeydew;
+}
+
+.nav:active {
+    color: orchid;
+}
 
 body{
   font-weight: 200;
@@ -22,9 +59,9 @@ body{
   position: absolute;
   font-weight: 200;
   color: papayawhip;
-  margin: 100px 75px 25px 275px;
-  padding: 30px;
-  font-size: 3em;
+  margin: 120px 5px 25px 175px;
+  padding: 25px;
+  font-size: 2em;
   font-family: Mathlete-Skinny;
   text-align: justify;
 }
@@ -33,12 +70,13 @@ body{
   width: 80%;
   height: 140px;
   margin-left: 170px;
+  padding-top: 5px;
   padding-bottom: 20px;
   color: lightpink;
   display: inline;
   vertical-align: middle;
   font-weight: 300;
-  font-size: 6.5em;
+  font-size: 6em;
   border-style: ridge;
   border-width: thick;
   border-color: #84e1e8;
@@ -46,10 +84,10 @@ body{
 }
 
 a:-webkit-any-link {
-    color:papayawhip;
+    color:aqua;
   }
 
-ul {
+ul.reference {
     position: relative;
     list-style-type: none;
     text-decoration: none;
@@ -59,7 +97,7 @@ ul {
 
 }
 
-li a {
+.reference li a  {
     display: block;
     list-style-type: none;
     width: 60px;
