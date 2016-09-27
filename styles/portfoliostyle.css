@@ -8,7 +8,7 @@ html, body { height: 100%; }
 
 body{
   font-weight: 200;
-  font-size: 2em;
+  font-size: 1em;
   color:gainsboro;
   font-style: normal;
   font-family: Mathlete-Skinny;
@@ -21,20 +21,24 @@ body{
   display: block;
   position: absolute;
   font-weight: 200;
-  color: mintcream;
-  margin: 60px 25px 25px 230px;
+  color: papayawhip;
+  margin: 100px 75px 25px 275px;
+  padding: 30px;
+  font-size: 3em;
   font-family: Mathlete-Skinny;
   text-align: justify;
 }
 
 .portfolio{
   width: 80%;
-  height: 100px;
+  height: 140px;
+  margin-left: 170px;
+  padding-bottom: 20px;
   color: lightpink;
   display: inline;
   vertical-align: middle;
   font-weight: 300;
-  font-size: 2.5em;
+  font-size: 6.5em;
   border-style: ridge;
   border-width: thick;
   border-color: #84e1e8;
@@ -42,7 +46,7 @@ body{
 }
 
 a:-webkit-any-link {
-    color:mintcream;
+    color:papayawhip;
   }
 
 ul {
@@ -76,7 +80,7 @@ li a:hover {
 
 .firstcharacter {
   float: left; color: mintcream;
-  font-size: 5em;
+  font-size: 3em;
   font-weight: 400;
   line-height: 60px;
   padding-top: 4px;

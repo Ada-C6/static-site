@@ -13,11 +13,19 @@ html, body { height: 100%; }
     display: inline;
     margin-left: 40;
     float: left;
-    width:  102px;
-    height: 102px;
+    width:  97px;
+    height: 97px;
     background-position: 50% 50%;
     background-repeat:   no-repeat;
     background-size:     cover;
+}
+div.summary li{
+  margin: 10px 70px 0 20px;
+  width: 800px;
+}
+div.summary li:last-of-type{
+  margin: 10px 300px 0 200px;
+  width: 625px;
 }
 
 body {
@@ -76,12 +84,10 @@ text-decoration: none;
 }
 
 .titlel{
-
   text-align: left;
   font-size: 1.5em;
   font-family: Mathlete-Skinny;
   color: deepskyblue;
-
 }
 
 ul.linkp .summary {
@@ -91,6 +97,7 @@ ul.linkp .summary {
   overflow: hidden;
   font-size: .75em;
   font-weight: bold;
+  margin-top: 450px;
   padding: 5;
   width: 200px;
   color: white;
@@ -114,8 +121,8 @@ ul li.firstlinkp{
   font-size: 2rem;
     list-style-type: none;
     text-align: justify;
-    margin: 10px;
-    margin-top: 30px;
+    margin: 20px;
+    margin-top: 75px;
     padding: 0;
     width: 220px;
     height: 375px;
