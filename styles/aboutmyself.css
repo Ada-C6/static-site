@@ -66,11 +66,18 @@ list-style-type: none;
 text-decoration: none;
 }
 
+ul, menu, dir {
+    display: block;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
 .navigation {
 		z-index: 30;
+    font-size: 2em;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 5;
     overflow: hidden;
     background-color: papayawhip;
 }
