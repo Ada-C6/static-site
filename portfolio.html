@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="styles/styles.css" rel="stylesheet">
+    <link href="styles/portfolio.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Scope+One" rel="stylesheet">
+    <title>wordkarin - portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>
+          <a href="index.html">wordkarin</a>
+        </h1>
+        <ul>
+          <li><a href="index.html">home</a></li>
+          <li><a href="portfolio.html">portfolio</a></li>
+          <li><a href="journal.html">journal</a></li>
+          <li><a href="about.html">about</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <article class="project">
+        <a href="https://github.com/wordkarin/FarMar">
+          <img src="images/farmar.jpg" alt="vegetables" />
+        </a>
+        <section class="project-text">
+          <h2>FarMar</h2>
+          <h3>
+            <a href="https://github.com/Ada-C6/FarMar">Requirements</a>
+             |
+             <a href="https://github.com/wordkarin/FarMar">Repo</a>
+           </h3>
+          <p>
+            <strong>OBJECTIVES:</strong> Model a farmer’s market database of markets, vendors, products, and sales. Use Test Driven Development, work with raw data (csv), organizing/working with multiple files, practice using enumerables.
+          </p>
+          <p>
+            <strong>OBSERVATIONS:</strong> At the beginning of the week, I was really open to talking through things with my classmates even if I hadn’t started working on the requirement they wanted to talk about, since I’d then have a better idea of the strategy I wanted to use when I got there. But as the week went on, I started to get nervous as I hadn’t completed as much as I would have liked to, so I cut back on my conversations so that I could focus on my own work. I also observed my tests taking a long time to run, so I talked with a friend about memoization in order to only have to read the data file once.
+          </p>
+        </section>
+      </article>
+
+      <article class="project">
+        <a href="https://github.com/wordkarin/Scrabble">
+          <img src="images/scrabble.jpg" alt="scrabble letters" />
+        </a>
+        <section class="project-text">
+          <h2>Scrabble</h2>
+          <h3>
+            <a href="https://github.com/Ada-C6/Scrabble">Requirements</a>
+             |
+            <a href="https://github.com/wordkarin/Scrabble">Repo</a>
+          </h3>
+          <p>
+            <strong>OBJECTIVES:</strong> Model the setup of a Scrabble game (tiles, scoring rules, player). Work in a pair, trading off driver/navigator roles, using Test Driven Development. Create class and instance methods, using single responsibility principle, add complexity/refactor with each wave.
+          </p>
+          <p>
+            <strong>OBSERVATIONS:</strong> My partner on this project was ill for several days, so while I didn’t get to practice in-person pair programming, we were able to practice division of work (I would carve out individual portions of work for her to do when she was able). I also chatted with other classmates to come up with/document a strategy for tackling the requirements, and wrote copious comments. I really enjoyed the TDD, writing the code after writing the tests was relatively straightforward as I knew what I was expecting out of each function.
+          </p>
+      </section>
+      </article>
+
+      <article class="project last-project">
+        <a href="https://github.com/wordkarin/BankAccounts">
+          <img src="images/account.png" alt="code" />
+        </a>
+        <section class="project-text">
+          <h2>Bank Account</h2>
+          <h3>
+            <a href="https://github.com/Ada-C6/BankAccounts">Requirements</a>
+             |
+            <a href="https://github.com/wordkarin/BankAccounts">Repo</a>
+           </h3>
+          <p>
+            <strong>OBJECTIVES:</strong> Understand and use Class inheritance with a Bank Account Superclass and Checking/Savings subclasses. Create and use class methods, access a CSV to create instances of classes, practice using git commands.
+          </p>
+          <p>
+            <strong>OBSERVATIONS:</strong> During this project, I really felt the desire for automated tests! I wanted to use a class variable for a minimum balance, but noticed that class variables in subclasses can overwrite one defined in the superclass, so ended up needing to use a constant instead. Enjoyed getting a SavingsAccount subclass with only those responsibilities that it needed, inheriting everything else from the BankAccount  superclass.
+          </p>
+        </section>
+      </article>
+    </section>
+
+    <footer>
+      <ul>
+        <li>
+          <a href="https://twitter.com/wordkarin">twitter</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/word.karin/">instagram</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/karin-kubischta-a5924043">linkedin</a>
+        </li>
+      </ul>
+      <h4>&copy; 2016</h4>
+    </footer>
+  </body>
+</html>

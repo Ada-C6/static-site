@@ -1,0 +1,95 @@
+body {
+  font-family: 'Scope One', serif;
+}
+
+header {
+  display: inline-block;
+  width: 100%;
+  /*background-color: teal;*/
+  background: linear-gradient( 45deg, #33cccc, #ffb3ff);
+}
+
+nav h1 {
+  padding: 40px 0px 0px 60px;
+  font-size: 3em;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+nav h1 a {
+  color: white;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+  padding-right: 40px;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li a {
+  color: white;
+  font-size: 1.25em;
+}
+
+.welcome {
+  overflow: hidden;
+}
+
+.welcome h1 {
+  float: left;
+  font-size: 4em;
+  font-weight: lighter;
+  margin: 20px 80px;
+}
+
+.welcome-text {
+  float: right;
+  width: 65%;
+  margin: 10px 80px 20px 0px;
+  padding: 0px 10px 10px 0px;
+  }
+
+.welcome-text p {
+  line-height: 2;
+}
+
+a {
+  text-decoration: none;
+  color: #cc99ff; 
+}
+
+a:hover {
+  color: #00b3b3;
+}
+
+footer {
+  background: linear-gradient( 45deg, #ffb3ff, #33cccc);
+  display: inline-block;
+  width: 100%;
+}
+
+footer ul {
+ list-style: none;
+ display: inline-block;
+}
+
+footer ul li {
+  display: inline;
+  padding: 20px;
+}
+
+footer a, h4 {
+  color: white;
+}
+
+footer h4 {
+  display: inline;
+  float: right;
+  padding-right: 20px;
+  margin: 16px;
+}

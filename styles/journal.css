@@ -1,0 +1,26 @@
+.post {
+  border: black thin solid;
+  padding: 20px;
+  margin: 30px auto;
+  width: 70%;
+  overflow: hidden;
+  position: relative;
+}
+
+.post img {
+  width: 100%;
+}
+
+.journal-header h2 {
+display: inline;
+float: left;
+}
+
+.journal-header h3 {
+  display: inline;
+  float: right;
+}
+
+.journal-post p {
+clear: both;
+}

@@ -1,0 +1,19 @@
+.about-me {
+  padding: 20px;
+  margin: 30px auto;
+  width: 80%;
+  overflow: hidden;
+  position: relative;
+}
+
+.about-me img {
+  border-radius: 50%;
+  width: 32%;
+  float: left;
+  margin-top: 25px;
+}
+
+.about-me .about-text {
+  float: right;
+  width: 65%;
+}
