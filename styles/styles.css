@@ -1,0 +1,255 @@
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  padding-top: 15vmin;
+  margin: 1vmin 0;
+  color: #696969;
+  padding-bottom: 10px;
+}
+ h1, main, footer, #port h1~h5 {
+   padding-left: 29vmin;
+   padding-right: 29vmin;
+ }
+
+
+#port h1{
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+ #port h1~h5{
+   margin: 2px 0 15px 0;
+   color: #696969;
+ }
+
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+}
+
+header li {
+  padding: 0vmin 4vmin;
+  margin-right: 2vmin;
+}
+
+li.home {
+  background-color: #8E4585;
+}
+
+li.about {
+  background-color: #B4E33D;
+}
+
+li.portfolio {
+  background-color: #1EFFBC;
+}
+
+li.blog {
+  background-color: #1F01B9;
+}
+
+li.contact{
+  background-color: #FC440F;
+}
+
+#top {
+  position: absolute;
+  /*background-color: grey;*/
+  height: 20vmin;
+  width: 40vmin;
+  display: inline-block;
+}
+
+.tl {
+  position: relative;
+}
+
+/*NOTE - Although the code below is similar throughout in the scaffolding, the values are very different which is why I couldn't condense it.*/
+
+div.top-left {
+  height: 20vmin;
+  width: 20vmin;
+  position: absolute;
+  background-color: #B4E22D;
+  display: inline-block;
+}
+
+h4.top-left{
+  position: absolute;
+  margin-top: 8vmin;
+  margin-left: 3vmin;
+  margin-right: 4vmin;
+}
+
+h4{
+  font-size: 3vmin;
+  position: absolute;
+}
+
+#contact h4 {
+  font-size: 2.5vmin;
+}
+
+#contact h4.top-left{
+  margin-top: 7vmin;
+  margin-left: 2vmin;
+  margin-right: 4vmin;
+}
+
+div.top-right {
+  height: 20vmin;
+  width: 20vmin;
+  background-color: #1EFFBC;
+  position: absolute;
+  left: 21vmin;
+  top: 0vmin;
+  margin: 2px;
+  display: inline-block;
+}
+
+h4.top-right{
+  margin-top: 8vmin;
+  margin-left: 25vmin;
+  margin-right: 4vmin;
+}
+
+#aboutp h4.top-right {
+  color: #696969;
+}
+
+#contact h4.top-right {
+  margin-top: 5vmin;
+  margin-left: 23vmin;
+  margin-right: 4vmin;
+}
+
+#bottom {
+  position: relative;
+  top: 21vmin;
+  height: 20vmin;
+  width: 40vmin;
+  display: inline-block;
+}
+
+div.bottom-left {
+  height: 20vmin;
+  width: 20vmin;
+  background-color: #1F01B9;
+  position: absolute;
+  margin: 2px;
+}
+
+h4.bottom-left{
+  margin-top: 8vmin;
+  margin-left: 6vmin;
+  margin-right: 4vmin;
+}
+
+#aboutp h4.bottom-left {
+  margin-top: 6vmin;
+  margin-left: 3vmin;
+  margin-right: 4vmin;
+  font-size: 2vmin;
+}
+
+div.bottom-right {
+  height: 20vmin;
+  width: 20vmin;
+  background-color: #FC440F;
+  position: absolute;
+  left: 21vmin;
+  top: 0vmin;
+  margin: 2px;
+}
+
+h4.bottom-right{
+  z-index: 25;
+  margin-top: 6vmin;
+  margin-left: 26vmin;
+  margin-right: 2vmin;
+}
+
+#contact h4.bottom-right {
+  margin-top: 7vmin;
+  margin-left: 23vmin;
+  margin-right: 4vmin;
+  font-size: 2vmin;
+}
+
+a{
+  color: #7C9299
+}
+
+#bottom a, li.home a, li.contact a, li.blog a {
+  color: #DCDCDC;
+}
+
+main.text-heavy article div{
+  height: 50px;
+  width: 50px;
+  float: left;
+  display: inline;
+}
+
+main.text-heavy article:nth-of-type(4n+1) div{
+  background-color: #B4E22D;
+}
+
+main.text-heavy article:nth-of-type(4n+2) div{
+  background-color: #1F01B9;
+}
+
+main.text-heavy article:nth-of-type(4n+3) div{
+  background-color: #1EFFBC;
+}
+
+main.text-heavy article:nth-of-type(4n+4) div{
+  background-color: #FC440F;
+}
+
+h2{
+  display: inline;
+  padding: 0px;
+  margin: 3px 10px;
+  color: #8E4585
+}
+
+
+main.text-heavy h5 {
+  display: block;
+  padding: 0 53px;
+  margin: 3px 10px;
+  color: #696969;
+}
+
+main.text-heavy article p{
+  color: #696969;
+  display: block;
+  position: relative;
+}
+
+footer {
+  top: 20vmin;
+  clear:both;
+  position: relative;
+}
+
+footer h3{
+  color: #696969;
+}
+
+/*Specifically for Contact Me */
+.split {
+  position: absolute;;
+  height: 20vmin;
+  width: 20vmin;
+}
