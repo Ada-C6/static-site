@@ -1,0 +1,328 @@
+/*reset css*/
+html, body, div, span, applet, object, iframe,
+/*h1, h2, h3, h4, h5, h6, p, blockquote, pre,*/
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*EN css*/
+
+html {
+	font: normal normal 24px/1 sans-serif;
+}
+
+header.home {
+  text-align: center;
+}
+
+header.home h1 {
+  text-align: center;
+	margin-top: 2vh;
+}
+
+header {
+	text-align: justify;
+	letter-spacing: 1px;
+	height: 10vh;
+	padding: 2vh 10vw;
+}
+
+header::after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+}
+
+header h1 {
+	font-family: 'Crushed';
+	color: #00BACB;
+	letter-spacing: .05em;
+	display: inline-block;
+	font-size: 8vmin;
+	height: 100%;
+	vertical-align: middle;
+	margin: 0;
+	font-weight: lighter;
+}
+
+header h1::before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+}
+
+nav {
+	text-align: center;
+	display: inline-block;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+	border-radius: 50%;
+	font-size: 1.5vmin;
+	font-family: 'Montserrat';
+	width: 9vmin;
+	height: 9vmin;
+	vertical-align: middle;
+}
+
+nav a {
+	position: relative;
+	top: 4vmin;
+	width: 10vmin;
+	color: white;
+	vertical-align: middle;
+}
+
+nav a:hover {
+	color: #C6C7C4;
+}
+
+header a {
+  text-decoration: none;
+}
+
+header h1 a:visited {
+	color: #00BACB;
+}
+
+/*background bar on home and about*/
+section.links-to-pages, section.about {
+	margin: 5vmin auto 0;
+	height: 65vmin;
+	align-content: center;
+	text-align: center;
+	background-color: #E3F2FD;
+}
+
+/*circles on home and about*/
+.links-to-pages div, .about div {
+	width: 25vmin;
+	height: 25vmin;
+	position: relative;
+	margin: 20vmin 2.5vmin;
+	display: inline-block;
+	border-radius: 50%;
+}
+
+.links-to-pages h2, .about h2 {
+	position: absolute;
+	bottom: 0;
+	margin: 10vmin auto;
+	font-size: 4vmin;
+	width: 25vmin;
+	color: white;
+	font-family: 'Montserrat';
+	text-align: center;
+}
+
+.links-to-pages a, .about a {
+	text-decoration: none;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.links-to-pages a:hover {
+	font-size: 5vmin;
+}
+
+.about-box {
+	background-color: #BA274A;
+	margin: 1vmin;
+}
+
+.portfolio-box {
+	background-color: #686963;
+	margin: 1vmin;
+}
+
+.blog-box {
+	background-color: #00BACB;
+	margin: 1vmin;
+}
+
+section.about {
+	margin: 1vmin auto 0;
+	background-color: ivory;
+}
+
+.about img {
+	width: 25vmin;
+	margin-top: -1vmin;
+	border-radius: 50%;
+}
+
+.about h2 {
+	bottom: -4vmin;
+}
+
+article.about-me {
+	text-align: center;
+	font-size: 5vmin;
+	color: #00BACB;
+	font-family: 'Montserrat';
+	padding: 5vmin;
+}
+
+article.about-me p {
+	font-family: 'Lato';
+	font-size: 3.5vmin;
+	line-height: 1.5em;
+	color: #686963;
+}
+
+section.portfolio {
+	clear: both;
+	background-color: #C6C7C4;
+	padding-top: 28vh;
+	margin: 1vmin auto 0;
+	height: 40vh;
+}
+
+section img {
+	width: 70vw;
+	margin: 5vw auto;
+}
+
+section.portfolio h2, .blog h2 {
+	font-family: 'Montserrat';
+	text-align: center;
+	margin: 0;
+	color: white;
+	font-size: 10vw;
+}
+
+section.responsive-website {
+	background-color: #BA274A;
+	font-family: 'Montserrat';
+	text-align: center;
+	color: white;
+	font-size: 6vmin;
+	padding: 8vmin;
+}
+
+section.magic-8-ball {
+	background-color: #686963;
+	font-family: 'Montserrat';
+	text-align: center;
+	color: white;
+	font-size: 6vmin;
+	padding: 8vmin;
+}
+
+section.wordpress-site {
+	background-color: #00BACB;
+	font-family: 'Montserrat';
+	text-align: center;
+	margin: 0;
+	color: white;
+	font-size: 6vmin;
+	padding: 8vmin;
+}
+
+section.blog {
+	background-color: #00BACB;
+	margin-top: 1vmin;
+	padding: 6vh;
+}
+
+section.blogposts {
+	background-color: #C6C7C4;
+}
+
+.blogposts article:nth-child(even) {
+	background-color: white;
+}
+
+.blogposts article {
+	padding: 10vmin 20vw;
+	font-family: 'Lato';
+	margin: 0 auto;
+	max-width: 60vw;
+	width: 80vw;
+}
+
+.blogposts .title {
+	font-size: 6vmin;
+	margin: 3vmin 0;
+}
+
+.blogposts .date, .tags {
+	font-size: 3vmin;
+	margin: 0 2vmin 2vmin 0;
+	display: inline-block;
+}
+
+.tags li {
+	display: inline-block;
+	background-color: pink;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+.blogposts .content {
+	font-size: 3vmin;
+	line-height: 5vmin;
+	text-align: justify;
+}
+
+footer {
+	height: 18vmin;
+	background-color: #686963;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	clear: both;
+}
+
+footer li {
+	display: inline-block;
+	margin: 5vmin 1vmin;
+}
+
+footer li img {
+	max-width: 10vmin;
+	max-height: 10vmin;
+}
