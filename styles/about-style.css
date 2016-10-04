@@ -1,0 +1,107 @@
+h1 {
+  float: left;
+  clear: left;
+  margin-left: 5vw;
+  margin-top: 8vh;
+  font-size:4vmin;
+  border-bottom: 7vh;
+  font-family: Oldtown, fantasy;
+
+}
+#last-vert{
+  float: left;
+  position: relative;
+}
+
+#prof-pic {
+  height: 35vh;
+  width: 30vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2vh;
+  margin-bottom: 1vh;
+  border-radius: 50%;
+}
+
+
+ div.border {
+  margin-right: 17vmin;
+  margin-left: 24vmin;
+  border-right: 4px dashed #99e6e6;
+  border-left: 4px dashed #e6ccff;
+  border-top:  4px dashed #ffffe6;
+  background: linear-gradient(  #f2f2f2,#fff);
+}
+
+main {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  text-align: center;
+position: relative;
+padding-top: 8.5vh;
+
+}
+
+.about-shari:after{
+  display: block;
+  width: 100%;
+}
+
+.about-shari {
+  margin-right: 17vmin;
+  margin-left: 24vmin;
+  font-size: 2vmin;
+
+}
+
+nav {
+float: right;
+overflow: hidden;
+margin-left: 5vw;
+margin-right: 12vw;
+position: relative;
+padding-top: 8vh;
+
+}
+
+div.out-nav{
+  clear: right;
+}
+ul li{
+  list-style: none;
+  display: inline;
+  padding-left: 8vw;
+
+}
+p{
+  padding-bottom: 2vh;
+  background: linear-gradient(  #fff, #f2f2f2);
+  border-right: 4px dashed #e6ccff;
+  border-left: 4px dashed #99e6e6;
+  border-bottom:  4px dashed #ffffe6;
+
+}
+a:hover {
+  color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 2vmin;
+    position: relative;
+}
+#last-list{
+  padding-left: .5vw;
+}
+footer {
+  padding-top: 3vh;
+  clear: both;
+  margin-left: 5vw;
+  border-top: black dashed;
+  margin-right: 5vw;
+  font-size: 2vmin;
+  position: relative;
+}

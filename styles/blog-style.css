@@ -1,0 +1,112 @@
+h1 {
+  float: left;
+  clear: left;
+  margin-left: 2vw;
+  margin-top: 11vh;
+  font-size:7vmin;
+  border-bottom:11vh;
+  font-family: Oldtown, fantasy;
+}
+ 
+.first-letter {
+  margin-top: 0vh;
+}
+
+nav {
+  float: right;
+  overflow: hidden;
+  margin-left: 5vw;
+  margin-right: 12vw;
+  padding-top: 2vh;
+
+}
+
+div.bottom-nav{
+  clear: right;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 8vw;
+  margin: 1px;
+
+}
+#last-list{
+  float: left;
+  position: relative;
+}
+img{
+  height: 20vh;
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 0vh;
+}
+a:hover {
+  color: gray;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 2vmin;
+  position: relative;
+}
+
+.main-pic{
+  margin-top: 8vh;
+  height: 70vh;
+  width: 80vw;
+  display: block;
+}
+.container {
+  position: relative;
+}
+.title {
+  position: absolute;
+  bottom: 60vh;
+  right: 30vw;
+  /*visibility: hidden;*/
+  text-align: center;
+}
+.title #main_title {
+  visibility: visible;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+.seattle-stories img{
+  float: left;
+  margin-right: 0vw;
+  width: 40vw;
+  margin-left: 6.5vw;
+  position: relative;
+}
+.coding-stories img{
+  margin-left: 0vw;
+  width: 40vw;
+  position: relative;
+}
+.seattle{
+  position: absolute;
+  bottom: 10vh;
+  right: 60vw;
+  text-shadow: 2px 2px white;
+}
+.code{
+  position: absolute;
+  bottom: 10vh;
+  right: 10vw;
+  text-shadow: 2px 2px white;
+}
+footer {
+  padding-top: 3vh;
+  clear: both;
+  margin-left: 5vw;
+  border-top: black dashed;
+  margin-right: 5vw;
+  font-size: 2vmin;
+  position: relative;
+
+}
