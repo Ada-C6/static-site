@@ -1,0 +1,28 @@
+header {
+  color: #C8C2AE;
+  background-color: transparent;
+  position: relative;
+  line-height: 0.5;
+  font-size: 4em;
+}
+
+nav {
+  background-color: #77625C;
+  margin-top: -80px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+nav a {
+  color: #98D2EB;
+}
+
+nav a:hover {
+  color: #CFD7C7;
+}
+
+nav p {
+  display: inline-block;
+  padding-left: 60px;
+  padding-right: 60px;
+}
