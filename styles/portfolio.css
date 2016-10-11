@@ -1,0 +1,37 @@
+section {
+  padding-bottom: 15px;
+}
+
+p {
+  margin-left: 0px;
+}
+
+section img {
+  width: 15%;
+  float:left;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-right: 15px;
+}
+
+li {
+  padding: 10px;
+}
+
+li a{
+  font-weight:bold;
+  color: teal;
+  display:block;
+  clear:both;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.image-containing {
+  padding-bottom: 20px;
+}

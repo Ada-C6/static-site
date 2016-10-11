@@ -1,0 +1,83 @@
+body {
+  background-color: beige;
+}
+
+header, nav a {
+  background-color: teal;
+  text-align: center;
+}
+
+header, nav a, section, footer {
+  border: 1px solid blue;
+  border-radius: 25px;
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4em;
+  margin-bottom: 30px;
+}
+header h4 {
+  font-style: italic;
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+nav a {
+  display:inline-block;
+  margin: 20px;
+  text-decoration: none;
+  color: purple;
+  padding: 5px;
+  font-size: 1.5em;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  overflow: hidden;
+}
+
+p {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#portrait {
+  width: 25%;
+  float:left;
+  margin-right: 10px;
+}
+
+#talk-to-me {
+  text-align: center;
+  font-style: italic;
+  margin-top:20px;
+}
+
+ul.contact-links {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul.contact-links li {
+  display: inline-block;
+  padding-left:30px;
+  padding-right: 30px;
+
+}
+
+footer {
+  clear:both;
+}
+
+footer h4, footer p{
+  display: inline;
+  padding: 15px;
+}
+
+footer p {
+  font-size: .5em;
+  vertical-align: middle;
+}

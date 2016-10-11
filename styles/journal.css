@@ -1,0 +1,18 @@
+.author-info {
+  font-style: italic;
+  margin-top: 10px;
+}
+
+#articles {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+p {
+  margin-left: 0px;
+}
+
+section h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
