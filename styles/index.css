@@ -1,0 +1,28 @@
+section.intro-heading {
+  clear: both;
+  padding: 0px 10mm 8mm 2mm
+}
+
+section.intro-heading p {
+  font-size: 100%;
+}
+
+main section img.pagelink-thumbnails {
+  width: 18%;
+  padding-bottom: 2mm;
+  margin: auto;
+  padding-left: 1mm;
+  padding-right: 1mm;
+}
+
+#profile{
+  width: 30%;
+  float: left;
+  padding-bottom: 2mm;
+  border-radius: 15px;
+  padding-right: 1cm;
+}
+
+#page-links p {
+  display: inline;
+}
