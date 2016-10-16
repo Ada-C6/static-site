@@ -1,0 +1,226 @@
+/*Background gradient does not stay consistent when resizing. See http://stackoverflow.com/questions/14915653/refresh-page-on-resize-with-javascript-or-jquery for JS way of refreshing it for the future.*/
+
+/*NOTE: Unsure why there's a point where, if the section height is large enough, its text becomes scaled bigger at lower screen sizes. (Yet the text does not scale bigger if the section doesn't contain enough text.) */
+
+body {
+  background: #324433; /*included so that browsers not supporting gradients get an appropriate background color*/
+  background: linear-gradient(to right, #58605C, #496054, #324433);
+  cursor: default; /*avoids change of cursor on blocks of text*/
+}
+
+a:link {
+  color: #107896;
+  text-decoration: none;
+  cursor: crosshair; /*included to give extra visual feedback for links*/
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #107896;
+}
+
+/*Due to the way I implimented my nav bar for responsiveness, the nav bar shifts slighltly when going between scroll-bar and non-scroll bar pages. */
+/*I could have implimented the below code to solve it, but I suspect it would have negative accessability implications and chose not to.*/
+
+/*::-webkit-scrollbar {
+    display: none;
+}*/
+
+nav.navigation-pane {
+  position: relative;
+  margin-left: 15%;
+  width: 70%;
+}
+
+nav a:link {
+  margin-right: 4.5%;
+  color: #C1C1C1;
+  font: 40px/1 sans-serif;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:visited {
+  color: #C1C1C1;
+}
+
+header {
+  display: inline-block;
+  position: relative;
+  margin-right: 3%;
+  width: 88%;
+}
+
+header h1 {
+  padding-right: 5%;
+  color: #BCB8C1;
+  font-family: 'Calligraffitti', cursive;
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: right;
+  letter-spacing: 3px;
+}
+
+.pseudo-header {
+  display: inline-block;
+  position: relative;
+  margin-right: 3%;
+  width: 88%;
+  height: 175px;
+}
+
+.box-accent {
+  z-index: 1;
+  position: absolute;
+  margin-top: -80px;
+  margin-left: 215px;
+  background-color: rgb(193, 193, 193);
+  background-color: rgba(193, 193, 193, 0.3);
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+main section {
+  z-index: 1000;
+  position: relative;
+  margin: 40px 233px 0 295px;
+  background-color: #F9F7F8;
+  color: #2b2b2b;
+  min-width: 53%;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+main section h1 {
+  font-size: 40px;
+}
+
+main section h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: normal;
+}
+
+/*For index.html*/
+#homepage-section {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+main section h4, p {
+  padding: 10px 15px 10px 15px;
+}
+
+main section li {
+  padding-bottom: 10px;
+}
+
+.content-title {
+  padding: 10px 15px 10px 15px;
+  font-weight: bold;
+}
+
+.content-whitespace {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 16px;
+  padding: 10px 15px 10px 15px;
+  height: 2.90%;
+}
+
+.homepage-icon-list img {
+  display: block;
+  margin: auto;
+}
+
+.text-accent {
+  display: inline;
+  font-family: 'Chewy';
+  padding-left: 3.5px;
+  padding-right: 3.5px;
+}
+
+.italic-content {
+  font-style: italic;
+}
+
+/*Adaption of css from prior website's styling; refactor later*/
+.bold-content {
+  font-weight: bold;
+}
+
+/*Adaption of css from prior website's styling; refactor later*/
+.centered-image {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 100%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.break {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.block {
+  display: block;
+}
+
+footer {
+  text-align: left;
+  color: #C1C1C1;
+  font: 18px sans-serif;
+  text-decoration: none;
+}
+
+
+footer a:link {
+  color: #C1C1C1;
+  margin: 0 25px 0 0;
+}
+
+footer a:visited {
+  color: #C1C1C1;
+}
+
+footer p {
+  position: relative;
+  float: left;
+}
+
+footer section img {
+  padding-top: 10px;
+  width: 40px;
+}
+
+#copyright {
+  margin-left: 20.5%;
+  width: 30%;
+}
+
+#social-media {
+  display: inline;
+  margin-left: 13.5%;
+}
+
+/*For about.html: */
+#profile-pic {
+  border-radius: 10px 0 10px 0;
+  float: left;
+  margin-right: 10px;
+}
