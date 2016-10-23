@@ -1,0 +1,61 @@
+html {
+  font-family: "Brush Script MT";
+}
+
+body {
+  margin: 0px;
+
+}
+
+header {
+  float: left;
+  height: 100vh;
+  width: 50vw;
+  background-color: #666666;
+  color: #ffffcc;
+}
+
+header h1 {
+  font-size: 6em;
+  padding-left: 5vw;
+}
+
+header h2 {
+  font-size: 3em;
+  padding-top: 10vh;
+  padding-left: 10vw;
+}
+
+article {
+  background-color: #ffffcc;
+  height: 100vh;
+}
+
+.menu {
+
+  padding-top: 15vh;
+  padding-left: 65vw;
+}
+
+.menu img {
+  height: 12vh;
+  width: 8vw;
+  display: inline-block;
+}
+.menu a {
+  color: #666666;
+  font-size: 3em;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+}
+
+.menu a:hover {
+  color: #e63900;
+}
+
+footer {
+  position: relative;
+  float:right;
+  margin-top: 8vh;
+}

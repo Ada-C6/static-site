@@ -1,0 +1,71 @@
+html {
+  font-family: "Brush Script MT";
+}
+
+body {
+  margin: 0px;
+}
+
+nav {
+  background-color: #666666;
+  height: 18vh;
+  width: 100vw;
+}
+.menu {
+  padding-top: 3vh;
+  padding-bottom: 2vh;
+}
+.menu > a {
+  color: #ffffcc;
+  font-size: 4em;
+  padding-left: 15vw;
+  padding-right: 2vw;
+  text-decoration: none;
+}
+
+.menu > a:hover {
+  color: #e63900;
+}
+
+.main {
+  background-color: #ffffcc;
+  margin-top: -5vh;
+  padding-bottom: 12vh;
+  height: 75vh;
+}
+
+.description > p {
+  font-size: 2em;
+  padding-top: 5vh;
+  padding-left: 5vw;
+  padding-right:5vw;
+}
+
+.description > img {
+  height:14vh;
+  width: 12vw;
+  float:left;
+  padding-top: 6vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
+}
+
+.contact > h4 {
+  padding-left: 5vw;
+  font-size: 2em;
+}
+
+.contact > p {
+  display: inline;
+  padding-left: 5vw;
+}
+.contact > p > img {
+  height: 5vh;
+  width: 4vw;
+}
+
+footer {
+  margin-top: 15vh;
+  height:2vh;
+  float: right;
+}
