@@ -1,0 +1,269 @@
+/* General */
+html {
+  background-color: hsl(219, 30%, 26%);
+  position: absolute;
+  font-family: 'Nunito', sans-serif;
+  color: hsl(231, 3%, 60%);
+}
+
+ul {
+  display: inline-block;
+  list-style: none;
+  list-style-position: outside;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+  -moz-padding-start: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+main > h1 {
+  text-align: left;
+  color: #FFFFFF;
+  font-weight: 400;
+}
+
+/* Primary content paragraphs */
+.content-paragraph {
+  position: relative;
+  display: inline-block;
+  width: 60vmax;
+  border-radius: 15px;
+  margin: 8vh 20vw 8vh 20vw;
+}
+
+.content-paragraph p {
+  color: hsl(231, 3%, 60%);
+  font-weight: 300;
+  font-size: 3vh;
+}
+
+.content-paragraph a {
+  color: #FFFFFF;
+}
+
+.content-paragraph a:hover {
+  color: #CACAD1;
+}
+
+/* Footer & social-links */
+footer {
+  background-color: #FFFFFF;
+  width: 100%;
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 92vh;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+span.fa {
+  color: hsl(231, 3%, 60%);
+  margin: 0.5vmax 0.25vmax 0 0.25vmax;
+  padding-bottom: 0;
+  text-align: center;
+}
+
+span.fa:hover {
+  color: #CACAD1;
+}
+
+#copyright {
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 0 0;
+  padding-top: 0;
+  position: static;
+  text-align: center;
+  color: hsl(231, 3%, 60%);
+  font-size: 1.5vmin;
+  font-weight: 300;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+/*Header Nav Bar*/
+#nav-header-bar {
+  background-color: hsl(231, 3%, 60%);
+  display: block;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2vh 0.5vh 2vh 0;
+  text-align: right;
+}
+
+#nav-header-bar a {
+  color: hsl(219, 30%, 26%);
+  font-weight: 500;
+  font-size: 1.3em;
+  margin: 2vw;
+}
+
+#nav-header-bar a:hover {
+  color: #CACAD1;
+}
+
+/* Landing Page */
+#name-block-text {
+  background-color: hsl(231, 3%, 60%);
+  position: relative;
+  display: inline-block;
+  height: 35vmin;
+  width: 40vmax;
+  border-radius: 15px;
+  margin: 20vmin 30vmax auto 30vmax;
+  color: hsl(219, 30%, 26%);
+}
+
+#name-block-text:hover {
+  color: #CACAD1;
+}
+
+#name-block-text * {
+  display: block;
+  position: static;
+  text-align: center;
+  overflow: hidden;
+  font-weight: 300;
+}
+
+#name-block-text h1 {
+  margin: 3vmax auto auto auto;
+  font-size: 10vmin;
+}
+
+#name-block-text h2 {
+  margin: .2em auto auto auto;
+  font-size: 5vmin;
+}
+
+#nav-button-box {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-button {
+  width: 14vmax;
+  height: 12vmin;
+  border-radius: 15px;
+  background-color: hsl(231, 3%, 60%);
+  text-align: center;
+  overflow: hidden;
+  margin: 10vmin 2vmax auto 2vmax;
+  display: inline-block;
+  font-size: 2vmax;
+  color: hsl(219, 30%, 26%);
+}
+
+.nav-button li {
+  margin: 3.5vmin auto auto auto;
+}
+
+.nav-button:hover {
+  background-color: #CACAD1;
+}
+
+#landing-social-links {
+  top: 86vmin;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+#landing-social-links span.fa {
+    padding-bottom: 0;
+}
+
+/* Coding project portfolio page */
+#coding-project-main {
+  width: auto;
+  margin-top: 8vh;
+  margin-bottom: 8vh;
+  position: relative;
+  display: inline-block;
+}
+
+#coding-project-main h1 {
+  margin-left: 4vw;
+}
+
+article.coding-project {
+  border: #CACAD1 3px solid;
+  width: 40%;
+  padding: 1.5vmin;
+  border-radius: 15px;
+  margin: 4vh 0 4vh 0;
+}
+
+article.coding-project:nth-of-type(odd) {
+  background-color: #FFFFFF;
+  float: left;
+  margin-left: 4vw;
+}
+
+article.coding-project:nth-of-type(even) {
+  background-color: #FFFFFF;
+  float: right;
+  margin-right: 4vw;
+}
+
+article.coding-project h2, article.coding-project h4 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+article.coding-project h4, article.coding-project h5 {
+  text-align: right;
+}
+
+.coding-project a {
+  color: hsl(219, 30%, 26%);
+}
+
+.coding-project a:hover {
+  color: #CACAD1;
+}
+
+/* Blog posts */
+#blog-main {
+  margin-top: 10vh;
+  margin-left: 20vw;
+}
+
+article.blog-post {
+  border-top: #CACAD1 3px solid;
+  border-bottom: #CACAD1 3px solid;
+  border-radius: 15px;
+  margin: 0 20vw 8vh 0;
+}
+
+article.blog-post h2, article.blog-post h4, article.coding-project h2, article.coding-project h4 {
+  font-weight: 300;
+}
+
+article.blog-post h2, article.blog-post h4 {
+  color: #FFFFFF;
+}
+
+article.blog-post h4 {
+  text-align: right;
+}
+
+article.blog-post h5 {
+  color: #CACAD1;
+}
