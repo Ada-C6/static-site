@@ -1,0 +1,115 @@
+body {
+    background-color: #fcfbe3;
+    font-family: fantasy;
+    color: #3c3c3c;
+}
+
+header {
+    padding-top: 10%;
+}
+
+header h1 {
+    text-align: center;
+    width: 100vw;
+    font-size: 4em;
+    margin: 10px;
+}
+
+h1.focus {
+    font-size: 6em;
+    height: 1em;
+}
+
+header.subpage {
+    padding-top: 0%;
+}
+
+h1.subpage_focus {
+    font-size: 3em;
+    height: 1em;
+}
+
+header h1.subpage {
+    text-align: center;
+    width: 100vw;
+    font-size: 2em;
+    margin: 10px;
+}
+
+div h2 {
+    text-align: center;
+    width: 100vw;
+    font-size: 4em;
+    margin: 10px;
+    color: #626e60;
+}
+
+div h4 {
+    text-align: left;
+    font-size: 2em;
+    margin: 10px;
+    color: #af473c;
+}
+
+img {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+img.right {
+    float: right;
+}
+
+img.left {
+    float: left;
+}
+
+div {
+    display: inline;
+}
+
+p.last {
+    padding-bottom: 100px;
+}
+
+h3.circle {
+    display: inline-block;
+    height: 6.6em;
+    width: 6.6em;
+    background-color: #626e60;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0em .2em;
+    line-height: 6em;
+    font-size: 1.8em;
+}
+
+h3.circle:nth-child(2) {
+    background-color: #945d60;
+}
+
+h3.circle:nth-child(3) {
+    background-color: #3c3c3c;
+}
+
+h3.circle:nth-child(4) {
+    background-color: #af473c;
+}
+
+nav {
+    width: 100vw;
+    align-items: center;
+    padding: 0 12vw;
+    clear: both;
+}
+
+nav h3 a {
+    color: #fcfbe3;
+    text-decoration: none;
+}
+
+footer {
+    display: block;
+    float: left;
+}
