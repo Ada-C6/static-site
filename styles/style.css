@@ -1,0 +1,170 @@
+@font-face {
+	font-family: Mathlete-Bulky;
+	src: url(mathlete/Mathlete-Bulky.otf);
+}
+@font-face {
+    font-family: Mathlete-BulkySlant;
+    src: url(mathlete/Mathlete-BulkySlant.otf);
+}
+@font-face {
+	font-family: Mathlete-Skinny;
+	src: url(mathlete/Mathlete-Skinny.otf);
+}
+@font-face {
+	font-family: Mathlete-SkinnySlant;
+	src: url(mathlete/Mathlete-SkinnySlant.otf);
+}
+a, a:visited{
+	color: skyblue;
+	font-family: Mathlete-Skinny;
+	font-size: 2em;
+}
+
+.bg{
+  /*background-image:url('../images/colorspec.jpg');
+  background-size: 100%;*/
+	background-color: background: #fc00ff; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #fc00ff , #00dbde); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #fc00ff , #00dbde)
+}
+
+
+.navigation {
+		z-index: 30;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: papayawhip;
+}
+
+.nav {
+    float: left;
+}
+
+.title {
+		z-index: 20;
+    display: block;
+    color: violet;
+    text-align: right;
+    padding: 14px 16px;
+    font-family: Mathlete-SkinnySlant;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.nav {
+    display: block;
+    color: mediumorchid;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav:hover {
+    background-color: mintcream;
+}
+
+.nav:active {
+    background-color: pink;
+    color: grey;
+}
+
+.homepage{
+z-index: 40;
+margin-left: 3%;
+margin-bottom: 10px;
+padding: 0 5px 1px 15px;
+position: absolute;
+display: block;
+font-size: 14em;
+text-align: center;
+vertical-align: text-top;
+text-transform: capitalize;
+font-weight: 400;
+font-family: Mathlete-BulkySlant;
+}
+
+.description{
+  z-index: 32;
+  margin-left: 40%;
+  margin-right: 8%;
+  padding: 10% 5% 10% 5%;
+  position:relative;
+  display:block;
+  font-size: 3.5rem;
+  text-align: center;
+  font-family: Mathlete-SkinnySlant;
+  color: dodgerblue;
+  align-content: center;
+  border-color: #84e1e8;
+  border-style: solid;
+  border-width: thick;
+
+}
+.verb{
+  z-index: 0;
+  position: block;
+  font-family: mathlete-Skinny;
+  font-size: 2em;
+  color: honeydew;
+  text-align: left;
+  padding: 20px 120px 40px 30px;
+  margin: 10px 0px 20px 11px;
+justify-content: center;
+-webkit-clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+background-color: violet;
+}
+
+.verbish{
+	z-index: -20;
+	display: block;
+  width: 400px;
+  position: absolute;
+  font-size: 4rem;
+  text-align: center;
+  background-color: deepskyblue;
+  color: #ffe2f9;
+  -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  font-family: Mathlete-SkinnySlant;
+  font-style: oblique;
+  text-transform: capitalize;
+  padding: 4.25px 4px 85px 8px;
+  margin: 20px 20px 40px 200px;
+  }
+
+
+/* Center the demo */
+html, body { height: 100%; }
+
+
+.opening-ceremony{
+  z-index: -30;
+  padding: 60px 20px 80px 20px;
+  margin: 180px 40px 20px 50px;
+  position: relative;
+  font-size: 2.75rem;
+  text-align: justify;
+  border-color: #84e1e8;
+  border-style: solid;
+  border-width: thick;
+	overflow:hidden;
+  font-family: Mathlete-BulkySlant;
+}
+
+footer{
+background-color: rgb(132, 225, 232);
+color:rgb(240, 255, 240);
+display:block;
+font-family:Mathlete-SkinnySlant;
+font-size:24px;
+font-style:normal;
+font-weight:200;
+height:30px;
+list-style-type:none;
+position:relative;
+text-align: center;
+width:100%;
+}
