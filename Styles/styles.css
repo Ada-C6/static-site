@@ -1,0 +1,112 @@
+/*Colors #E44424 #BD4A5B #DFDCE3  #4ABDAC #F7B733 #FC4A1A -- #67BCDB*/
+body {
+    /*background-image: url("Assets/slottskogen.jpg");*/
+    background-color: #67BCDB;
+    /*background-attachment: fixed;*/
+}
+
+header {
+  padding-left: 2em;
+  background-color: #67BCDB;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+header nav h1, h2 {
+  text-align: left;
+}
+
+main {
+  padding: 10px;
+  position: relative;
+  font-family: 'Acme', sans-serif;
+  height: 40vmin;
+}
+
+main.portfolio {
+  height: 65vmin;
+}
+
+.bubble {
+  display: inline-block;
+  border: 3px solid black;
+  border-radius: 50%;
+  margin: auto;
+  padding: 4%;
+  height: 2.1em;
+  width: 2.1em;
+  background-color: #F7B733;
+}
+
+.bubble:hover {
+  background-color: #FC4A1A;
+}
+
+.bubble a:visited {
+  color: #DFDCE3;
+}
+
+
+.bubble a {
+  margin: -1em;
+  text-decoration: none;
+}
+
+.bubble:hover ul li.bubble:hover {
+  background-color: #FC4A1A;
+}
+
+a:active {
+  color: black;
+}
+
+footer {
+  position: relative;
+}
+
+footer nav ul {
+  padding-left: 0;
+  margin: 5.5em auto auto auto;
+  border-bottom: 4px solid black;
+  list-style-type: none;
+
+}
+
+footer ul li h4 {
+  position: absolute;
+  top: 7.4vmin;
+  width: 99%;
+}
+
+section {
+  display: inline;
+  border: 2px solid black;
+  margin: 0 1em 1em 1em;
+  width: 65%;
+}
+
+section h2 {
+  margin: 0 0 0 0;
+  width: 100%;
+}
+
+section h3, p {
+  padding: 0 1em 0 1em;
+}
+
+ul.line-of-photos {
+  clear: both;
+  margin-left: 1em;
+  list-style-type: none;
+}
+
+.line-of-photos li img {
+  float: left;
+  width: 12vmax;
+}
+
+.contact-me ul li a img {
+  width: 15%;
+  float: left;
+  padding-bottom: 1em;
+}
