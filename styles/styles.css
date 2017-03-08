@@ -1,0 +1,80 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'IM Fell English', serif;
+font-family: 'Life Savers', cursive;
+*/
+* {
+  font-family: 'Quicksand', sans-serif;
+}
+
+header.header {
+  width: 75%;
+  margin: auto;
+  border-bottom: black 1px solid;
+  margin-top: 1.5em;
+  padding-top: 1em;
+  font-size: 2em;
+}
+header h1 {
+  text-align: center;
+  margin-bottom: 0em;
+}
+
+.main-navigation {
+  border-radius: 5px;
+  width: 25%;
+  margin: 0px auto 5em;
+  margin-bottom: 3em;
+}
+
+nav.main-navigation a[href*="html"] {
+  display: block;
+  border-bottom: black 1px solid;
+  padding: .2em;
+  text-align: center;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: black;
+}
+
+nav.main-navigation a:hover {
+  color: #008080;
+}
+
+.main-navigation a.current-location {
+  background-color: lightgrey;
+}
+
+footer {
+  border-top: black 1px solid;
+  display: inline-block;
+}
+
+footer h4, footer p {
+  float: left;
+  padding: 1.5em;
+}
+
+footer p {
+  padding-top: 1.8em;
+}
+
+footer.home-footer {
+  margin-top: 13em;
+}
+
+footer .thumbnail {
+  float: right;
+  padding: 2em 1em;
+  width: 3%;
+  margin: 0em;
+}
+
+footer .thumbnail-gmail {
+  float: right;
+  padding: 2.5em 1em;
+  width: 3%;
+  margin: 0em;
+}

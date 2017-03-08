@@ -1,0 +1,26 @@
+.blog-post {
+  border-top: black 1px solid;
+  margin: 0em 4em 2em 4em;
+  display: inline-block;
+}
+
+.post-info {
+  margin-left: 2em;
+}
+
+.blog-image1 {
+  border: black 1px solid;
+  width: 40%;
+  float: left;
+  margin: 1em;
+}
+
+.blog-image2 {
+  border: black 1px solid;
+  width: 40%;
+  float: right;
+  margin: 1em;
+}
+.blog-content p {
+  margin: 1em;
+}

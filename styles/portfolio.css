@@ -1,0 +1,25 @@
+img {
+  width: 25%;
+  margin: 4em 2em 0em;
+}
+
+article.project-info {
+  border-top: black 1px solid;
+  margin-bottom: 1em;
+}
+
+.main-content .project-details {
+  width: 58%;
+  display: inline-block;
+  margin: 1em;
+}
+
+.main-content {
+  margin: 0em 4em 2em 4em;
+  display: inline-block;
+}
+
+.project-image {
+  width: 20%;
+  margin-bottom: 2em;
+}
