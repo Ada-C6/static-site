@@ -1,0 +1,20 @@
+h2 {
+  color: #ff9999;
+  font-size: 28pt;
+  font-family: 'Cookie', sans-serif;
+}
+
+article {
+  border: 3pt solid grey;
+  margin: 10% 2%;
+  padding: 2%;
+  border-radius: 25px;
+}
+
+.post-content p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 13pt;
+  color: grey;
+  letter-spacing: 2px;
+  line-height: 25px;
+}
