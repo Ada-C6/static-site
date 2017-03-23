@@ -1,0 +1,178 @@
+/*a:-webkit-any-link {color:mintcream;}*/
+
+html, body { height: 100%; }
+
+.journalbg {
+  background-image:url('../images/purpleplume.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.img {
+    position:relative;
+    display: inline;
+    margin-left: 40;
+    float: left;
+    width:  97px;
+    height: 97px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+div.summary li{
+  margin: 10px 70px 0 20px;
+  width: 800px;
+}
+div.summary li:last-of-type{
+  margin: 10px 300px 0 200px;
+  width: 625px;
+}
+
+body {
+  font-weight: 200;
+  font-size: 2em;
+  color:gainsboro;
+  font-style: normal;
+  font-family: Mathlete-Skinny;
+  text-align: justify;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+li a{
+list-style-type: none;
+text-decoration: none;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lavender;
+}
+
+.nav {
+    float: left;
+}
+
+.title {
+    display: block;
+    color: violet;
+    text-align: right;
+    padding: 14px 16px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.nav {
+    display: block;
+    color: mediumorchid;
+    font-size: 1em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav:hover {
+    color: mintcream;
+    background-color: honeydew;
+}
+
+.nav:active {
+    background-color: pink;
+    color: grey;
+}
+
+.titlel{
+  text-align: left;
+  font-size: 1.5em;
+  font-family: Mathlete-Skinny;
+  color: deepskyblue;
+}
+
+ul.linkp .summary {
+  text-align: justify;
+  list-style-type: none;
+  display: inline;
+  overflow: hidden;
+  font-size: .75em;
+  font-weight: bold;
+  margin-top: 450px;
+  padding: 5;
+  width: 200px;
+  color: white;
+}
+
+ul li.firstlinkp{
+  font-size: 2em;
+  color: grey;
+  font-family: Mathlete-SkinnySlant;
+  font-weight: 100;
+  line-height: 20px;
+  margin-bottom: 5px;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-left: 0px;
+  text-align: center;
+  padding-bottom: 8px;
+}
+
+.top-links {
+  font-size: 2rem;
+    list-style-type: none;
+    text-align: justify;
+    margin: 20px;
+    margin-top: 75px;
+    padding: 0;
+    width: 220px;
+    height: 375px;
+    background-color: honeydew;
+    color: dodgerblue;
+    float: left;
+}
+li.link:first-of-type{
+  font-size: 2.5rem;
+  text-align: justify;
+  font-weight: 300;
+  background-color: papayawhip;
+}
+
+.link {
+    font-size: 1rem;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: none;
+    background-color: papayawhip;
+    color: deepskyblue;
+}
+
+.link:active {
+    background-color: grey;
+    color: mediumorchid;
+}
+
+.pspec{
+  font-family: Mathlete-Skinny;
+  text-align: left;
+  color: black;
+  font-size: 1em;
+  background-color: transparent;
+}
+
+footer{
+color:rgb(240, 255, 240);
+display:block;
+font-family:Mathlete-SkinnySlant;
+font-size:24px;
+font-style:normal;
+font-weight:200;
+height:30px;
+list-style-type:none;
+position:static;
+text-align: center;
+width:100%;
+}
